@@ -17,8 +17,8 @@ export default function Preloader() {
 	});
 	return (
 		showLoader && (
-			<div className={`aximo-preloader-wrap ${isLoded === true ? "loaded" : ""}`}>
-				<div className="aximo-preloader">
+			<div className={`orgits-preloader-wrap ${isLoded === true ? "loaded" : ""}`}>
+				<div className="orgits-preloader">
 					<div></div>
 					<div></div>
 					<div></div>

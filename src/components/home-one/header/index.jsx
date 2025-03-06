@@ -10,7 +10,7 @@ import HeaderLogo from "./HeaderLogo";
 
 function Header() {
 	return (
-		<header className="site-header aximo-header-section aximo-header1 dark-bg" id="sticky-menu">
+		<header className="site-header orgits-header-section orgits-header1 dark-bg" id="sticky-menu">
 			<div className="container">
 				<nav className="navbar site-navbar">
 					<HeaderLogo />
@@ -86,7 +86,7 @@ function Header() {
 					</div>
 					<HeaderButton />
 
-					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
+					<MobileNavbar menuItemsData={menuItemsData} title="orgits" />
 				</nav>
 			</div>
 		</header>

@@ -4,16 +4,16 @@ import FooterCopyright from "./FooterCopyright";
 import { Link } from "react-router-dom";
 function Footer() {
 	return (
-		<footer className="aximo-footer-section5 bg-light6">
+		<footer className="orgits-footer-section5 bg-light6">
 			<div className="container">
-				<div className="aximo-footer-top5 aximo-section-padding">
+				<div className="orgits-footer-top5 orgits-section-padding">
 					<div className="row">
 						<div className="col-xl-4 col-lg-12">
 							<FooterAbout />
 						</div>
 						<div className="col-xl-3 col-md-4">
-							<div className="aximo-footer-menu extar-margin">
-								<div className="aximo-footer-title">
+							<div className="orgits-footer-menu extar-margin">
+								<div className="orgits-footer-title">
 									<p>Special Links</p>
 								</div>
 								<ul>
@@ -36,8 +36,8 @@ function Footer() {
 							</div>
 						</div>
 						<div className="col-xl-2 col-md-4">
-							<div className="aximo-footer-menu">
-								<div className="aximo-footer-title">
+							<div className="orgits-footer-menu">
+								<div className="orgits-footer-title">
 									<p>Utility pages</p>
 								</div>
 								<ul>
@@ -64,7 +64,7 @@ function Footer() {
 						</div>
 					</div>
 				</div>
-				<div className="aximo-footer-bottom five">
+				<div className="orgits-footer-bottom five">
 					<FooterCopyright />
 				</div>
 			</div>

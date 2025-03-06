@@ -4,22 +4,22 @@ import MessageForm from "./MessageForm";
 
 function Footer() {
 	return (
-		<footer className="aximo-footer-section dark-bg">
+		<footer className="orgits-footer-section dark-bg">
 			<div className="container">
-				<div className="aximo-footer-top aximo-section-padding">
+				<div className="orgits-footer-top orgits-section-padding">
 					<div className="row">
 						<div className="col-lg-7">
 							<FooterContent />
 						</div>
 						<div className="col-lg-5">
-							<div className="aximo-form-wrap">
+							<div className="orgits-form-wrap">
 								<h4>Send us a message</h4>
 								<MessageForm />
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="aximo-footer-bottom">
+				<div className="orgits-footer-bottom">
 					<div className="row">
 						<FooterBottom />
 					</div>

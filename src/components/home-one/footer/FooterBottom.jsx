@@ -3,15 +3,15 @@ function FooterBottom() {
 	return (
 		<>
 			<div className="col-lg-6">
-				{/* <div className="aximo-footer-logo">
+				{/* <div className="orgits-footer-logo">
 					<a href="">
 						<img src={LogoWhiteImg} alt="Logo" />
 					</a> */}
 				{/* </div> */}
 			</div>
 			<div className="col-lg-6">
-				<div className="aximo-copywright one">
-					<p> &copy; Copyright 2025 | All Rights Reserved by Orgits Business Solutions Pvt. Ltd.</p>
+				<div className="orgits-copywright one">
+					<p> &copy; Copyright 2025 | All Rights Reserved by orgits Business Solutions Pvt. Ltd.</p>
 				</div>
 			</div>
 		</>

@@ -27,18 +27,18 @@ const teamsData = [
 ];
 function Teams() {
 	return (
-		<div className="section aximo-section-padding3 position-relative">
+		<div className="section orgits-section-padding3 position-relative">
 			<div className="container">
-				<div className="aximo-section-title familjen-grotesk">
+				<div className="orgits-section-title familjen-grotesk">
 					<div className="row">
 						<div className="col-lg-6">
 							<h2>Increase revenue with custom SEO</h2>
 						</div>
 						<div className="col-lg-6 d-flex align-items-center justify-content-end">
-							<div className="aximo-title-btn">
-								<Link className="aximo-default-btn pill yellow-btn" to="/team">
-									<span className="aximo-label-up">Meet our team</span>
-									<span className="aximo-label-up">Meet our team</span>
+							<div className="orgits-title-btn">
+								<Link className="orgits-default-btn pill yellow-btn" to="/team">
+									<span className="orgits-label-up">Meet our team</span>
+									<span className="orgits-label-up">Meet our team</span>
 								</Link>
 							</div>
 						</div>
@@ -52,7 +52,7 @@ function Teams() {
 					))}
 				</div>
 			</div>
-			<div className="aximo-star-shape-half ">
+			<div className="orgits-star-shape-half ">
 				<img src={StarShapeHalfImg} alt="StarShapeHalfImg" />
 			</div>
 		</div>

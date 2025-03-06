@@ -2,13 +2,13 @@ import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/Fade
 
 function NumberBox() {
 	return (
-		<div className="aximo-numberbox-section">
+		<div className="orgits-numberbox-section">
 			<div className="container">
 				<FadeInStaggerTwo className="row">
 					<FadeInStaggerTwoChildren className="col-xl-4 col-lg-6">
-						<div className="aximo-numberbox-wrap">
-							<div className="aximo-numberbox-number">1</div>
-							<div className="aximo-numberbox-data">
+						<div className="orgits-numberbox-wrap">
+							<div className="orgits-numberbox-number">1</div>
+							<div className="orgits-numberbox-data">
 								<p>
 									<span>Initial Contact</span>
 								</p>
@@ -17,9 +17,9 @@ function NumberBox() {
 						</div>
 					</FadeInStaggerTwoChildren>
 					<FadeInStaggerTwoChildren className="col-xl-4 col-lg-6">
-						<div className="aximo-numberbox-wrap">
-							<div className="aximo-numberbox-number">2</div>
-							<div className="aximo-numberbox-data">
+						<div className="orgits-numberbox-wrap">
+							<div className="orgits-numberbox-number">2</div>
+							<div className="orgits-numberbox-data">
 								<p>
 									<span>Solutions & Collaboration</span>
 								</p>
@@ -28,9 +28,9 @@ function NumberBox() {
 						</div>
 					</FadeInStaggerTwoChildren>
 					<FadeInStaggerTwoChildren className="col-xl-4 col-lg-6">
-						<div className="aximo-numberbox-wrap">
-							<div className="aximo-numberbox-number">3</div>
-							<div className="aximo-numberbox-data">
+						<div className="orgits-numberbox-wrap">
+							<div className="orgits-numberbox-number">3</div>
+							<div className="orgits-numberbox-data">
 								<p>
 									<span>Monitoring & Results</span>
 								</p>

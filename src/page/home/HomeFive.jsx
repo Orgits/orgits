@@ -12,7 +12,7 @@ import Video from "../../components/home-five/video";
 
 function HomeFive() {
 	return (
-		<div className="aximo-all-section bg-light6">
+		<div className="orgits-all-section bg-light6">
 			<Hero />
 			<Video />
 			<Features />

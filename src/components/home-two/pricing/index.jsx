@@ -50,9 +50,9 @@ const pricingData = [
 ];
 function Pricing() {
 	return (
-		<div className="section aximo-section-padding3 position-relative">
+		<div className="section orgits-section-padding3 position-relative">
 			<div className="container">
-				<div className="aximo-section-title center clash-grotesk">
+				<div className="orgits-section-title center clash-grotesk">
 					<h2>Simple pricing plans that save you money</h2>
 				</div>
 				<div className="row">
@@ -64,7 +64,7 @@ function Pricing() {
 				</div>
 			</div>
 
-			<div className="aximo-pricing-shape">
+			<div className="orgits-pricing-shape">
 				<img src={Shape3Img} alt="Shape3Img" />
 			</div>
 		</div>

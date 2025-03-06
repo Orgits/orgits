@@ -37,9 +37,9 @@ const testimonialsData = [
 
 function Testimonials() {
 	return (
-		<div className="section bg-light7 aximo-section-padding5">
+		<div className="section bg-light7 orgits-section-padding5">
 			<div className="container">
-				<div className="aximo-section-title playfair center">
+				<div className="orgits-section-title playfair center">
 					<h2>Expressions of our satisfied customers</h2>
 				</div>
 				<div className="row">
@@ -49,8 +49,8 @@ function Testimonials() {
 						</FadeInStagger>
 					))}
 				</div>
-				<div className="aximo-bottom-center">
-					<Link className="aximo-default-btn green-btn pill" to="/testimonial">
+				<div className="orgits-bottom-center">
+					<Link className="orgits-default-btn green-btn pill" to="/testimonial">
 						<span>Explore All Reviews</span>
 					</Link>
 				</div>

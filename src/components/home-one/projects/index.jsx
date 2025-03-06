@@ -94,21 +94,21 @@ function Projects() {
 	};
 
 	return (
-		<div className="section dark-bg aximo-section-padding">
+		<div className="section dark-bg orgits-section-padding">
 			<div className="container">
-				<div className="aximo-section-title center light">
+				<div className="orgits-section-title center light">
 					<h2>
 						Have a wide range of
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							creative projects
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
 					</h2>
 				</div>
 			</div>
-			<div className="swiper aximo-project-slider" onWheel={handleMousewheel}>
+			<div className="swiper orgits-project-slider" onWheel={handleMousewheel}>
 				<Swiper {...swiperSettings} ref={swiperRef}>
 					{projectsData.map((project) => (
 						<SwiperSlide key={project.id}>

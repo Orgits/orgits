@@ -2,19 +2,19 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo/logo-white.svg";
 function Footer() {
 	return (
-		<footer className="aximo-footer-section dark-bg">
+		<footer className="orgits-footer-section dark-bg">
 			<div className="container">
-				<div className="aximo-footer-bottom">
+				<div className="orgits-footer-bottom">
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="aximo-footer-logo">
+							<div className="orgits-footer-logo">
 								<Link to="/">
 									<img src={Logo} alt="logo" />
 								</Link>
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="aximo-copywright one">
+							<div className="orgits-copywright one">
 								<p> &copy; Copyright 2024, All Rights Reserved by Mthemeus</p>
 							</div>
 						</div>

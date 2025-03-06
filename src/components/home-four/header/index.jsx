@@ -13,7 +13,7 @@ function Header() {
 
 	return (
 		<header
-			className="site-header site-header--menu-center aximo-header-section aximo-header4 bg-light4"
+			className="site-header site-header--menu-center orgits-header-section orgits-header4 bg-light4"
 			id="sticky-menu"
 		>
 			<div className="container">
@@ -91,7 +91,7 @@ function Header() {
 						</DesktopNav>
 					</div>
 					<HeaderButton setShowSideMenu={setShowSideMenu} />
-					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
+					<MobileNavbar menuItemsData={menuItemsData} title="orgits" />
 				</nav>
 			</div>
 

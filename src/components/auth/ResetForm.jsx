@@ -12,19 +12,19 @@ function ResetForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<FadeInUp className="section aximo-section-padding">
+		<FadeInUp className="section orgits-section-padding">
 			<div className="container">
-				<div className="aximo-account-title">
+				<div className="orgits-account-title">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							Reset Password
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={StarImg} alt="star" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-account-wrap">
+				<div className="orgits-account-wrap">
 					<form onSubmit={handleSubmit(submitForm)}>
 						<Field label="Enter email address" error={errors.email}>
 							<input
@@ -50,10 +50,10 @@ function ResetForm() {
 								placeholder="Enter password"
 							/>
 						</Field>
-						<button id="aximo-account-btn" type="submit">
+						<button id="orgits-account-btn" type="submit">
 							Reset account
 						</button>
-						<div className="aximo-account-bottom m-0">
+						<div className="orgits-account-bottom m-0">
 							<p>If you didn’t request a password recovery link, please ignore this.</p>
 						</div>
 					</form>

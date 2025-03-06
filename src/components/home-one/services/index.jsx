@@ -4,20 +4,20 @@ import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
 	return (
-		<div className="section aximo-section-padding4">
+		<div className="section orgits-section-padding4">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="orgits-section-title center">
 					<h2>
 						We provide effective
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							design solutions
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-service-wrap">
+				<div className="orgits-service-wrap">
 					<div className="row">
 						{services.map((item, index) => (
 							<FadeInStagger key={item.id} index={index} className="col-lg-6">

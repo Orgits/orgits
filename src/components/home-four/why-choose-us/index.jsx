@@ -7,16 +7,16 @@ function WhyChooseUs() {
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
-						<FadeInLeft className="aximo-content-thumb border-radius ">
+						<FadeInLeft className="orgits-content-thumb border-radius ">
 							<img src={Thumb1Img} alt="Thumb1Img" />
-							<div className="aximo-thumb-shape4">
+							<div className="orgits-thumb-shape4">
 								<img src={Shape2Img} alt="Shape2Img" />
 							</div>
 						</FadeInLeft>
 					</div>
 					<div className="col-lg-7">
-						<div className="aximo-default-content arimo-font m-left-gap">
-							<span className="aximo-subtitle">Why choose us</span>
+						<div className="orgits-default-content arimo-font m-left-gap">
+							<span className="orgits-subtitle">Why choose us</span>
 							<h2>We help companies achieve their goals</h2>
 							<p>
 								In today's complex and rapidly changing business environment, we help businesses adapt,

@@ -13,15 +13,15 @@ function ContactForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section orgits-section-padding">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-8">
-						<div className="aximo-section-title">
+						<div className="orgits-section-title">
 							<h2>
-								<span className="aximo-title-animation">
+								<span className="orgits-title-animation">
 									Contact us for a
-									<span className="aximo-title-icon">
+									<span className="orgits-title-icon">
 										<img src={Star2Img} alt="Star" />
 									</span>
 								</span>
@@ -33,14 +33,14 @@ function ContactForm() {
 
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
-						<FadeInRight className="aximo-contact-thumb ">
+						<FadeInRight className="orgits-contact-thumb ">
 							<img src={ContactThumb} alt="Contact Thumb" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">
-						<div className="aximo-main-form">
+						<div className="orgits-main-form">
 							<form onSubmit={handleSubmit(submitForm)}>
-								<div className="aximo-main-field">
+								<div className="orgits-main-field">
 									<Field label="Your Name" error={errors.name}>
 										<input
 											{...register("name", { required: "Name is required." })}
@@ -50,7 +50,7 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="orgits-main-field">
 									<Field label="Enter email address" error={errors.email}>
 										<input
 											{...register("email", { required: "Email is required." })}
@@ -60,7 +60,7 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="orgits-main-field">
 									<Field label="Enter Phone Number" error={errors.phone}>
 										<input
 											{...register("phone", { required: "Phone is required." })}
@@ -70,11 +70,11 @@ function ContactForm() {
 										/>
 									</Field>
 								</div>
-								<div className="aximo-main-field">
+								<div className="orgits-main-field">
 									<label>Write your message here...</label>
 									<textarea name="textarea"></textarea>
 								</div>
-								<button id="aximo-main-btn" type="submit">
+								<button id="orgits-main-btn" type="submit">
 									Send Message
 								</button>
 							</form>

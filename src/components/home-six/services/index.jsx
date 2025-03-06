@@ -106,13 +106,13 @@ const swiperSettings = {
 };
 function Services() {
 	return (
-		<div className="section aximo-section-padding4">
+		<div className="section orgits-section-padding4">
 			<div className="container">
-				<div className="row aximo_screenfix_right">
-					<div className="swiper aximo-iconbox-slider">
+				<div className="row orgits_screenfix_right">
+					<div className="swiper orgits-iconbox-slider">
 						<div className="row">
 							<div className="col-lg-6">
-								<div className="aximo-section-title playfair">
+								<div className="orgits-section-title playfair">
 									<h2>Professional interior design solutions</h2>
 								</div>
 							</div>
@@ -124,7 +124,7 @@ function Services() {
 								</SwiperSlide>
 							))}
 						</Swiper>
-						<div className="aximo-iconbox-slider-arrows">
+						<div className="orgits-iconbox-slider-arrows">
 							<div className="swiper-button-prev"></div>
 							<div className="swiper-button-next"></div>
 						</div>

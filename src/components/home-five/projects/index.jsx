@@ -42,18 +42,18 @@ const projectsData = [
 ];
 function Projects() {
 	return (
-		<div className="aximo-project-section2">
+		<div className="orgits-project-section2">
 			<div className="container">
-				<div className="aximo-section-title libre-font">
+				<div className="orgits-section-title libre-font">
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>Successful projects that represent us</h2>
 						</div>
 						<div className="col-lg-5 d-flex align-items-end justify-content-end">
-							<div className="aximo-title-btn">
-								<Link className="aximo-default-btn pill corn-btn" to="/portfolio-one">
-									<span className="aximo-label-up">View All Works</span>
-									<span className="aximo-label-up">View All Works</span>
+							<div className="orgits-title-btn">
+								<Link className="orgits-default-btn pill corn-btn" to="/portfolio-one">
+									<span className="orgits-label-up">View All Works</span>
+									<span className="orgits-label-up">View All Works</span>
 								</Link>
 							</div>
 						</div>

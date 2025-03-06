@@ -3,7 +3,7 @@ import RoundShapeImg from "../../../assets/images/v4/round-shape.png";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/FadeInStaggerTwo";
 function HeroContent() {
 	return (
-		<FadeInStaggerTwo className="aximo-hero-content4">
+		<FadeInStaggerTwo className="orgits-hero-content4">
 			<FadeInStaggerTwoChildren>
 				<p>
 					<span>Your trusted business consultants</span>
@@ -12,9 +12,9 @@ function HeroContent() {
 			<FadeInStaggerTwoChildren>
 				<h1>
 					Transforming your ideas into
-					<span className="aximo-hero-shape-title">
+					<span className="orgits-hero-shape-title">
 						experiences
-						<span className="aximo-hero-round-shape">
+						<span className="orgits-hero-round-shape">
 							<img src={RoundShapeImg} alt="RoundShapeImg" />
 						</span>
 					</span>
@@ -26,14 +26,14 @@ function HeroContent() {
 					passion for problem-solving, we offer top-level consulting services tailored to your unique needs.
 				</p>
 			</FadeInStaggerTwoChildren>
-			<FadeInStaggerTwoChildren className="aximo-hero-btn-wrap">
-				<Link className="aximo-default-btn pill blue-btn" to="/contact-us">
+			<FadeInStaggerTwoChildren className="orgits-hero-btn-wrap">
+				<Link className="orgits-default-btn pill blue-btn" to="/contact-us">
 					Schedule a meeting
 				</Link>
 
-				<Link className="aximo-default-btn aximo-default-btn-outline pill outline-white" to="/portfolio-one">
-					<span className="aximo-label-up">View all projects</span>
-					<span className="aximo-label-up">View all projects</span>
+				<Link className="orgits-default-btn orgits-default-btn-outline pill outline-white" to="/portfolio-one">
+					<span className="orgits-label-up">View all projects</span>
+					<span className="orgits-label-up">View all projects</span>
 				</Link>
 			</FadeInStaggerTwoChildren>
 		</FadeInStaggerTwo>

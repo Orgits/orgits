@@ -2,11 +2,11 @@ import Shape1Img from "../../../assets/images/v1/shape1.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
 function FooterContent() {
 	return (
-		<div className="aximo-default-content light position-relative">
+		<div className="orgits-default-content light position-relative">
 			<h2>
-				<span className="aximo-title-animation">
+				<span className="orgits-title-animation">
 					Lets start a
-					<span className="aximo-title-icon">
+					<span className="orgits-title-icon">
 						<img src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>
@@ -17,25 +17,25 @@ function FooterContent() {
 				We work closely with our clients to understand their objectives, target audience, and unique needs. We
 				use our creative skills to translate these requirements and practical design solutions.
 			</p>
-			<div className="aximo-info-wrap">
-				<div className="aximo-info">
+			<div className="orgits-info-wrap">
+				<div className="orgits-info">
 					<ul>
 						<li>Give us a call:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
+							<a href="tel:+91 928-9687-928">+91 928-9687-928</a>
 						</li>
 					</ul>
 				</div>
-				<div className="aximo-info">
+				<div className="orgits-info">
 					<ul>
 						<li>Send us an email:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:info@orgits.in">info@orgits.in</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div className="aximo-social-icon social-large">
+			<div className="orgits-social-icon social-large">
 				<ul>
 					<li>
 						<a href="https://twitter.com/" target="_blank">
@@ -59,7 +59,7 @@ function FooterContent() {
 					</li>
 				</ul>
 			</div>
-			<div className="aximo-hero-shape aximo-footer-shape">
+			<div className="orgits-hero-shape orgits-footer-shape">
 				<img src={Shape1Img} alt="Shape1Img" />
 			</div>
 		</div>

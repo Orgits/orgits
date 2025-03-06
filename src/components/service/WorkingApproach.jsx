@@ -29,16 +29,16 @@ function WorkingApproach() {
 	return (
 		<div className="row">
 			<div className="col-lg-5 offset-lg-1 order-lg-1">
-				<FadeInRight className="aximo-service-details-thumb2 ">
+				<FadeInRight className="orgits-service-details-thumb2 ">
 					<img src={Single2Img} alt="service" />
 				</FadeInRight>
 			</div>
 			<div className="col-lg-6">
-				<div className="aximo-default-content">
+				<div className="orgits-default-content">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							Our Approach
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="star" />
 							</span>
 						</span>
@@ -48,15 +48,15 @@ function WorkingApproach() {
 						that the user interface and user experience. Here's a typical approach to UI/UX design:
 					</p>
 				</div>
-				<div className="aximo-our-approach">
+				<div className="orgits-our-approach">
 					{workingApprochData.map((item) => (
-						<div className="aximo-iconbox-wrap5" key={item.id}>
-							<div className="aximo-iconbox-icon5">
+						<div className="orgits-iconbox-wrap5" key={item.id}>
+							<div className="orgits-iconbox-icon5">
 								<i className={`${item.icon}`}></i>
 							</div>
-							<div className="aximo-iconbox-data5">
+							<div className="orgits-iconbox-data5">
 								<h3>{item.title}:</h3>
-								<div className="aximo-user-interface">
+								<div className="orgits-user-interface">
 									<ul>
 										<li>{item.description}</li>
 									</ul>

@@ -6,14 +6,14 @@ function PricingFaq() {
 	return (
 		<div className="section">
 			<div className="container">
-				<div className="aximo-pricing-border">
+				<div className="orgits-pricing-border">
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="aximo-default-content">
+							<div className="orgits-default-content">
 								<h2>
-									<span className="aximo-title-animation">
+									<span className="orgits-title-animation">
 										Read our FAQ
-										<span className="aximo-title-icon">
+										<span className="orgits-title-icon">
 											<img src={StarImg} alt="star" />
 										</span>
 									</span>
@@ -24,7 +24,7 @@ function PricingFaq() {
 									collection of frequently asked questions.
 								</p>
 							</div>
-							<Link className="aximo-errors-btn contact-us" to="/contact-us">
+							<Link className="orgits-errors-btn contact-us" to="/contact-us">
 								Contact us{" "}
 								<span>
 									<img src={ArrowRightImg} alt="arrow right" />
@@ -32,12 +32,12 @@ function PricingFaq() {
 							</Link>
 						</div>
 						<div className="col-lg-6">
-							<div className="aximo-accordion-normal-wrap m_top_responsive">
-								<div className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+							<div className="orgits-accordion-normal-wrap m_top_responsive">
+								<div className="orgits-accordion-normal-item">
+									<div className="orgits-accordion-normal-icon">
 										<img src={QuestionImg} alt="question icon" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="orgits-accordion-normal-data">
 										<h3>Can I buy multiple plans?</h3>
 										<p>
 											Yes, you can try us for free for 30 days. Our friendly team will work with
@@ -45,11 +45,11 @@ function PricingFaq() {
 										</p>
 									</div>
 								</div>
-								<div className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div className="orgits-accordion-normal-item">
+									<div className="orgits-accordion-normal-icon">
 										<img src={QuestionImg} alt="question icon" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="orgits-accordion-normal-data">
 										<h3>What is the cancelation policy?</h3>
 										<p>
 											The cancellation policy refers to the rules and guidelines established by a
@@ -57,11 +57,11 @@ function PricingFaq() {
 										</p>
 									</div>
 								</div>
-								<div className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div className="orgits-accordion-normal-item">
+									<div className="orgits-accordion-normal-icon">
 										<img src={QuestionImg} alt="question icon" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="orgits-accordion-normal-data">
 										<h3>How much does design work cost?</h3>
 										<p>
 											The cost of our design services varies depending on the scope of the

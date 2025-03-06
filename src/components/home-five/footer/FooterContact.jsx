@@ -1,10 +1,10 @@
 function FooterContact() {
 	return (
-		<div className="aximo-footer-menu m-0">
-			<div className="aximo-footer-title">
+		<div className="orgits-footer-menu m-0">
+			<div className="orgits-footer-title">
 				<p>Contact us</p>
 			</div>
-			<div className="aximo-contact-info2 info3">
+			<div className="orgits-contact-info2 info3">
 				<ul>
 					<li>
 						<a href="tel:+088-234-6849">

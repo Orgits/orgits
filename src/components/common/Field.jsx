@@ -2,7 +2,7 @@ import React from "react";
 function Field({ label, children, htmlFor, error }) {
 	const id = htmlFor || getChildId(children);
 	return (
-		<div className="aximo-account-field">
+		<div className="orgits-account-field">
 			{label && (
 				<label htmlFor={id} className="mb-1">
 					{label}

@@ -65,7 +65,7 @@ const portfolioListData = [
 ];
 function PortfolioList() {
 	return (
-		<div className="section aximo-project-page aximo-section-padding5">
+		<div className="section orgits-project-page orgits-section-padding5">
 			<div className="container">
 				<div className="row">
 					{portfolioListData.map((portfolio, index) => (

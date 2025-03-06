@@ -7,11 +7,11 @@ import User3Img from "../../../assets/images/v1/user3.png";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/FadeInStaggerTwo";
 function HeroContent() {
 	return (
-		<div className="aximo-hero-content">
+		<div className="orgits-hero-content">
 			<FadeInStaggerTwo>
 				<FadeInStaggerTwoChildren>
 					<h1>
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							Make Your <img src={StarImg} alt="StarImg" />
 						</span>
 						Business Work the Way You Want
@@ -20,33 +20,33 @@ function HeroContent() {
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
 					<p>
-					{`At Orgits, we go beyond basics—we transform business operations. Specializing in IT and marketing automation, we streamline processes to help organizations thrive. With expertise in RevOps, MarkOps, and DevOps, we drive efficiency, optimize operations, and fuel growth.`}
+					{`At orgits, we go beyond basics—we transform business operations. Specializing in IT and marketing automation, we streamline processes to help organizations thrive. With expertise in RevOps, MarkOps, and DevOps, we drive efficiency, optimize operations, and fuel growth.`}
 					</p>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-					<div className="aximo-hero-user-wrap">
-						<div className="aximo-hero-user-thumb">
-							<div className="aximo-hero-user-thumb-item">
+					<div className="orgits-hero-user-wrap">
+						<div className="orgits-hero-user-thumb">
+							<div className="orgits-hero-user-thumb-item">
 								<img src={User1Img} alt="User1Img" />
 							</div>
-							<div className="aximo-hero-user-thumb-item">
+							<div className="orgits-hero-user-thumb-item">
 								<img src={User3Img} alt="User3Img" />
 							</div>
-							<div className="aximo-hero-user-thumb-item">
+							<div className="orgits-hero-user-thumb-item">
 								<img src={User2Img} alt="User2Img" />
 							</div>
 						</div>
-						<div className="aximo-hero-user-data">
+						<div className="orgits-hero-user-data">
 							<p>Revolutionizing 70+ Businesses with Innovative Automation Solutions.</p>
 						</div>
 					</div>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-					<Link className="aximo-call-btn" to="/contact-us">
+					<Link className="orgits-call-btn" to="/contact-us">
 						Get A Consultant <i className="icon-call"></i>
 					</Link>
-					<div className="aximo-hero-shape">
-						<img src={ShapeImg} alt="Orgits - Automation Solutions" />
+					<div className="orgits-hero-shape">
+						<img src={ShapeImg} alt="orgits - Automation Solutions" />
 					</div>
 				</FadeInStaggerTwoChildren>
 			</FadeInStaggerTwo>

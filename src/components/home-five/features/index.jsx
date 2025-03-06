@@ -28,9 +28,9 @@ const featuresData = [
 ];
 function Features() {
 	return (
-		<div className="section aximo-section-padding3">
+		<div className="section orgits-section-padding3">
 			<div className="container">
-				<div className="aximo-section-title libre-font">
+				<div className="orgits-section-title libre-font">
 					<div className="row">
 						<div className="col-lg-7">
 							<h2>Our key feature for productivity gains</h2>

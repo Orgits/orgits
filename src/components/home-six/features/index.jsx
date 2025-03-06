@@ -26,7 +26,7 @@ const featuresData = [
 ];
 function Features() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section orgits-section-padding2">
 			<div className="container">
 				<div className="row">
 					{featuresData.map((feature, index) => (
@@ -35,8 +35,8 @@ function Features() {
 						</FadeInStagger>
 					))}
 				</div>
-				<div className="aximo-bottom-center">
-					<Link className="aximo-default-btn green-btn pill" to="/service">
+				<div className="orgits-bottom-center">
+					<Link className="orgits-default-btn green-btn pill" to="/service">
 						<span>Explore More Features</span>{" "}
 					</Link>
 				</div>

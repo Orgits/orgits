@@ -26,21 +26,21 @@ const portfolioListData = [
 ];
 function PortfolioList() {
 	return (
-		<div className="aximo-project-one-column">
+		<div className="orgits-project-one-column">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="orgits-section-title center">
 					<h2>
 						Have a wide range of
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							creative projects
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="star" />
 							</span>
 						</span>
 					</h2>
 				</div>
 				{portfolioListData.map((portfolio, index) => (
-					<FadeInStagger className="aximo-project-wrap3" key={portfolio.id} index={index}>
+					<FadeInStagger className="orgits-project-wrap3" key={portfolio.id} index={index}>
 						<PortfolioCard portfolio={portfolio} />
 					</FadeInStagger>
 				))}

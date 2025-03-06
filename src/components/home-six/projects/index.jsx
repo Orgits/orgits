@@ -34,9 +34,9 @@ const projectsData = [
 ];
 function Projects() {
 	return (
-		<div className="section aximo-section-padding5 position-relative">
+		<div className="section orgits-section-padding5 position-relative">
 			<div className="container">
-				<div className="aximo-section-title playfair center max-width-xl">
+				<div className="orgits-section-title playfair center max-width-xl">
 					<h2>Explore our latest interior design project</h2>
 				</div>
 				<div className="row">
@@ -47,7 +47,7 @@ function Projects() {
 					))}
 				</div>
 			</div>
-			<div className="aximo-p-shape">
+			<div className="orgits-p-shape">
 				<img src={Shape2Img} alt="Shape" />
 			</div>
 		</div>

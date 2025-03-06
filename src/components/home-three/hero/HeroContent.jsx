@@ -2,7 +2,7 @@ import StarImg from "../../../assets/images/v3/star.svg";
 import { FadeInStaggerTwo, FadeInStaggerTwoChildren } from "../../animation/FadeInStaggerTwo";
 function HeroContent() {
 	return (
-		<FadeInStaggerTwo className="aximo-hero-content3">
+		<FadeInStaggerTwo className="orgits-hero-content3">
 			<FadeInStaggerTwoChildren>
 				<p>
 					<span>#1 SEO agency for fast-growing companies</span>
@@ -18,16 +18,16 @@ function HeroContent() {
 				</p>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren>
-				<div className="aximo-hero-subscription">
+				<div className="orgits-hero-subscription">
 					<form action="#">
 						<input type="email" placeholder="Enter your email address" />
-						<button id="aximo-hero-subscription-btn" type="submit">
-							<span className="aximo-label-up">Get started</span>
-							<span className="aximo-label-up">Get started</span>
+						<button id="orgits-hero-subscription-btn" type="submit">
+							<span className="orgits-label-up">Get started</span>
+							<span className="orgits-label-up">Get started</span>
 						</button>
 					</form>
 				</div>
-				<div className="aximo-hero-rating">
+				<div className="orgits-hero-rating">
 					<ul>
 						<li>
 							<img src={StarImg} alt="StarImg" />

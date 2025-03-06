@@ -8,7 +8,7 @@ function Video() {
 	const [isOpen, setOpen] = useState(false);
 
 	return (
-		<FadeInUp className="aximo-video-wrap">
+		<FadeInUp className="orgits-video-wrap">
 			<img src={VideoBg} alt="VideoBg" />
 			<ModalVideo
 				channel="youtube"
@@ -17,7 +17,7 @@ function Video() {
 				videoId="Vx2aLNgGoAE"
 				onClose={() => setOpen(false)}
 			/>
-			<button className="aximo-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
+			<button className="orgits-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
 				<img src={PlayBtnImg} alt="PlayBtnImg" />
 			</button>
 		</FadeInUp>

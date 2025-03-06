@@ -14,7 +14,7 @@ function HeroThumbs() {
   }, []);
 
   return (
-    <div className="aximo-hero-thumb jos" data-jos_animation="fade-right">
+    <div className="orgits-hero-thumb jos" data-jos_animation="fade-right">
       <video
         ref={videoRef}
         src={HeroThumbVideo}

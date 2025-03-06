@@ -38,14 +38,14 @@ const faqData = {
 };
 function TwoColumnFaq() {
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section orgits-section-padding">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="orgits-section-title center">
 					<h2>
 						These FAQs help
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							clients learn about us
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="Star" />
 							</span>
 						</span>
@@ -53,13 +53,13 @@ function TwoColumnFaq() {
 				</div>
 				<div className="row">
 					<div className="col-lg-6">
-						<div className="aximo-accordion-normal-wrap responsive-margin">
+						<div className="orgits-accordion-normal-wrap responsive-margin">
 							{faqData.faq1.map((faq) => (
-								<div key={faq.id} className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div key={faq.id} className="orgits-accordion-normal-item">
+									<div className="orgits-accordion-normal-icon">
 										<img src={QuestionImg} alt="QuestionImg" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="orgits-accordion-normal-data">
 										<h3>{faq.title}</h3>
 										<p>{faq.text}</p>
 									</div>
@@ -68,13 +68,13 @@ function TwoColumnFaq() {
 						</div>
 					</div>
 					<div className="col-lg-6">
-						<div className="aximo-accordion-normal-wrap">
+						<div className="orgits-accordion-normal-wrap">
 							{faqData.faq2.map((faq) => (
-								<div key={faq.id} className="aximo-accordion-normal-item">
-									<div className="aximo-accordion-normal-icon">
+								<div key={faq.id} className="orgits-accordion-normal-item">
+									<div className="orgits-accordion-normal-icon">
 										<img src={QuestionImg} alt="QuestionImg" />
 									</div>
-									<div className="aximo-accordion-normal-data">
+									<div className="orgits-accordion-normal-data">
 										<h3>{faq.title}</h3>
 										<p>{faq.text}</p>
 									</div>

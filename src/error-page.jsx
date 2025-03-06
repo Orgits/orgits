@@ -7,23 +7,23 @@ export default function ErrorPage() {
 	return (
 		<div className="section">
 			<div className="container">
-				<div className="aximo-errors-wrap">
-					<div className="aximo-errors-thumb">
+				<div className="orgits-errors-wrap">
+					<div className="orgits-errors-thumb">
 						<img src={ErrorImg} alt="Error" />
 					</div>
-					<div className="aximo-errors-title">
+					<div className="orgits-errors-title">
 						<h2>
 							We can’t find the page
-							<span className="aximo-title-animation">
+							<span className="orgits-title-animation">
 								you are looking for
-								<span className="aximo-title-icon">
+								<span className="orgits-title-icon">
 									<img src={Star2Img} alt="" />
 								</span>
 							</span>
 						</h2>
 					</div>
 					<FadeInUp>
-						<Link className="aximo-errors-btn" to="/">
+						<Link className="orgits-errors-btn" to="/">
 							Return to homepage
 							<span>
 								<img src={ArrowRightImg} alt="arrow" />

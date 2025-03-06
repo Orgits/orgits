@@ -3,20 +3,20 @@ import Star2Img from "../../assets/images/v1/star2.png";
 import FadeInUp from "../animation/FadeInUp";
 function SingleTeamDetails() {
 	return (
-		<div className="section aximo-section-padding2">
+		<div className="section orgits-section-padding2">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
-						<FadeInUp className="aximo-team-details-thumb">
+						<FadeInUp className="orgits-team-details-thumb">
 							<img src={Team1Img} alt="Team" />
 						</FadeInUp>
 					</div>
 					<div className="col-lg-7 d-flex align-items-center">
-						<div className="aximo-default-content m-left-gap">
+						<div className="orgits-default-content m-left-gap">
 							<h2>
-								<span className="aximo-title-animation">
+								<span className="orgits-title-animation">
 									Let's introduce
-									<span className="aximo-title-icon">
+									<span className="orgits-title-icon">
 										<img src={Star2Img} alt="Star" />
 									</span>
 								</span>{" "}
@@ -31,7 +31,7 @@ function SingleTeamDetails() {
 								values. He spent 15 years providing strategic direction and ensuring the organization's
 								goals and objectives were met.
 							</p>
-							<div className="aximo-social-icon aximo-btn-wrap">
+							<div className="orgits-social-icon orgits-btn-wrap">
 								<ul>
 									<li>
 										<a href="https://twitter.com" target="_blank">

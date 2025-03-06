@@ -14,19 +14,19 @@ function SignInForm() {
 		console.log("Submite Form Data = ", formData);
 	};
 	return (
-		<FadeInUp className="section aximo-section-padding">
+		<FadeInUp className="section orgits-section-padding">
 			<div className="container">
-				<div className="aximo-account-title">
+				<div className="orgits-account-title">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							Welcome back
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={StarImg} alt="Star" />
 							</span>
 						</span>
 					</h2>
 				</div>
-				<div className="aximo-account-wrap">
+				<div className="orgits-account-wrap">
 					<form onSubmit={handleSubmit(submitForm)}>
 						<Field label="Enter email address" error={errors.email}>
 							<input
@@ -52,8 +52,8 @@ function SignInForm() {
 								placeholder="Enter password"
 							/>
 						</Field>
-						<div className="aximo-account-checkbox-wrap">
-							<div className="aximo-account-checkbox">
+						<div className="orgits-account-checkbox-wrap">
+							<div className="orgits-account-checkbox">
 								<input type="checkbox" id="check" />
 								<label htmlFor="check">Remember me</label>
 							</div>
@@ -62,21 +62,21 @@ function SignInForm() {
 							</Link>
 						</div>
 
-						<button id="aximo-account-btn" type="submit">
+						<button id="orgits-account-btn" type="submit">
 							Create account
 						</button>
-						<div className="aximo-or">
+						<div className="orgits-or">
 							<p>or</p>
 						</div>
 
-						<a href="https://google.com" target="_blank" className="aximo-connect-login">
+						<a href="https://google.com" target="_blank" className="orgits-connect-login">
 							Sign up with Google
 						</a>
-						<a href="https://fb.com" target="_blank" className="aximo-connect-login">
+						<a href="https://fb.com" target="_blank" className="orgits-connect-login">
 							Sign up with Facebook
 						</a>
 
-						<div className="aximo-account-bottom">
+						<div className="orgits-account-bottom">
 							<p>
 								Not a member yet? <Link to="/sign-up">Sign up here</Link>
 							</p>

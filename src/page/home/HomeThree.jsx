@@ -11,7 +11,7 @@ import Teams from "../../components/home-three/teams";
 
 function HomeThree() {
 	return (
-		<div className="aximo-all-section bg-light3">
+		<div className="orgits-all-section bg-light3">
 			<Hero />
 			<Counter />
 			<About />

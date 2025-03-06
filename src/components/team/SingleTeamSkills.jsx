@@ -2,11 +2,11 @@ import SingleTeamProgressbar from "./SingleTeamProgressbar";
 
 function SingleTeamSkill() {
 	return (
-		<div className="section aximo-section-padding3 pt-0">
+		<div className="section orgits-section-padding3 pt-0">
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-4">
-						<div className="aximo-team-setails">
+						<div className="orgits-team-setails">
 							<h3>Qualifications:</h3>
 							<ul>
 								<li>
@@ -25,7 +25,7 @@ function SingleTeamSkill() {
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="aximo-team-setails">
+						<div className="orgits-team-setails">
 							<h3>Attributes:</h3>
 							<ul>
 								<li>
@@ -44,9 +44,9 @@ function SingleTeamSkill() {
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="aximo-team-setails">
+						<div className="orgits-team-setails">
 							<h3>Professional Skills:</h3>
-							<div className="aximo-skillbar-wrapper">
+							<div className="orgits-skillbar-wrapper">
 								<SingleTeamProgressbar />
 							</div>
 						</div>

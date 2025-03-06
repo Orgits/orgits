@@ -67,13 +67,13 @@ const swiperSettings = {
 
 function AutoSlider() {
 	return (
-		<div className="aximo-auto-text-slider-section">
-			<div className="swiper aximo-auto-slider">
+		<div className="orgits-auto-text-slider-section">
+			<div className="swiper orgits-auto-slider">
 				{
 					<Swiper {...swiperSettings}>
 						{sliderData.map((item) => (
 							<SwiperSlide key={item.id}>
-								<div className="aximo-auto-slider-item">
+								<div className="orgits-auto-slider-item">
 									<h3>{item.title}</h3>
 								</div>
 							</SwiperSlide>

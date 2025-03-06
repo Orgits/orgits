@@ -3,13 +3,13 @@ import StoryContent from "./StoryContent";
 import StoryPhotos from "./StoryPhotos";
 function Story() {
 	return (
-		<div className="section aximo-section-padding6">
+		<div className="section orgits-section-padding6">
 			<div className="container">
-				<div className="aximo-section-title center title-description">
+				<div className="orgits-section-title center title-description">
 					<h2>
-						<span className="aximo-title-animation">
+						<span className="orgits-title-animation">
 							We think our story is
-							<span className="aximo-title-icon">
+							<span className="orgits-title-icon">
 								<img src={Star2Img} alt="star" />
 							</span>
 						</span>
@@ -24,7 +24,7 @@ function Story() {
 
 				<StoryPhotos />
 
-				<div className="aximo-story-content">
+				<div className="orgits-story-content">
 					<StoryContent />
 				</div>
 			</div>

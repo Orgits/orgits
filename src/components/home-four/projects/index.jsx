@@ -229,14 +229,14 @@ const swiperSettings = {
 };
 function Projects() {
 	return (
-		<div className="aximo-project-section aximo-section-padding extra-side-margin">
+		<div className="orgits-project-section orgits-section-padding extra-side-margin">
 			<div className="container">
-				<div className="aximo-section-title center light arimo-font">
-					<span className="aximo-subtitle">Our stunning creation</span>
+				<div className="orgits-section-title center light arimo-font">
+					<span className="orgits-subtitle">Our stunning creation</span>
 					<h2>Our dedication shines through our work</h2>
 				</div>
 			</div>
-			<div className="swiper aximo-project-slider2">
+			<div className="swiper orgits-project-slider2">
 				<Swiper {...swiperSettings}>
 					{projectsData.map((project) => (
 						<SwiperSlide key={project.id}>

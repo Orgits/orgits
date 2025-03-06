@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 function HeaderButton() {
 	return (
 		<div className="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
-			<div className="aximo-header-wrap">
-				<div className="aximo-social-icon header-social">
+			<div className="orgits-header-wrap">
+				<div className="orgits-social-icon header-social">
 					<ul>
 						<li>
 							<a href="https://twitter.com/" target="_blank">
@@ -27,9 +27,9 @@ function HeaderButton() {
 						</li>
 					</ul>
 				</div>
-				<Link className="aximo-default-btn pill aximo-header-btn yellow-btn" to="/contact-us">
-					<span className="aximo-label-up">Talk to an expert</span>
-					<span className="aximo-label-up">Talk to an expert</span>
+				<Link className="orgits-default-btn pill orgits-header-btn yellow-btn" to="/contact-us">
+					<span className="orgits-label-up">Talk to an expert</span>
+					<span className="orgits-label-up">Talk to an expert</span>
 				</Link>
 			</div>
 		</div>

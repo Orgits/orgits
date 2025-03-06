@@ -4,8 +4,8 @@ import AboutCounter from "./AboutCounter";
 
 function About() {
 	return (
-		<div className="aximo-about-section bg-orange extra-side-margin">
-			<div id="aximo-counter"></div>
+		<div className="orgits-about-section bg-orange extra-side-margin">
+			<div id="orgits-counter"></div>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
@@ -25,14 +25,14 @@ function About() {
 									stiffness: 70,
 								},
 							}}
-							className="aximo-thumb"
+							className="orgits-thumb"
 							id="rotatetwo"
 						>
 							<img src={ThumbImg} alt="ThumbImg" />
 						</motion.div>
 					</div>
 					<div className="col-lg-7">
-						<div className="aximo-default-content clash-grotesk">
+						<div className="orgits-default-content clash-grotesk">
 							<h2>We help empower visionary founders</h2>
 							<p>
 								We provide comprehensive support, guidance to early stage startups & entrepreneurs. Our

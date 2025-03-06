@@ -4,19 +4,19 @@ import FadeInUp from "../animation/FadeInUp";
 import WorkingApproach from "./WorkingApproach";
 function ServiceDetails() {
 	return (
-		<div className="section aximo-section-padding2 pb-0">
+		<div className="section orgits-section-padding2 pb-0">
 			<div className="container">
-				<div className="aximo-service-details-wrap">
-					<FadeInUp className="aximo-service-details-thumb">
+				<div className="orgits-service-details-wrap">
+					<FadeInUp className="orgits-service-details-thumb">
 						<img src={SingleImg} alt="Single img" />
 					</FadeInUp>
 					<div className="row">
 						<div className="col-lg-8">
-							<div className="aximo-default-content">
+							<div className="orgits-default-content">
 								<h2>
-									<span className="aximo-title-animation">
+									<span className="orgits-title-animation">
 										UI/UX for modern
-										<span className="aximo-title-icon">
+										<span className="orgits-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
@@ -35,7 +35,7 @@ function ServiceDetails() {
 					</div>
 					<div className="row">
 						<div className="col-lg-6">
-							<div className="aximo-user-interface">
+							<div className="orgits-user-interface">
 								<h3>1/ User Interface (UI):</h3>
 								<ul>
 									<li>
@@ -55,7 +55,7 @@ function ServiceDetails() {
 							</div>
 						</div>
 						<div className="col-lg-6">
-							<div className="aximo-user-interface">
+							<div className="orgits-user-interface">
 								<h3>2/ User Experience (UX):</h3>
 								<ul>
 									<li>
@@ -75,7 +75,7 @@ function ServiceDetails() {
 							</div>
 						</div>
 					</div>
-					<div className="aximo-faq-wrap">
+					<div className="orgits-faq-wrap">
 						<WorkingApproach />
 					</div>
 				</div>

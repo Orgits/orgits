@@ -37,12 +37,12 @@ const servicesData = [
 ];
 function Services() {
 	return (
-		<div className="section aximo-section-padding dark-bg overflow-hidden position-relative">
+		<div className="section orgits-section-padding dark-bg overflow-hidden position-relative">
 			<div className="container">
-				<div className="aximo-section-title center familjen-grotesk light">
+				<div className="orgits-section-title center familjen-grotesk light">
 					<h2>Our professional SEO services for you</h2>
 				</div>
-				<div className="aximo-iconbox-column">
+				<div className="orgits-iconbox-column">
 					{servicesData.map((service, index) => (
 						<FadeInStagger key={service.id} index={index}>
 							<ServiceCard service={service} />
@@ -51,7 +51,7 @@ function Services() {
 				</div>
 			</div>
 
-			<div className="aximo-iconbox-shape">
+			<div className="orgits-iconbox-shape">
 				<img src={StarShapeHalfImg} alt="StarShapeHalfImg" />
 			</div>
 		</div>
