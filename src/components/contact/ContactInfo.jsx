@@ -37,8 +37,8 @@ function ContactInfo() {
 							</div>
 							<div className="orgits-contact-info-data">
 								<span>Email us</span>
-								<p>example@gmail.com</p>
-								<p>example@gmail.com</p>
+								<p>info@orgits.in</p>
+								<p>hello@orgits.in</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
@@ -48,8 +48,8 @@ function ContactInfo() {
 								<img src={MapImg} alt="Map" />
 							</div>
 							<div className="orgits-contact-info-data">
-								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								<span>Main Office </span>
+								<p>Rohini Sector -11, New Delhi -110085</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>

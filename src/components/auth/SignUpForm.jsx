@@ -42,7 +42,7 @@ function SignUpForm() {
 								type="email"
 								name="email"
 								id="email"
-								placeholder="example@gmail.com"
+								placeholder="hello@orgits.in"
 							/>
 						</Field>
 						<Field label="Enter Password" error={errors.password}>

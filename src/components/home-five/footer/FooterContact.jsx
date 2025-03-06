@@ -13,9 +13,9 @@ function FooterContact() {
 						</a>
 					</li>
 					<li>
-						<a href="mailto:example@gmail.com">
+						<a href="mailto:hello@orgits.in">
 							<i className="icon-message"></i>
-							example@gmail.com
+							hello@orgits.in
 						</a>
 					</li>
 					<li>
