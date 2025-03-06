@@ -25,8 +25,8 @@ function ContactInfo() {
 							</div>
 							<div className="orgits-contact-info-data">
 								<span>Call us</span>
-							<a href="tel:+919289687928"><p>+ 91 928-9687-928</p></a>
-							<a href="tel:+919971291305"><p>+ 91 997-1291-305</p></a>
+							<p>+91 928-9687-928</p>
+							<p>+91 997-1291-305</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
