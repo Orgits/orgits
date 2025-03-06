@@ -37,7 +37,7 @@ function MessageForm() {
 				</Field>
 			</div>
 			<div className="orgits-form-field">
-				<input type="text" placeholder="+088-234-6849" />
+				<input type="text" placeholder="+91 928-9687-928" />
 			</div>
 			<div className="orgits-form-field">
 				<textarea name="textarea" placeholder="Write your message here..."></textarea>

@@ -13,8 +13,8 @@ function FooterContact() {
 					</a>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>
-					<a className="orgits-footer-info" href="tel:+088-234-684900">
-						+088-234-684900
+					<a className="orgits-footer-info" href="tel:+91 928-9687-92800">
+						+91 928-9687-92800
 					</a>
 				</FadeInStaggerTwoChildren>
 				<FadeInStaggerTwoChildren>

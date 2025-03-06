@@ -7,9 +7,9 @@ function FooterContact() {
 			<div className="orgits-contact-info2 info3">
 				<ul>
 					<li>
-						<a href="tel:+088-234-6849">
+						<a href="tel:+919289687928">
 							<i className="icon-phone"></i>
-							+088-234-6849
+							+91 928-9687-928
 						</a>
 					</li>
 					<li>

@@ -24,7 +24,8 @@ function Header() {
 									<DropdownItem url="home-three">SEO Optimization</DropdownItem>
 									<DropdownItem url="home-four">Business Consultation</DropdownItem>
 									<DropdownItem url="home-five">Digital Marketing</DropdownItem>
-									<DropdownItem url="home-seven">Branding agency</DropdownItem>
+									<DropdownItem url="home-six">Interior Design Agency</DropdownItem>
+									<DropdownItem url="home-seven">Advertising agency</DropdownItem>
 								</Dropdown>
 							</NavItem>
 						
