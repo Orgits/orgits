@@ -95,10 +95,11 @@ export default function Footer3() {
             <div className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom__inner">
-                        <div className="copyright-text text-center">
-                            <p>Copyright © 2024 Orgits by <Link href="https://themeforest.net/user/thememx">Thememx. </Link>
-                                All Rights Reserved</p>
-                        </div>
+                    <div className="copyright-text text-center">
+                                <p>Copyright © 2024 Orgits Business Solutions Pvt. Ltd.<Link
+                                        href="https://orgits.in">|| </Link>
+                                    All Rights Reserved</p>
+                            </div>
                     </div>
                 </div>
             </div>
