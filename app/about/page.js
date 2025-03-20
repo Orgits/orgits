@@ -71,7 +71,7 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                            <CounterUp end={256} />
+                                                <h2>256</h2>
                                                 <i className="icon-plus-symbol-button"></i>
                                             </div>
                                             <div className="title">
@@ -86,7 +86,7 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                            <CounterUp end={89} />
+                                                <h2>89</h2>
                                                 <i className="icon-percentage"></i>
                                             </div>
                                             <div className="title">
@@ -148,7 +148,7 @@ export default function About() {
                             <div className="overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={15} />
+                                        <h2>15</h2>
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
@@ -699,7 +699,7 @@ export default function About() {
                                     <h4>Customers Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Diligent
+                                    What Says Our Client’s<br/>About Orgits
                                 </h2>
                             </div>
 

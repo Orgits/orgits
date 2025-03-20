@@ -244,7 +244,7 @@ export default function Footer2() {
                     <div className="container">
                         <div className="footer-bottom__inner footer-bottom__two-inner">
                             <div className="copyright-text text-center">
-                                <p>Copyright © 2024 Diligent by <Link
+                                <p>Copyright © 2024 Orgits by <Link
                                         href="https://themeforest.net/user/thememx">Thememx. </Link>
                                     All Rights Reserved</p>
                             </div>

@@ -34,7 +34,7 @@ export default function Banner() {
                     <div className="banner-three__content-inner">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Welcome To Diligent</h4>
+                                <h4>Welcome To Orgits</h4>
                             </div>
                             <h2>
                                 Digital Agency<br/>For Growth
