@@ -7575,8 +7575,8 @@ Contact Page Css
     position: absolute;
     left: 0px;
     top: 0px;
-    width: 100%;
-    height: 100%;
+    width: 10px;
+    height: 10px;
     max-height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
