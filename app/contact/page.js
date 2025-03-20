@@ -43,8 +43,8 @@ export default function Home() {
 
                                                     <div className="content-box">
                                                         <h4>Phone</h4>
-                                                        <p><Link href="tel:123456789">09 (354) 587 874</Link> or <Link
-                                                                href="tel:123456789">10 (698) 852 741</Link></p>
+                                                        <p><Link href="tel:919289687928">09 (354) 587 874</Link> or <Link
+                                                                href="tel:919289687928">10 (698) 852 741</Link></p>
                                                     </div>
                                                 </div>
                                             </li>

@@ -82,7 +82,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
             <div className="contact-info">
                 <div className="icon-box"><span className="icon-phone-call"></span>
                 </div>
-                <p><Link href="tel:123456789">(629) 555-0129</Link></p>
+                <p><Link href="tel:919289687928">+91 928-9687-928</Link></p>
             </div>
             <div className="social-links">
                 <ul className="clearfix list-wrap">
