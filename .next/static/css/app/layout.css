@@ -7652,6 +7652,7 @@ Contact Page Css
     position: relative;
     padding: 30px 25px;
     text-align: left;
+    width: 80px;
 }
 
 .mobile-menu .nav-logo a {
