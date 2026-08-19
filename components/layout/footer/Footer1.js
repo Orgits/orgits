@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from 'next/image'
 
 export default function Footer1() {
     return (
@@ -8,17 +9,35 @@ export default function Footer1() {
             {/* Start Footer Main */}
             <div className="footer-main footer-main__three">
                 <div className="footer-three__shape1">
-                    <img src="assets/img/shape/footer-three__shape1.png" alt="shapes"/>
+                    <Image
+                        src="/assets/img/shape/footer-three__shape1.png"
+                        alt=""
+                        width={296}
+                        height={361}
+                        loading="lazy"
+                    />
                 </div>
                 <div className="footer-three__shape2">
-                    <img src="assets/img/shape/footer-three__shape2.png" alt="shapes"/>
+                    <Image
+                        src="/assets/img/shape/footer-three__shape2.png"
+                        alt=""
+                        width={362}
+                        height={180}
+                        loading="lazy"
+                    />
                 </div>
                 <div className="container">
                     {/* Start Footer Main Two Top*/}
                     <div className="footer-main__three-top">
                         <div className="footer-three__logo-box">
                             <Link href="/">
-                                <img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/>
+                                <Image
+                                    src="/assets/img/resource/logo-3.svg"
+                                    alt="Orgits Business Solutions Pvt. Ltd."
+                                    width={180}
+                                    height={50}
+                                    loading="lazy"
+                                />
                             </Link>
                         </div>
 
@@ -30,8 +49,9 @@ export default function Footer1() {
 
                             <form method="post">
                                 <div className="form-group">
-                                    <input type="email" name="email" placeholder="Email Address"/>
-                                    <button className="submit thm-btn">
+                                    <label htmlFor="footer-email" className="visually-hidden">Email Address</label>
+                                    <input id="footer-email" type="email" name="email" placeholder="Email Address" required/>
+                                    <button className="submit thm-btn" type="submit">
                                         <span className="txt">Start a Conversation</span>
                                     </button>
                                 </div>
@@ -150,7 +170,13 @@ export default function Footer1() {
 
                                             <li>
                                                 <div className="img-box">
-                                                    <img src="assets/img/footer/footer-two__img1.jpg" alt="CRM Automation"/>
+                                                    <Image
+                                                        src="/assets/img/footer/footer-two__img1.jpg"
+                                                        alt="CRM Automation"
+                                                        width={105}
+                                                        height={90}
+                                                        loading="lazy"
+                                                    />
                                                     <Link href="/blog-details"><i className="fa-solid fa-link"></i></Link>
                                                 </div>
                                                 <div className="title-box">
@@ -173,7 +199,13 @@ export default function Footer1() {
                                             </li>
                                             <li>
                                                 <div className="img-box">
-                                                    <img src="assets/img/footer/footer-two__img2.jpg" alt="Cloud Infrastructure"/>
+                                                    <Image
+                                                        src="/assets/img/footer/footer-two__img2.jpg"
+                                                        alt="Cloud Infrastructure"
+                                                        width={105}
+                                                        height={90}
+                                                        loading="lazy"
+                                                    />
                                                     <Link href="/blog-details"><i className="fa-solid fa-link"></i></Link>
                                                 </div>
                                                 <div className="title-box">

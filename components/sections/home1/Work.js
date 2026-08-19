@@ -1,17 +1,37 @@
 import Link from "next/link"
+import Image from 'next/image'
+
 export default function Work() {
     return (
         <>
         {/*Start Working Process One*/}
         <section className="working-process-one">
             <div className="working-process-one__shape1 float-bob-x">
-                <img src="assets/img/shape/working-process__shape1.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/working-process__shape1.png"
+                    alt=""
+                    width={48}
+                    height={43}
+                    loading="lazy"
+                />
             </div>
             <div className="working-process-one__shape2">
-                <img src="assets/img/shape/working-process__shape2.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/working-process__shape2.png"
+                    alt=""
+                    width={63}
+                    height={76}
+                    loading="lazy"
+                />
             </div>
             <div className="working-process-one__shape5 float-bob-y">
-                <img src="assets/img/shape/working-process__shape5.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/working-process__shape5.png"
+                    alt=""
+                    width={78}
+                    height={84}
+                    loading="lazy"
+                />
             </div>
             <div className="container">
                 <div className="sec-title-four text-center sec-title-animation animation-style1">
@@ -48,7 +68,13 @@ export default function Work() {
                     <div className="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div className="working-process-one__single text-center">
                             <div className="working-process-one__shape3">
-                                <img src="assets/img/shape/working-process__shape3.png" alt="shapes"/>
+                                <Image
+                                    src="/assets/img/shape/working-process__shape3.png"
+                                    alt=""
+                                    width={215}
+                                    height={47}
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="icon-box">
                                 <i className="icon-find-solutions"></i>
@@ -73,7 +99,13 @@ export default function Work() {
                     <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="working-process-one__single text-center">
                             <div className="working-process-one__shape4">
-                                <img src="assets/img/shape/working-process__shape4.png" alt="shapes"/>
+                                <Image
+                                    src="/assets/img/shape/working-process__shape4.png"
+                                    alt=""
+                                    width={215}
+                                    height={47}
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="icon-box">
                                 <i className="icon-build-develop"></i>

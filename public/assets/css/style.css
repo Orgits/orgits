@@ -26,7 +26,6 @@
 /* Module Css */
 @import url('../vendors/bootstrap/css/bootstrap.min.css');
 @import url('../vendors/fontawesome/css/all.min.css');
-@import url('../fonts/gilroy/stylesheet.css');
 @import url('../css/module-css/footer.css');
 @import url('../css/10-icomoon.css');
 @import url('../css/module-css/services.css');
@@ -4074,4 +4073,26 @@ Cta Two Testmonials Css
 
 .cta-two.testmonials::before {
     display: none;
+}
+/*=============================
+	Reduced Motion Support
+=============================*/
+.reduce-motion *,
+.reduce-motion *::before,
+.reduce-motion *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html:not(.reduce-motion) *,
+    html:not(.reduce-motion) *::before,
+    html:not(.reduce-motion) *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
 }

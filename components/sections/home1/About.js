@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link"
 import { useState } from 'react'
+import Image from 'next/image'
 import CounterUp from "@/components/elements/CounterUp"
 
 export default function About() {
@@ -9,13 +10,31 @@ export default function About() {
         {/*Start About Three*/}
         <section className="about-three">
             <div className="about-three__shape1 float-bob-y">
-                <img src="assets/img/shape/about-three__shape1.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/about-three__shape1.png"
+                    alt=""
+                    width={33}
+                    height={120}
+                    loading="lazy"
+                />
             </div>
             <div className="about-three__shape2">
-                <img src="assets/img/shape/about-three__shape2.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/about-three__shape2.png"
+                    alt=""
+                    width={114}
+                    height={114}
+                    loading="lazy"
+                />
             </div>
             <div className="about-three__shape3">
-                <img src="assets/img/shape/about-three__shape3.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/about-three__shape3.png"
+                    alt=""
+                    width={225}
+                    height={225}
+                    loading="lazy"
+                />
             </div>
             <div className="container">
                 <div className="row">
@@ -68,7 +87,13 @@ export default function About() {
                             </div>
                             <div className="about-three__img">
                                 <div className="img-box">
-                                    <img src="assets/img/about/about-three__img1.jpg" alt="image"/>
+                                    <Image
+                                        src="/assets/img/about/about-three__img1.jpg"
+                                        alt="Orgits Business Solutions - Technology, Marketing & Compliance Team"
+                                        width={300}
+                                        height={200}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 <div className="title-box">
                                     <h3>Technology, Marketing & Compliance<br/>Under One Roof</h3>
@@ -88,7 +113,13 @@ export default function About() {
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img2.jpg" alt="image"/>
+                                        <Image
+                                            src="/assets/img/about/about-three__img2.jpg"
+                                            alt="Orgits Business Solutions team collaboration"
+                                            width={290}
+                                            height={290}
+                                            loading="lazy"
+                                        />
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -96,7 +127,13 @@ export default function About() {
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img3.jpg" alt="image"/>
+                                        <Image
+                                            src="/assets/img/about/about-three__img3.jpg"
+                                            alt="Orgits Business Solutions workplace"
+                                            width={220}
+                                            height={220}
+                                            loading="lazy"
+                                        />
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -106,7 +143,13 @@ export default function About() {
                                 data-wow-duration="1500ms">
                                 {/*Single About Three Img*/}
                                 <div className="single-about-three__img-box">
-                                    <img src="assets/img/about/about-three__img4.jpg" alt="image"/>
+                                    <Image
+                                        src="/assets/img/about/about-three__img4.jpg"
+                                        alt="Orgits Business Solutions - 4 years track record"
+                                        width={550}
+                                        height={395}
+                                        loading="lazy"
+                                    />
                                 </div>
                                 {/*End About Three Img*/}
                             </div>

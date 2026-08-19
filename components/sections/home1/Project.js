@@ -1,60 +1,31 @@
 'use client'
 import Link from "next/link"
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
-import { Swiper, SwiperSlide } from "swiper/react"
+import Image from 'next/image'
+import { SwiperWrapper, SwiperSlideWrapper } from '@/components/ui/SwiperWrapper'
 
 
 const swiperOptions = {
-    modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 4,
     spaceBetween: 20,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
     loop: true,
-
-    // Navigation
     navigation: {
         nextEl: '.srn',
         prevEl: '.srp',
     },
-
-    // Pagination
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
     breakpoints: {
-        320: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        575: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        767: {
-            slidesPerView: 2,
-            // spaceBetween: 30,
-        },
-        991: {
-            slidesPerView: 3,
-            // spaceBetween: 30,
-        },
-        1199: {
-            slidesPerView: 3,
-            // spaceBetween: 30,
-        },
-        1350: {
-            slidesPerView: 4,
-            // spaceBetween: 30,
-        },
+        320: { slidesPerView: 1 },
+        575: { slidesPerView: 1 },
+        767: { slidesPerView: 2 },
+        991: { slidesPerView: 3 },
+        1199: { slidesPerView: 3 },
+        1350: { slidesPerView: 4 },
     }
-
-
-
 }
+
 
 export default function Project() {
     
@@ -74,104 +45,140 @@ export default function Project() {
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="project-two__inner">
-                            <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
+                            <SwiperWrapper options={swiperOptions} className="thm-swiper__slider swiper-container">
 
                                 <div className="swiper-wrapper">
 
                                     {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image"/>
-                                                <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img1.jpg"
+                                                        alt="Digital Marketing Growth"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Marketing</h4>
+                                                        <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
 
 {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="Cloud Server Deployment"/>
-                                                <div className="overlay-title">
-                                                    <h4>Cloud & Infrastructure</h4>
-                                                    <h3><Link href="#">Cloud Server Deployment</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img2.jpg"
+                                                        alt="Cloud Server Deployment"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Cloud & Infrastructure</h4>
+                                                        <h3><Link href="#">Cloud Server Deployment</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
 
                                     {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img3.jpg" alt="image"/>
-                                                <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img3.jpg"
+                                                        alt="Digital Marketing Growth"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Marketing</h4>
+                                                        <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
 
                                     {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="E-commerce Platforms"/>
-                                                <div className="overlay-title">
-                                                    <h4>Digital Commerce</h4>
-                                                    <h3><Link href="#">E-commerce Platforms</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img4.jpg"
+                                                        alt="E-commerce Platforms"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Digital Commerce</h4>
+                                                        <h3><Link href="#">E-commerce Platforms</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
 
                                     {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img3.jpg" alt="image"/>
-                                                <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img3.jpg"
+                                                        alt="Digital Marketing Growth"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Marketing</h4>
+                                                        <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
-                                    
+
                                     {/*Start Single Project Two*/}
-                                    <SwiperSlide>
-                                    <div className="swiper-slide">
-                                        <div className="project-two__single">
-                                            <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image"/>
-                                                <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                    <SwiperSlideWrapper>
+                                        <div className="swiper-slide">
+                                            <div className="project-two__single">
+                                                <div className="project-two__single-img">
+                                                    <Image
+                                                        src="/assets/img/project/project-two__img1.jpg"
+                                                        alt="Digital Marketing Growth"
+                                                        width={460}
+                                                        height={600}
+                                                        loading="lazy"
+                                                    />
+                                                    <div className="overlay-title">
+                                                        <h4>Marketing</h4>
+                                                        <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    </SwiperSlide>
+                                    </SwiperSlideWrapper>
                                     {/*End Single Project Two*/}
 
                                 </div>
@@ -187,7 +194,7 @@ export default function Project() {
                                     </div>
                                 </div>
 
-                            </Swiper>
+                            </SwiperWrapper>
                         </div>
                     </div>
                 </div>

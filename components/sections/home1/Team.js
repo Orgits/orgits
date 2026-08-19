@@ -1,23 +1,55 @@
 import Link from "next/link"
+import Image from 'next/image'
+
 export default function Team() {
     return (
         <>
         {/*Start Team Two*/}
         <section className="team-two">
             <div className="team-two__shape1">
-                <img src="assets/img/shape/team-two__shape1.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/team-two__shape1.png"
+                    alt=""
+                    width={505}
+                    height={509}
+                    loading="lazy"
+                />
             </div>
             <div className="team-two__shape2">
-                <img src="assets/img/shape/team-two__shape2.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/team-two__shape2.png"
+                    alt=""
+                    width={685}
+                    height={402}
+                    loading="lazy"
+                />
             </div>
             <div className="team-two__shape3">
-                <img src="assets/img/shape/team-two__shape3.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/team-two__shape3.png"
+                    alt=""
+                    width={804}
+                    height={740}
+                    loading="lazy"
+                />
             </div>
             <div className="team-two__shape4">
-                <img src="assets/img/shape/team-two__shape4.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/team-two__shape4.png"
+                    alt=""
+                    width={693}
+                    height={421}
+                    loading="lazy"
+                />
             </div>
             <div className="team-two__shape5">
-                <img src="assets/img/shape/team-two__shape5.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/team-two__shape5.png"
+                    alt=""
+                    width={418}
+                    height={503}
+                    loading="lazy"
+                />
             </div>
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
@@ -34,7 +66,13 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="Anubhav Sharma"/>
+                                <Image
+                                    src="/assets/img/team/team-v2-1.jpg"
+                                    alt="Anubhav Sharma - CEO & IT Consultant"
+                                    width={345}
+                                    height={390}
+                                    loading="lazy"
+                                />
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -69,7 +107,13 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-2.jpg" alt="CA Sahil Goyal"/>
+                                <Image
+                                    src="/assets/img/team/team-v2-2.jpg"
+                                    alt="CA Sahil Goyal - Managing Director"
+                                    width={345}
+                                    height={390}
+                                    loading="lazy"
+                                />
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -104,7 +148,13 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-3.jpg" alt="Sahil Khan"/>
+                                <Image
+                                    src="/assets/img/team/team-v2-3.jpg"
+                                    alt="Sahil Khan - RevOps & Automation Strategist"
+                                    width={345}
+                                    height={390}
+                                    loading="lazy"
+                                />
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">

@@ -24,7 +24,7 @@ export default function Error404() {
                     url: 'https://www.orgits.in/404',
                 }) }}
             />
-<Layout headerStyle={1} footerStyle={1} breadcrumbTitle="404 Error">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="404 Error">
 
             {/* Error Page Start */}
             <section className="error-page" aria-labelledby="error-heading">
@@ -42,10 +42,11 @@ export default function Error404() {
                                     <Link href="/services" className="thm-btn" style={{backgroundColor: 'transparent', borderColor: 'var(--thm-primary)', color: 'var(--thm-primary)'}}>Our Services</Link>
                                     <Link href="/contact" className="thm-btn" style={{backgroundColor: 'transparent', borderColor: 'var(--thm-primary)', color: 'var(--thm-primary)'}}>Contact Us</Link>
                                 </div>
-                                <form className="error-page__form" style={{maxWidth: '400px', margin: '0 auto'}}>
+                                <form className="error-page__form" style={{maxWidth: '400px', margin: '0 auto'}} role="search">
                                     <div className="error-page__form-input" style={{display: 'flex', gap: '10px'}}>
-                                        <input type="search" placeholder="Search our site..." style={{flex: 1, padding: '12px 20px', borderRadius: '4px', border: '1px solid var(--thm-border-color)', backgroundColor: 'var(--thm-gray-bg)', color: 'var(--thm-white)'}} />
-                                        <button type="submit" className="thm-btn" style={{padding: '12px 24px'}}><i className="icon-search"></i></button>
+                                        <label htmlFor="site-search" className="visually-hidden">Search our site</label>
+                                        <input id="site-search" type="search" placeholder="Search our site..." style={{flex: 1, padding: '12px 20px', borderRadius: '4px', border: '1px solid var(--thm-border-color)', backgroundColor: 'var(--thm-gray-bg)', color: 'var(--thm-white)'}} />
+                                        <button type="submit" className="thm-btn" style={{padding: '12px 24px'}} aria-label="Search"><i className="icon-search"></i></button>
                                     </div>
                                 </form>
                             </div>

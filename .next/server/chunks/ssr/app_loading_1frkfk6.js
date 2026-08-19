@@ -1,0 +1,3 @@
+module.exports=[50607,a=>{"use strict";a.s(["default",()=>b]);let b=(0,a.i(11857).registerClientReference)(function(){throw Error("Attempted to call the default export of [project]/app/loading.js from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.")},"[project]/app/loading.js","default")},30343,a=>{"use strict";var b=a.i(50607);a.n(b)},83952,function(a){a.n(a.i(30343))}];
+
+//# sourceMappingURL=app_loading_1frkfk6.js.map

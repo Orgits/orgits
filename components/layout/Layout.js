@@ -1,8 +1,6 @@
-
 'use client'
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
-import DataBg from "../elements/DataBg"
 import Breadcrumb from './Breadcrumb'
 import SearchPopup from "./SearchPopup"
 import Sidebar from "./Sidebar"
@@ -33,22 +31,34 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
     const handleSidebar = () => setSidebar(!isSidebar)
 
     useEffect(() => {
-        const WOW = require('wowjs')
-        window.wow = new WOW.WOW({
-            live: false
-        })
-        window.wow.init()
+        // Initialize wowjs only on client, respect reduced motion
+        if (typeof window !== 'undefined') {
+            const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+            if (!prefersReducedMotion) {
+                import('wowjs').then(WOW => {
+                    window.wow = new WOW.WOW({
+                        live: false
+                    })
+                    window.wow.init()
+                })
+            } else {
+                // Add class to disable CSS animations for reduced motion
+                document.documentElement.classList.add('reduce-motion')
+            }
+        }
 
-        document.addEventListener("scroll", () => {
+        const handleScroll = () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
                 setScroll(scrollCheck)
             }
-        })
-    }, [])
+        }
+
+        document.addEventListener("scroll", handleScroll, { passive: true })
+        return () => document.removeEventListener("scroll", handleScroll)
+    }, [scroll])
     return (
         <>
-            <DataBg />
             <div className={`page-wrapper ${wrapperCls ? wrapperCls : ""}`} id="#top">
                 {!headerStyle && <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} />}
                 {headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
@@ -56,8 +66,6 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
                 {headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} handlePopup={handlePopup} isSidebar={isSidebar} handleSidebar={handleSidebar} /> : null}
                 
-
-
                 <Sidebar isSidebar={isSidebar} handleSidebar={handleSidebar} />
                 <SearchPopup isPopup={isPopup} handlePopup={handlePopup} />
 

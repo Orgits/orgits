@@ -3509,4 +3509,20 @@ label {
   display: none;
 }
 
+.reduce-motion *, .reduce-motion :before, .reduce-motion :after {
+  scroll-behavior: auto !important;
+  transition-duration: .01ms !important;
+  animation-duration: .01ms !important;
+  animation-iteration-count: 1 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:not(.reduce-motion) *, html:not(.reduce-motion) :before, html:not(.reduce-motion) :after {
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
 /*# sourceMappingURL=public_assets_css_style_css_1igg3k2._.single.css.map*/

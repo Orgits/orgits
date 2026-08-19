@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Menu from "../Menu"
 import MobileMenu from "../MobileMenu"
+import Image from 'next/image'
 
 export default function Header1({ scroll, handleMobileMenu }) {
     return (
@@ -48,7 +49,13 @@ export default function Header1({ scroll, handleMobileMenu }) {
                             <div className="main-header-three__bottom-left">
                                 <div className="logo-box-one">
                                     <Link href="/">
-                                        <img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/>
+                                        <Image
+                                            src="/assets/img/resource/logo-3.svg"
+                                            alt="Orgits Business Solutions Pvt. Ltd."
+                                            width={180}
+                                            height={50}
+                                            priority
+                                        />
                                     </Link>
                                 </div>
                             </div>

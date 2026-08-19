@@ -1,6 +1,7 @@
 'use client'
 import Link from "next/link";
 import { useState } from "react";
+import Image from 'next/image'
 
 const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
   const [isActive, setIsActive] = useState({
@@ -27,7 +28,6 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
     return (
         <>
             
-
     {/*Start Mobile Menu  */}
     <div className="mobile-menu">
         <nav className="menu-box">
@@ -36,7 +36,13 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
             </div>
             <div className="nav-logo">
                 <Link href="/">
-                    <img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/>
+                    <Image
+                        src="/assets/img/resource/logo-3.svg"
+                        alt="Orgits Business Solutions Pvt. Ltd."
+                        width={180}
+                        height={50}
+                        loading="lazy"
+                    />
                 </Link>
             </div>
             <div className="menu-outer">
@@ -99,8 +105,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
     {/* End Mobile Menu */}
 
 
-
-          
+           
     </>
     )
 }

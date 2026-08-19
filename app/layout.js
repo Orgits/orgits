@@ -4,7 +4,7 @@ import "public/assets/css/responsive.css"
 import 'swiper/css'
 import "swiper/css/pagination"
 import 'swiper/css/free-mode';
-import {interTight,} from '@/lib/font'
+import { interTight, gilroy } from '@/lib/font'
 import Script from 'next/script'
 
 const siteUrl = 'https://www.orgits.in'
@@ -119,12 +119,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={`${interTight.variable}`}>
+        <html lang="en" className={`${interTight.variable} ${gilroy.variable}`}>
             <head>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
                 <link rel="dns-prefetch" href="https://www.google-analytics.com" />
                 <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+                <link rel="dns-prefetch" href="https://www.youtube.com" />
                 <link rel="canonical" href={siteUrl} />
                 <link rel="sitemap" href={`${siteUrl}/sitemap.xml`} />
                 <Script
@@ -136,7 +135,7 @@ export default function RootLayout({ children }) {
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
                 />
             </head>
-            <body className={`${interTight.variable}`}>{children}</body>
+            <body className={`${interTight.variable} ${gilroy.variable}`}>{children}</body>
         </html>
     )
 }

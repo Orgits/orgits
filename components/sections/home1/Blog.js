@@ -1,14 +1,28 @@
 import Link from "next/link"
+import Image from 'next/image'
+
 export default function Blog() {
     return (
         <>
         {/*Start Blog Three*/}
         <section className="blog-three">
             <div className="blog-three__shape1 float-bob-y">
-                <img src="assets/img/shape/blog-three__shape1.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/blog-three__shape1.png"
+                    alt=""
+                    width={33}
+                    height={120}
+                    loading="lazy"
+                />
             </div>
             <div className="blog-three__shape2">
-                <img src="assets/img/shape/blog-three__shape2.png" alt="shapes"/>
+                <Image
+                    src="/assets/img/shape/blog-three__shape2.png"
+                    alt=""
+                    width={85}
+                    height={52}
+                    loading="lazy"
+                />
             </div>
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
@@ -25,7 +39,13 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img1.jpg" alt="CRM Automation"/>
+                                <Image
+                                    src="/assets/img/blog/blog-three__img1.jpg"
+                                    alt="CRM Automation: From Lead Capture to Follow-Up"
+                                    width={410}
+                                    height={350}
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
@@ -39,10 +59,10 @@ export default function Blog() {
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">How CRM Automation Improves Lead Management</Link></h3>
+                                    <h3><Link href="/blog-details">How CRM Automation Improves Lead Management</Link></h3>
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="blog-details">
+                                    <Link href="/blog-details">
                                         Read More
                                         <i className="icon-right"></i>
                                     </Link>
@@ -56,7 +76,13 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img2.jpg" alt="Cloud Infrastructure"/>
+                                <Image
+                                    src="/assets/img/blog/blog-three__img2.jpg"
+                                    alt="Why Businesses Need Secure, Scalable Cloud Infrastructure"
+                                    width={410}
+                                    height={350}
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
@@ -70,11 +96,11 @@ export default function Blog() {
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">Why Businesses Need Secure, Scalable Cloud Infrastructure</Link>
+                                    <h3><Link href="/blog-details">Why Businesses Need Secure, Scalable Cloud Infrastructure</Link>
                                     </h3>
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="blog-details">
+                                    <Link href="/blog-details">
                                         Read More
                                         <i className="icon-right"></i>
                                     </Link>
@@ -88,7 +114,13 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img3.jpg" alt="IT Compliance"/>
+                                <Image
+                                    src="/assets/img/blog/blog-three__img3.jpg"
+                                    alt="Preparing IT Systems for Audit & Regulatory Compliance"
+                                    width={410}
+                                    height={350}
+                                    loading="lazy"
+                                />
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
@@ -102,10 +134,10 @@ export default function Blog() {
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">Preparing IT Systems for Audit & Regulatory Compliance</Link></h3>
+                                    <h3><Link href="/blog-details">Preparing IT Systems for Audit & Regulatory Compliance</Link></h3>
                                 </div>
                                 <div className="btn-box">
-                                    <Link href="blog-details">
+                                    <Link href="/blog-details">
                                         Read More
                                         <i className="icon-right"></i>
                                     </Link>
