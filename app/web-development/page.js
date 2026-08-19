@@ -1,14 +1,80 @@
-'use client'
-import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const webDevSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Web Development',
+    description: 'We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.',
+    url: `${siteUrl}/web-development`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: 'Web Development',
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Services', item: `${siteUrl}/services` },
+        { '@type': 'ListItem', position: 3, name: 'Web Development', item: `${siteUrl}/web-development` },
+    ],
+}
+
+export const metadata = {
+    title: 'Web Development Services | Orgits Business Solutions',
+    description: 'We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.',
+    keywords: 'web development services, business website development, web application development, custom web development, e-commerce development, CMS development',
+    openGraph: {
+        title: 'Web Development Services | Orgits Business Solutions',
+        description: 'We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.',
+        url: `${siteUrl}/web-development`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-web-dev.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'Web Development Services',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Web Development Services | Orgits Business Solutions',
+        description: 'We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.',
+        images: [`${siteUrl}/assets/img/og-web-dev.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/web-development`,
+    },
+}
+
 export default function Home() {
-    
     return (
         <>
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([webDevSchema, breadcrumbSchema]) }}
+            />
             <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Web Development">
 
             {/*Start Service Details*/}
-            <section className="service-details">
+            <section className="service-details" aria-labelledby="web-dev-heading">
                 <div className="container">
                     <div className="row">
                         <div className="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
@@ -17,8 +83,8 @@ export default function Home() {
                                     <div className="img-box">
                                         <img src="assets/img/service/service-details__img4.jpg" alt="Web Development"/>
                                     </div>
-                                    <div className="content-box">
-                                        <h2>Web Development</h2>
+<div className="content-box">
+                                     <h1 id="web-dev-heading">Web Development</h1>
                                         <p>
                                             We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.
                                         </p>

@@ -1,0 +1,434 @@
+/* [project]/public/assets/css/module-css/team.css [app-client] (css) */
+.team-one {
+  background-color: var(--thm-white);
+  z-index: 10;
+  padding: 140px 0 110px;
+  display: block;
+  position: relative;
+}
+
+.team-one__shape1 {
+  z-index: -1;
+  position: absolute;
+  bottom: -70px;
+  left: 50px;
+}
+
+.team-one__shape2 {
+  z-index: -1;
+  position: absolute;
+  top: 90px;
+  left: 320px;
+}
+
+.team-one__shape3 {
+  z-index: -1;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.team-one__shape4 {
+  z-index: -1;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.team-one__single {
+  background: var(--thm-white);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 8px 8px 22px;
+  display: block;
+  position: relative;
+  box-shadow: 0 15px 55px #0000000f;
+}
+
+.team-one__single-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-one__single-img:before {
+  content: "";
+  pointer-events: none;
+  opacity: 0;
+  background: linear-gradient(to top, var(--thm-black) 0, #0000 95%);
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transition: opacity .5s ease-out;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.team-one__single:hover .team-one__single-img:before {
+  opacity: 1;
+}
+
+.team-one__single-img img {
+  transform-origin: 70% 80%;
+  width: 100%;
+  transition: transform .5s cubic-bezier(.27, .48, .45, .94);
+  transform: scale(1.01);
+}
+
+.team-one__single:hover .team-one__single-img img {
+  mix-blend-mode: normal;
+  transition-duration: .9s;
+  transform: scale(1.036);
+}
+
+.team-one__single-img .social-share-box {
+  background-color: var(--thm-secondary);
+  z-index: 3;
+  border-radius: 8px 8px 0 0;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: all .3s;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 25px;
+}
+
+.team-one__single-img .social-share-box:hover {
+  border-radius: 0;
+}
+
+.team-one__single-img .social-share-box span {
+  color: var(--thm-black);
+  cursor: pointer;
+  z-index: 2;
+  font-size: 17px;
+  transition: all .3s;
+  display: inline-block;
+  position: relative;
+}
+
+.team-one__single-img .social-share-box:hover span {
+  font-weight: 700;
+  transform: rotate(44deg);
+}
+
+.team-one__single-img .social-share-box ul {
+  opacity: 0;
+  background: var(--thm-secondary);
+  white-space: nowrap;
+  visibility: hidden;
+  border-radius: 8px 8px 0 0;
+  width: 50px;
+  padding: 10px 15px 2px;
+  transition: all .5s;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  transform: translateY(70px);
+}
+
+.team-one__single-img .social-share-box:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.team-one__single-img .social-share-box ul li {
+  border-bottom: 1px solid #1414141a;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  display: flex;
+  position: relative;
+}
+
+.team-one__single-img .social-share-box ul li:last-child {
+  margin-bottom: 0;
+}
+
+.team-one__single-img .social-share-box ul li a {
+  color: var(--thm-black);
+  z-index: 1;
+  font-size: 17px;
+  transition: all .2s linear .1s;
+  display: inline-block;
+  position: relative;
+}
+
+.team-one__single-img .social-share-box ul li a:hover {
+  color: var(--thm-white);
+}
+
+.team-one__single-title {
+  padding: 21px 25px 0;
+  display: block;
+  position: relative;
+}
+
+.team-one__single-title h3 {
+  margin-bottom: 2px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.team-one__single-title h3 a {
+  color: var(--thm-black);
+  transition: all .2s linear .1s;
+}
+
+.team-one__single-title h3 a:hover {
+  color: var(--thm-secondary);
+}
+
+.team-one__single-title p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.team-two {
+  background-color: var(--thm-gray-bg);
+  z-index: 10;
+  padding: 140px 0 110px;
+  display: block;
+  position: relative;
+}
+
+.team-two__shape1 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team-two__shape2 {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.team-two__shape3 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 310px;
+}
+
+.team-two__shape4 {
+  z-index: -1;
+  position: absolute;
+  bottom: 0;
+  right: 60px;
+}
+
+.team-two__shape5 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.team-two__single {
+  margin-bottom: 30px;
+  display: block;
+  position: relative;
+}
+
+.team-two__single:before {
+  content: "";
+  background-color: var(--thm-white);
+  z-index: -1;
+  position: absolute;
+  inset: 40px 0 0 40px;
+}
+
+.team-two__single:after {
+  content: "";
+  background-color: var(--thm-secondary);
+  transform-origin: 100% 0;
+  z-index: -1;
+  transition: transform .4s;
+  position: absolute;
+  inset: 40px 0 0 40px;
+  transform: scale(1, 0);
+}
+
+.team-two__single:hover:after {
+  opacity: 1;
+  transform-origin: bottom;
+  transform: scale(1);
+}
+
+.team-two__single-img {
+  margin-right: 65px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.team-two__single-img:before {
+  content: "";
+  opacity: 1;
+  pointer-events: none;
+  z-index: 1;
+  background: #ffffff80;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team-two__single:hover .team-two__single-img:before {
+  opacity: 0;
+  height: 100%;
+  transition: all .4s linear;
+}
+
+.team-two__single-img img {
+  transform-origin: 70% 80%;
+  width: 100%;
+  transition: transform .5s cubic-bezier(.27, .48, .45, .94);
+  transform: scale(1.01);
+}
+
+.team-two__single:hover .team-two__single-img img {
+  mix-blend-mode: normal;
+  transition-duration: .9s;
+  transform: scale(1.036);
+}
+
+.team-two__single-img .social-share-box {
+  z-index: 3;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.team-two__single-img .social-share-box span {
+  background-color: var(--thm-black);
+  width: 50px;
+  height: 50px;
+  color: var(--thm-white);
+  cursor: pointer;
+  border-radius: 50%;
+  place-content: center;
+  font-size: 19px;
+  line-height: 50px;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+}
+
+.team-two__single-img .social-share-box:hover span {
+  color: var(--thm-white);
+  transform: rotate(44deg);
+}
+
+.team-two__single-img .social-share-box ul {
+  white-space: nowrap;
+  opacity: 0;
+  z-index: -1;
+  padding-top: 60px;
+  transition: all .3s;
+  position: absolute;
+  top: 0;
+  left: 0%;
+  transform: translateX(80px);
+}
+
+.team-two__single-img .social-share-box:hover ul {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.team-two__single-img .social-share-box ul li {
+  display: block;
+  position: relative;
+}
+
+.team-two__single-img .social-share-box ul li + li {
+  margin-top: 10px;
+}
+
+.team-two__single-img .social-share-box ul li a {
+  background: var(--thm-white);
+  width: 50px;
+  height: 50px;
+  color: var(--thm-black);
+  z-index: 1;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  transition: all .2s linear .1s;
+  display: flex;
+  position: relative;
+}
+
+.team-two__single-img .social-share-box ul li a:hover {
+  color: var(--thm-black);
+}
+
+.team-two__single-img .social-share-box ul li a:before {
+  background: var(--thm-secondary);
+  content: "";
+  opacity: 0;
+  transform-style: preserve-3d;
+  z-index: -1;
+  transition: all .4s cubic-bezier(.62, .21, .45, 1.52);
+  position: absolute;
+  inset: 0;
+  transform: scale(.5);
+}
+
+.team-two__single-img .social-share-box ul li:hover a:before {
+  opacity: 1;
+  border-radius: 50%;
+  transform: scale(1);
+}
+
+.team-two__single-content {
+  padding: 16px 75px 17px;
+  display: block;
+  position: relative;
+}
+
+.team-two__single-content h3 {
+  margin-bottom: 2px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.team-two__single-content h3 a {
+  color: var(--thm-black);
+  transition: all .2s linear .1s;
+}
+
+.team-two__single-content h3 a:hover {
+  color: var(--thm-white);
+}
+
+.team-two__single-content p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all .2s linear .1s;
+}
+
+.team-two__single:hover .team-two__single-content p {
+  color: var(--thm-black);
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_team_css_1igg3k2._.single.css.map*/

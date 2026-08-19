@@ -12,6 +12,13 @@ import Pricing from "@/components/sections/home2/Service"
 import Team from "@/components/sections/home2/Team"
 import Testimonial from "@/components/sections/home2/Testimonial"
 
+export const metadata = {
+    robots: {
+        index: false,
+        follow: true,
+    },
+}
+
 
 export default function Home() {
 

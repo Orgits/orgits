@@ -1,0 +1,19 @@
+User-Agent: *
+Allow: /
+Disallow: /index-2
+Disallow: /index-3
+Disallow: /api/
+Disallow: /_next/
+Disallow: /*.json$
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: OAI-SearchBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+Host: https://www.orgits.in
+Sitemap: https://www.orgits.in/sitemap.xml

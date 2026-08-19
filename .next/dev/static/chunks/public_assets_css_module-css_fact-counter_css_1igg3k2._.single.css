@@ -1,0 +1,150 @@
+/* [project]/public/assets/css/module-css/fact-counter.css [app-client] (css) */
+.fact-counter-one {
+  background-color: var(--thm-white);
+  z-index: 10;
+  padding: 0 0 100px;
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter {
+  border: 1px solid var(--thm-border-color);
+  -o-transition: all .4s ease;
+  background-color: #0000;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  padding: 21px 25px 22px;
+  transition: all .4s;
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter:hover {
+  border-color: var(--thm-white);
+  box-shadow: 0 25px 65px #0000001a;
+}
+
+.single-fact-counter-inner {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.single-fact-counter-icon {
+  color: var(--thm-primary);
+  font-size: 50px;
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter-icon span:before {
+  transition: all .5s linear .1s;
+  display: inline-block;
+  position: relative;
+  transform: scale(1);
+  color: var(--thm-primary) !important;
+}
+
+.single-fact-counter:hover .single-fact-counter-icon span:before {
+  transform: scale(.9);
+}
+
+.single-fact-counter-inner .outer-box {
+  margin-left: 20px;
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter-inner .outer-box .count-outer {
+  color: var(--thm-black);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.2em;
+  font-family: var(--thm-body-font);
+  align-items: center;
+  margin-left: 5px;
+  display: flex;
+  position: relative;
+}
+
+.single-fact-counter-inner .outer-box .count-outer i {
+  color: var(--thm-black);
+  font-size: 15px;
+  font-weight: 700;
+  font-family: var(--thm-body-font);
+  margin-left: 5px;
+}
+
+.single-fact-counter-inner .outer-box .title {
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter-inner .outer-box .title p {
+  margin: 0;
+}
+
+.fact-two {
+  z-index: 10;
+  padding: 140px 0 0;
+  display: block;
+  position: relative;
+}
+
+.fact-two__single {
+  display: block;
+  position: relative;
+}
+
+.fact-two__single .counter-box {
+  background: #ffffff0d;
+  border: 1px solid #ffffff26;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  width: 95px;
+  height: 95px;
+  display: inline-flex;
+  position: relative;
+}
+
+.fact-two__single .counter-box h2 {
+  color: var(--thm-secondary);
+  font-size: 32px;
+  line-height: 42px;
+  font-family: var(--thm-body-font);
+  font-weight: 700;
+}
+
+.fact-two__single .counter-box .m {
+  color: var(--thm-secondary);
+  font-size: 32px;
+  line-height: 42px;
+  font-family: var(--thm-body-font);
+  margin-top: -5px;
+  font-weight: 700;
+}
+
+.fact-two__single .counter-box i {
+  color: var(--thm-secondary);
+  font-size: 15px;
+  line-height: 42px;
+  font-family: var(--thm-body-font);
+  margin-left: 5px;
+  font-weight: 700;
+}
+
+.fact-two__single .text-box {
+  padding-top: 33px;
+  display: block;
+  position: relative;
+}
+
+.fact-two__single .text-box p {
+  color: #ffffffb3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_fact-counter_css_1igg3k2._.single.css.map*/

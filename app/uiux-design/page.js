@@ -1,13 +1,81 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
-export default function Home() {
+import Script from 'next/script'
 
+const siteUrl = 'https://www.orgits.in'
+
+const uiuxSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'UI/UX Design',
+    description: 'We design clear, intuitive and business-focused digital experiences that connect user needs with product goals.',
+    url: `${siteUrl}/uiux-design`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: 'UI/UX Design',
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Services', item: `${siteUrl}/services` },
+        { '@type': 'ListItem', position: 3, name: 'UI/UX Design', item: `${siteUrl}/uiux-design` },
+    ],
+}
+
+export const metadata = {
+    title: 'UI/UX Design Services | Orgits Business Solutions',
+    description: 'We design clear, intuitive and business-focused digital experiences that connect user needs with product goals. UX research, wireframes, UI design, design systems.',
+    keywords: 'UI/UX design services, user experience design, user interface design, wireframing, prototyping, design systems, responsive design',
+    openGraph: {
+        title: 'UI/UX Design Services | Orgits Business Solutions',
+        description: 'We design clear, intuitive and business-focused digital experiences that connect user needs with product goals.',
+        url: `${siteUrl}/uiux-design`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-uiux.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'UI/UX Design Services',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'UI/UX Design Services | Orgits Business Solutions',
+        description: 'We design clear, intuitive and business-focused digital experiences that connect user needs with product goals.',
+        images: [`${siteUrl}/assets/img/og-uiux.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/uiux-design`,
+    },
+}
+
+export default function Home() {
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="UI/UX Design">
-        
-        {/*Start Service Details*/}
-        <section className="service-details">
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([uiuxSchema, breadcrumbSchema]) }}
+            />
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="UI/UX Design">
+
+            {/*Start Service Details*/}
+            <section className="service-details" aria-labelledby="uiux-heading">
+
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
@@ -16,8 +84,8 @@ export default function Home() {
                                 <div className="img-box">
                                     <img src="assets/img/service/service-details__img3.jpg" alt="UI/UX Design"/>
                                 </div>
-                                <div className="content-box">
-                                    <h2>UI/UX Design</h2>
+<div className="content-box">
+                                     <h1 id="uiux-heading">UI/UX Design</h1>
                                     <p>
                                         We design clear, intuitive and business-focused digital experiences that connect user needs with product goals.
                                     </p>
@@ -123,33 +191,31 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="service-details__prev-next-option blog-details__prev-next-option">
-                                <div className="single-box left">
-                                    <div className="icon">
-                                        <Link href="/web-development"><span className="icon-left-arrow"></span></Link>
+                                <div className="service-details__prev-next-option blog-details__prev-next-option">
+                                    <div className="single-box left">
+                                        <div className="icon">
+                                            <Link href="/web-development"><span className="icon-left-arrow"></span></Link>
+                                        </div>
+                                        <div className="text">
+                                            <p>Prev service</p>
+                                            <h3><Link href="/web-development">Web Development</Link></h3>
+                                        </div>
                                     </div>
-                                    <div className="text">
-                                        <p>Prev service</p>
-                                        <h3><Link href="/web-development">Web Development</Link></h3>
+                                    <div className="single-box right">
+                                        <div className="text">
+                                            <p>Next service</p>
+                                            <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
+                                        </div>
+                                        <div className="icon">
+                                            <Link href="/digital-marketing"><span className="icon-right-arrow-angle"></span></Link>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="single-box right">
-                                    <div className="text">
-                                        <p>Next service</p>
-                                        <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
-                                    </div>
-                                    <div className="icon">
-                                        <Link href="/digital-marketing"><span className="icon-right-arrow-angle"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
-
-                    {/*Start Sidebar*/}
+                    </div>
                     <div className="col-xl-4">
                         <div className="service-details__sidebar">
                             {/*Start Sidebar Single*/}
@@ -235,10 +301,10 @@ export default function Home() {
 
                 </div>
             </div>
-        </section>
-        {/*End Blog Details*/}
+            </section>
+            {/*End Blog Details*/}
 
-        </Layout>
+            </Layout>
         </>
     )
 }

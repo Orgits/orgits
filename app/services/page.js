@@ -4,84 +4,112 @@ import CounterUp from "@/components/elements/CounterUp"
 import Layout from "@/components/layout/Layout"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import Script from 'next/script'
 
+const siteUrl = 'https://www.orgits.in'
+
+const servicesPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Business Technology Services',
+    description: 'Explore Orgits services including software development, web and mobile apps, CRM automation, digital marketing, cloud solutions, IT consulting and IS Audit & compliance.',
+    url: `${siteUrl}/services`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: [
+        'Product Development',
+        'Web & Mobile App Development',
+        'Digital Marketing',
+        'CRM & Marketing Automation',
+        'IS Audit & IT Compliance',
+        'Cloud & IT Consulting',
+    ],
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: 'https://www.orgits.in/',
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Services',
+            item: 'https://www.orgits.in/services',
+        },
+    ],
+}
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
     loop: true,
-
-    // Navigation
     navigation: {
         nextEl: '.srn',
         prevEl: '.srp',
     },
-
-    // Pagination
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
     breakpoints: {
-        320: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        575: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        767: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        991: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        1199: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-        1350: {
-            slidesPerView: 1,
-            // spaceBetween: 30,
-        },
-    }
-
-
+        320: { slidesPerView: 1 },
+        575: { slidesPerView: 1 },
+        767: { slidesPerView: 1 },
+        991: { slidesPerView: 1 },
+        1199: { slidesPerView: 1 },
+        1350: { slidesPerView: 1 },
+    },
 }
-export default function Home() {
 
+export default function Services() {
     return (
         <>
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([
+                    servicesPageSchema,
+                    breadcrumbSchema,
+                ]) }}
+            />
             <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Our Services">
                 <div>
                     {/*Start Service Three*/}
-                    <section className="service-three service">
+                    <section className="service-three service" aria-labelledby="services-heading">
                         <div className="service-three__shape1 float-bob-x">
-                            <img src="assets/img/shape/service-three__shape4.png" alt="shapes"/>
+                            <img src="assets/img/shape/service-three__shape4.png" alt=""/>
                         </div>
                         <div className="service-three__shape2">
-                            <img src="assets/img/shape/service-three__shape2.png" alt="shapes"/>
+                            <img src="assets/img/shape/service-three__shape2.png" alt=""/>
                         </div>
                         <div className="service-three__shape3 float-bob-y">
-                            <img src="assets/img/shape/service-three__shape5.png" alt="shapes"/>
+                            <img src="assets/img/shape/service-three__shape5.png" alt=""/>
                         </div>
                         <div className="container">
-                            <div className="sec-title-three text-center sec-title-animation animation-style1">
-                                <div className="sub-title">
-                                    <h4>What We Do</h4>
-                                </div>
-                                <h2>
-                                    Technology, Marketing & Compliance Solutions
-                                </h2>
-                            </div>
+<div className="sec-title-three text-center sec-title-animation animation-style1">
+                                 <div className="sub-title">
+                                     <h4>What We Do</h4>
+                                 </div>
+                                 <h1 id="services-heading">
+                                     Technology, Marketing & Compliance Solutions
+                                 </h1>
+                             </div>
                             <div className="row">
 
                                 {/*Start Single Service Three*/}
@@ -120,8 +148,7 @@ export default function Home() {
                                                 <h3><Link href="/web-development">Web & Mobile App Development</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>We build responsive web and mobile applications using modern technologies for business, customer and operational use cases.</p>
-                                            </div>
+                                                <p>We build responsive web and mobile applications using modern technologies for business, customer and operational use cases.</p>                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -214,16 +241,16 @@ export default function Home() {
                     {/*End Service Three*/}
 
                     {/* IS Audit & IT Compliance Section */}
-                    <section className="service-three" style={{backgroundColor: '#f8f9fa', paddingTop: '80px', paddingBottom: '80px'}}>
+                    <section className="service-three" style={{backgroundColor: 'var(--thm-primary-lighter)', paddingTop: '80px', paddingBottom: '80px'}} aria-labelledby="is-audit-heading">
                         <div className="container">
                             <div className="sec-title-three text-center sec-title-animation animation-style1">
                                 <div className="sub-title">
                                     <h4>Specialized Compliance</h4>
                                 </div>
-                                <h2>
+                                <h2 id="is-audit-heading">
                                     IS Audit & IT Compliance Services
                                 </h2>
-                                <p style={{maxWidth: '700px', margin: '20px auto 0', color: '#666'}}>
+                                <p style={{maxWidth: '700px', margin: '20px auto 0', color: 'var(--thm-text-muted)'}}>
                                     Helping institutions stay audit-ready, regulator-compliant and IT-secure.
                                 </p>
                             </div>
@@ -333,13 +360,13 @@ export default function Home() {
                     </section>
 
                     {/* Marketing Automation Section */}
-                    <section className="service-three" style={{paddingTop: '80px', paddingBottom: '80px'}}>
+                    <section className="service-three" style={{paddingTop: '80px', paddingBottom: '80px'}} aria-labelledby="marketing-auto-heading">
                         <div className="container">
                             <div className="sec-title-three text-center sec-title-animation animation-style1">
                                 <div className="sub-title">
                                     <h4>Automation</h4>
                                 </div>
-                                <h2>
+                                <h2 id="marketing-auto-heading">
                                     Marketing Automation
                                 </h2>
                             </div>

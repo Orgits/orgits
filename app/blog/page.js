@@ -1,9 +1,164 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const blogPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    name: 'Orgits Insights',
+    description: 'Technology, growth, and compliance insights from Orgits Business Solutions covering software development, CRM automation, digital marketing, cloud infrastructure, and IS audit.',
+    url: `${siteUrl}/blog`,
+    publisher: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+        logo: {
+            '@type': 'ImageObject',
+            url: `${siteUrl}/assets/img/resource/logo-3.svg`,
+        },
+    },
+    blogPosts: [
+        {
+            '@type': 'BlogPosting',
+            headline: 'CRM Automation: From Lead Capture to Follow-Up',
+            description: 'How CRM automation helps businesses build a more efficient sales process.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2024-01-15',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+        {
+            '@type': 'BlogPosting',
+            headline: 'What Businesses Should Consider Before Building a Web Application',
+            description: 'Key considerations for businesses planning web application development.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2024-01-10',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+        {
+            '@type': 'BlogPosting',
+            headline: 'Why IT Controls Matter for Growing Businesses',
+            description: 'Understanding the importance of IT controls for business growth and compliance.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2024-01-05',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+        {
+            '@type': 'BlogPosting',
+            headline: 'Preparing for an Information Systems Audit',
+            description: 'How to prepare your organization for an Information Systems Audit.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2023-12-20',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+        {
+            '@type': 'BlogPosting',
+            headline: 'Google & Meta Ads: Building a Structured Lead Generation System',
+            description: 'Building structured lead generation with Google and Meta Ads.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2023-12-15',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+        {
+            '@type': 'BlogPosting',
+            headline: 'Cloud Infrastructure for Scalable Business Applications',
+            description: 'Cloud infrastructure best practices for scalable business applications.',
+            url: `${siteUrl}/blog-details`,
+            datePublished: '2023-12-10',
+            author: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+            publisher: {
+                '@type': 'Organization',
+                name: 'Orgits Business Solutions Pvt. Ltd.',
+            },
+        },
+    ],
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Insights', item: `${siteUrl}/blog` },
+    ],
+}
+
+export const metadata = {
+    title: 'Orgits Insights | Technology, Growth & Compliance',
+    description: 'Technology, growth, and compliance insights from Orgits Business Solutions covering software development, CRM automation, digital marketing, cloud infrastructure, and IS audit.',
+    keywords: 'technology insights, CRM automation, web development, IS audit, digital marketing, cloud infrastructure, software development blog',
+    openGraph: {
+        title: 'Orgits Insights | Technology, Growth & Compliance',
+        description: 'Technology, growth, and compliance insights from Orgits Business Solutions covering software development, CRM automation, digital marketing, cloud infrastructure, and IS audit.',
+        url: `${siteUrl}/blog`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-blog.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'Orgits Insights Blog',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Orgits Insights | Technology, Growth & Compliance',
+        description: 'Technology, growth, and compliance insights from Orgits Business Solutions covering software development, CRM automation, digital marketing, cloud infrastructure, and IS audit.',
+        images: [`${siteUrl}/assets/img/og-blog.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/blog`,
+    },
+}
+
 export default function Home() {
 
     return (
         <>
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([blogPageSchema, breadcrumbSchema]) }}
+            />
             <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Orgits Insights">
                 {/*Start Blog Page*/}
                 <section className="blog-page">
@@ -12,9 +167,9 @@ export default function Home() {
                             <div className="sub-title">
                                 <h4>Orgits Insights</h4>
                             </div>
-                            <h2>
+                            <h1 id="blog-heading">
                                 Technology, Growth & Compliance Insights
-                            </h2>
+                            </h1>
                         </div>
                         <div className="row">
                             <div className="col-xl-8 wow fadeInUp" data-wow-delay=".3s">

@@ -1,13 +1,81 @@
-'use client'
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const digitalMarketingSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Digital Marketing',
+    description: 'Orgits helps businesses build measurable digital acquisition through strategy, paid advertising, lead generation, marketing automation and conversion-focused digital experiences.',
+    url: `${siteUrl}/digital-marketing`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: 'Digital Marketing',
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Services', item: `${siteUrl}/services` },
+        { '@type': 'ListItem', position: 3, name: 'Digital Marketing', item: `${siteUrl}/digital-marketing` },
+    ],
+}
+
+export const metadata = {
+    title: 'Digital Marketing & Marketing Automation | Orgits Business Solutions',
+    description: 'Grow your digital acquisition with Google Ads, Meta Ads, lead generation, CRM automation, email marketing and AI chatbot automation.',
+    keywords: 'digital marketing services, Google Ads management, Meta Ads, lead generation, marketing automation, CRM automation, email marketing, AI chatbots',
+    openGraph: {
+        title: 'Digital Marketing & Marketing Automation | Orgits Business Solutions',
+        description: 'Grow your digital acquisition with Google Ads, Meta Ads, lead generation, CRM automation, email marketing and AI chatbot automation.',
+        url: `${siteUrl}/digital-marketing`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-digital-marketing.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'Digital Marketing & Marketing Automation',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Digital Marketing & Marketing Automation | Orgits Business Solutions',
+        description: 'Grow your digital acquisition with Google Ads, Meta Ads, lead generation, CRM automation, email marketing and AI chatbot automation.',
+        images: [`${siteUrl}/assets/img/og-digital-marketing.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/digital-marketing`,
+    },
+}
+
 export default function Home() {
-    
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Digital Marketing">      
-        {/*Start Service Details*/}
-        <section className="service-details">
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([digitalMarketingSchema, breadcrumbSchema]) }}
+            />
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Digital Marketing">
+
+            {/*Start Service Details*/}
+            <section className="service-details" aria-labelledby="digital-marketing-heading">
+
             <div className="container">
                 <div className="row">
                     <div className="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
@@ -16,8 +84,8 @@ export default function Home() {
                                 <div className="img-box">
                                     <img src="assets/img/service/service-details__img5.jpg" alt="Digital Marketing"/>
                                 </div>
-                                <div className="content-box">
-                                    <h2>Digital Marketing</h2>
+<div className="content-box">
+                                     <h1 id="digital-marketing-heading">Digital Marketing</h1>
                                     <p>
                                         Orgits helps businesses build measurable digital acquisition through strategy, paid advertising, lead generation, marketing automation and conversion-focused digital experiences.
                                     </p>
@@ -123,33 +191,31 @@ export default function Home() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div className="service-details__prev-next-option blog-details__prev-next-option">
-                                <div className="single-box left">
-                                    <div className="icon">
-                                        <Link href="/uiux-design"><span className="icon-left-arrow"></span></Link>
+                                <div className="service-details__prev-next-option blog-details__prev-next-option">
+                                    <div className="single-box left">
+                                        <div className="icon">
+                                            <Link href="/uiux-design"><span className="icon-left-arrow"></span></Link>
+                                        </div>
+                                        <div className="text">
+                                            <p>Prev service</p>
+                                            <h3><Link href="/uiux-design">UI/UX Design</Link></h3>
+                                        </div>
                                     </div>
-                                    <div className="text">
-                                        <p>Prev service</p>
-                                        <h3><Link href="/uiux-design">UI/UX Design</Link></h3>
+                                    <div className="single-box right">
+                                        <div className="text">
+                                            <p>Next service</p>
+                                            <h3><Link href="/corporate-agency">IT Consulting & Digital Business Solutions</Link></h3>
+                                        </div>
+                                        <div className="icon">
+                                            <Link href="/corporate-agency"><span className="icon-right-arrow-angle"></span></Link>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="single-box right">
-                                    <div className="text">
-                                        <p>Next service</p>
-                                        <h3><Link href="/corporate-agency">IT Consulting & Digital Business Solutions</Link></h3>
-                                    </div>
-                                    <div className="icon">
-                                        <Link href="/corporate-agency"><span className="icon-right-arrow-angle"></span></Link>
-                                    </div>
-                                </div>
-                            </div>
 
                         </div>
                     </div>
-
-                    {/*Start Sidebar*/}
+                    </div>
                     <div className="col-xl-4">
                         <div className="service-details__sidebar">
                             {/*Start Sidebar Single*/}
@@ -235,10 +301,10 @@ export default function Home() {
 
                 </div>
             </div>
-        </section>
-        {/*End Blog Details*/}
+            </section>
+            {/*End Blog Details*/}
 
-        </Layout>
+            </Layout>
         </>
     )
 }

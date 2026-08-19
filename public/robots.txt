@@ -1,0 +1,43 @@
+# robots.txt for Orgits Business Solutions
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.orgits.in/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /search?
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /account/
+
+# Allow all crawlers for public content
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+# Crawl delay for respectful crawling
+Crawl-delay: 10

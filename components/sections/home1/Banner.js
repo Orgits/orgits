@@ -36,9 +36,9 @@ export default function Banner() {
                             <div className="sub-title">
                                 <h4>Technology, AI & Digital Transformation</h4>
                             </div>
-                            <h2 style={{fontSize: '4.5rem'}}>
+                            <h1 id="hero-heading" style={{fontSize: '4.5rem'}}>
                                 Building Growth<br/>For Business
-                            </h2>
+                            </h1>
                         </div>
                         <div className="text">
                             <p>

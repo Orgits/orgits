@@ -1,12 +1,80 @@
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const corporateAgencySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'IT Consulting & Digital Business Solutions',
+    description: 'We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.',
+    url: `${siteUrl}/corporate-agency`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: 'IT Consulting & Digital Business Solutions',
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Services', item: `${siteUrl}/services` },
+        { '@type': 'ListItem', position: 3, name: 'IT Consulting & Digital Business Solutions', item: `${siteUrl}/corporate-agency` },
+    ],
+}
+
+export const metadata = {
+    title: 'IT Consulting & Digital Business Solutions | Orgits Business Solutions',
+    description: 'We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.',
+    keywords: 'IT consulting, digital transformation, cloud consulting, IT strategy, technology consulting, business technology solutions',
+    openGraph: {
+        title: 'IT Consulting & Digital Business Solutions | Orgits Business Solutions',
+        description: 'We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.',
+        url: `${siteUrl}/corporate-agency`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-corporate.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'IT Consulting & Digital Business Solutions',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'IT Consulting & Digital Business Solutions | Orgits Business Solutions',
+        description: 'We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.',
+        images: [`${siteUrl}/assets/img/og-corporate.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/corporate-agency`,
+    },
+}
+
 export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="IT Consulting & Digital Business Solutions">
-        {/*Start Service Details*/}
-        <section className="service-details">
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([corporateAgencySchema, breadcrumbSchema]) }}
+            />
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="IT Consulting & Digital Business Solutions">
+            {/*Start Service Details*/}
+            <section className="service-details" aria-labelledby="corporate-heading">
             <div className="container">
                 <div className="row">
 
@@ -16,8 +84,8 @@ export default function Home() {
                                 <div className="img-box">
                                     <img src="assets/img/service/service-details__img6.jpg" alt="IT Consulting & Digital Business Solutions"/>
                                 </div>
-                                <div className="content-box">
-                                    <h2>IT Consulting & Digital Business Solutions</h2>
+<div className="content-box">
+                                     <h1 id="corporate-heading">IT Consulting & Digital Business Solutions</h1>
                                     <p>
                                         We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.
                                     </p>

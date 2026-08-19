@@ -1,9 +1,89 @@
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const blogDetailsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: 'How CRM Automation Helps Businesses Build a More Efficient Sales Process',
+    description: 'Businesses often lose potential opportunities because leads are captured in different places, follow-ups depend on manual work, and customer information is not organized into a consistent process.',
+    url: `${siteUrl}/blog-details`,
+    datePublished: '2024-01-15',
+    dateModified: '2024-01-15',
+    author: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    publisher: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+        logo: {
+            '@type': 'ImageObject',
+            url: `${siteUrl}/assets/img/resource/logo-3.svg`,
+        },
+    },
+    image: `${siteUrl}/assets/img/blog/blog-details__img1.jpg`,
+    mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `${siteUrl}/blog-details`,
+    },
+    articleSection: 'CRM & Marketing Automation',
+    keywords: ['CRM', 'Marketing Automation', 'RevOps', 'Digital Transformation', 'Business Automation'],
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Insights', item: `${siteUrl}/blog` },
+        { '@type': 'ListItem', position: 3, name: 'CRM Automation: From Lead Capture to Follow-Up', item: `${siteUrl}/blog-details` },
+    ],
+}
+
+export const metadata = {
+    title: 'CRM Automation: From Lead Capture to Follow-Up | Orgits Insights',
+    description: 'Businesses often lose potential opportunities because leads are captured in different places, follow-ups depend on manual work, and customer information is not organized into a consistent process.',
+    keywords: 'CRM automation, marketing automation, lead management, sales process, RevOps, digital transformation',
+    openGraph: {
+        title: 'CRM Automation: From Lead Capture to Follow-Up | Orgits Insights',
+        description: 'Businesses often lose potential opportunities because leads are captured in different places, follow-ups depend on manual work, and customer information is not organized into a consistent process.',
+        url: `${siteUrl}/blog-details`,
+        type: 'article',
+        publishedTime: '2024-01-15',
+        authors: ['Orgits Business Solutions Pvt. Ltd.'],
+        images: [
+            {
+                url: `${siteUrl}/assets/img/blog/blog-details__img1.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'CRM Automation',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'CRM Automation: From Lead Capture to Follow-Up | Orgits Insights',
+        description: 'Businesses often lose potential opportunities because leads are captured in different places, follow-ups depend on manual work, and customer information is not organized into a consistent process.',
+        images: [`${siteUrl}/assets/img/blog/blog-details__img1.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/blog-details`,
+    },
+}
+
 export default function Home() {
 
     return (
         <>
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([blogDetailsSchema, breadcrumbSchema]) }}
+            />
             <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Blog Details">
                 {/*Start Blog Details*/}
                 <section className="blog-details">
@@ -32,10 +112,10 @@ export default function Home() {
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div className="title-box">
-                                                <h2>
-                                                    <Link href="#">How CRM Automation Helps Businesses Build a More Efficient Sales Process</Link>
-                                                </h2>
+<div className="title-box">
+                                                 <h1 id="blog-details-heading">
+                                                     <Link href="#">How CRM Automation Helps Businesses Build a More Efficient Sales Process</Link>
+                                                 </h1>
                                             </div>
                                             <div className="text-box">
                                                 <p>

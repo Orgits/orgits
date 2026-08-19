@@ -12,6 +12,13 @@ import Project from "@/components/sections/home3/Project"
 import Skill from "@/components/sections/home3/Skill"
 import Get from "@/components/sections/home3/Get"
 
+export const metadata = {
+    robots: {
+        index: false,
+        follow: true,
+    },
+}
+
 
 export default function Home() {
 

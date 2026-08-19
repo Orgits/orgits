@@ -1,10 +1,122 @@
 import Link from "next/link"
 import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
+
+const siteUrl = 'https://www.orgits.in'
+
+const teamPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Orgits Leadership Team',
+    description: 'Meet the leadership team at Orgits Business Solutions - technology, marketing, and compliance experts.',
+    url: `${siteUrl}/team`,
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            item: {
+                '@type': 'Person',
+                name: 'Anubhav Sharma',
+                jobTitle: 'CEO & IT Consultant',
+                worksFor: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                    url: siteUrl,
+                },
+            },
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            item: {
+                '@type': 'Person',
+                name: 'CA Sahil Goyal',
+                jobTitle: 'Managing Director',
+                worksFor: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                    url: siteUrl,
+                },
+            },
+        },
+        {
+            '@type': 'ListItem',
+            position: 3,
+            item: {
+                '@type': 'Person',
+                name: 'Sahil Khan',
+                jobTitle: 'RevOps & Automation Strategist',
+                worksFor: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                    url: siteUrl,
+                },
+            },
+        },
+        {
+            '@type': 'ListItem',
+            position: 4,
+            item: {
+                '@type': 'Person',
+                name: 'Mohammad Sahil',
+                jobTitle: 'Senior Product Designer',
+                worksFor: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                    url: siteUrl,
+                },
+            },
+        },
+    ],
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Team', item: `${siteUrl}/team` },
+    ],
+}
+
+export const metadata = {
+    title: 'Our Leadership Team | Orgits Business Solutions',
+    description: 'Meet the leadership team at Orgits Business Solutions - technology consultants, marketing strategists, and compliance experts driving business growth.',
+    keywords: 'leadership team, Orgits team, Anubhav Sharma, CA Sahil Goyal, Sahil Khan, Mohammad Sahil, IT consultants, digital marketing experts',
+    openGraph: {
+        title: 'Our Leadership Team | Orgits Business Solutions',
+        description: 'Meet the leadership team at Orgits Business Solutions - technology consultants, marketing strategists, and compliance experts driving business growth.',
+        url: `${siteUrl}/team`,
+        type: 'website',
+        images: [
+            {
+                url: `${siteUrl}/assets/img/og-team.jpg`,
+                width: 1200,
+                height: 630,
+                alt: 'Orgits Leadership Team',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Our Leadership Team | Orgits Business Solutions',
+        description: 'Meet the leadership team at Orgits Business Solutions - technology consultants, marketing strategists, and compliance experts driving business growth.',
+        images: [`${siteUrl}/assets/img/og-team.jpg`],
+    },
+    alternates: {
+        canonical: `${siteUrl}/team`,
+    },
+}
+
 export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Our Team">
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([teamPageSchema, breadcrumbSchema]) }}
+            />
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Our Team">
         {/*Start Team One*/}
         <section className="team-one">
             <div className="container">
@@ -12,9 +124,9 @@ export default function Home() {
                     <div className="sub-title">
                         <h4>Our Leadership Team</h4>
                     </div>
-                    <h2>
+                    <h1 id="team-heading">
                         Technology, Marketing & Compliance Leadership
-                    </h2>
+                    </h1>
                 </div>
                 <div className="row">
                     {/*Start Single Team One*/}

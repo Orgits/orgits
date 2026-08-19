@@ -2,16 +2,70 @@
 import Link from "next/link"
 import { useState } from "react"
 import Layout from "@/components/layout/Layout"
+import Script from 'next/script'
 
+const siteUrl = 'https://www.orgits.in'
+
+const projectDetailsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: 'Business Technology Solutions',
+    description: 'Orgits Business Solutions helps enterprises and startups build, automate and secure their digital operations through software development, CRM automation, digital marketing, cloud solutions, and IT governance & audit.',
+    url: `${siteUrl}/project-details`,
+    provider: {
+        '@type': 'Organization',
+        name: 'Orgits Business Solutions Pvt. Ltd.',
+        url: siteUrl,
+    },
+    serviceType: 'Business Technology Solutions',
+    areaServed: 'India and globally',
+    availableChannel: {
+        '@type': 'ServiceChannel',
+        serviceUrl: `${siteUrl}/contact`,
+        servicePhone: '+91 9289687928',
+        serviceEmail: 'hello@orgits.in',
+    },
+    hasOfferCatalog: {
+        '@type': 'OfferCatalog',
+        name: 'Solution Capabilities',
+        itemListElement: [
+            { '@type': 'Offer', name: 'Investment & Exchange Platforms' },
+            { '@type': 'Offer', name: 'Admin Panels & CMS' },
+            { '@type': 'Offer', name: 'Learning Management Solutions' },
+            { '@type': 'Offer', name: 'Social Media Platforms' },
+            { '@type': 'Offer', name: 'AI PR Reviewers' },
+            { '@type': 'Offer', name: 'Marketplace Platforms' },
+            { '@type': 'Offer', name: 'Hospital Management Systems' },
+            { '@type': 'Offer', name: 'E-commerce Platforms' },
+            { '@type': 'Offer', name: 'Information Systems Audit' },
+            { '@type': 'Offer', name: 'Cloud Server Deployment' },
+        ],
+    },
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Solution Areas', item: `${siteUrl}/project` },
+        { '@type': 'ListItem', position: 3, name: 'Solution Details', item: `${siteUrl}/project-details` },
+    ],
+}
 
 export default function Home() {
     const [activeIndex, setActiveIndex] = useState(1)
+
     const handleOnClick = (index) => {
         setActiveIndex(index)
     }
 
     return (
         <>
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([projectDetailsSchema, breadcrumbSchema]) }}
+            />
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Solution Details">
                 {/*Project Details Start*/}
                 <section className="project-details">
@@ -76,8 +130,8 @@ export default function Home() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className="project-details__content">
-                                            <h3 className="project-details__title-1">Business Technology Solutions</h3>
+<div className="project-details__content">
+                                             <h1 id="project-details-heading" className="project-details__title-1">Business Technology Solutions</h1>
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-6">
                                                     <div className="project-details__single">

@@ -3,7 +3,76 @@ import Link from "next/link"
 import Layout from "@/components/layout/Layout"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
+import Script from 'next/script'
 
+const siteUrl = 'https://www.orgits.in'
+
+const testimonialPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Client Testimonials',
+    description: 'Read what clients say about Orgits Business Solutions - technology, marketing, and compliance solutions.',
+    url: `${siteUrl}/testimonial`,
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            item: {
+                '@type': 'Review',
+                author: {
+                    '@type': 'Person',
+                    name: 'Mr. Atchuta Rao',
+                },
+                reviewBody: 'I\'ve worked with several agencies, but Orgits truly stands out. Structured, creative, and always reliable. Anubhav personally stays involved and that makes all the difference.',
+                publisher: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                },
+            },
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            item: {
+                '@type': 'Review',
+                author: {
+                    '@type': 'Person',
+                    name: 'Dr. Anwar Hussain',
+                },
+                reviewBody: 'Very reliable team to work with. You understand our client needs very well and it shows in your work. You\'ve been able to take website from a grade of F to A! that\'s fantastic!',
+                publisher: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                },
+            },
+        },
+        {
+            '@type': 'ListItem',
+            position: 3,
+            item: {
+                '@type': 'Review',
+                author: {
+                    '@type': 'Person',
+                    name: 'Mr. Michael Wong',
+                },
+                reviewBody: 'Client feedback from leadership at PPAHS reflects the value of reliable digital delivery and business understanding.',
+                publisher: {
+                    '@type': 'Organization',
+                    name: 'Orgits Business Solutions Pvt. Ltd.',
+                },
+            },
+        },
+    ],
+}
+
+const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+        { '@type': 'ListItem', position: 2, name: 'Testimonials', item: `${siteUrl}/testimonial` },
+    ],
+}
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -59,7 +128,11 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Testimonials">
+            <Script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([testimonialPageSchema, breadcrumbSchema]) }}
+            />
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Testimonials">
 
         {/*Start Testmonials Three*/}
         <section className="testimonials-three testimonials">
@@ -106,14 +179,14 @@ export default function Home() {
 
                     <div className="col-xl-7">
                         <div className="testimonials-three__content">
-                            <div className="sec-title-four sec-title-animation animation-style1">
-                                <div className="sub-title">
-                                    <h4>Client Feedback</h4>
-                                </div>
-                                <h2>
-                                    What Our Clients Say About Orgits
-                                </h2>
-                            </div>
+<div className="sec-title-four sec-title-animation animation-style1">
+                                 <div className="sub-title">
+                                     <h4>Client Feedback</h4>
+                                 </div>
+                                 <h1 id="testimonial-heading">
+                                     What Our Clients Say About Orgits
+                                 </h1>
+                             </div>
 
                             {/* If we need navigation buttons */}
                             <div className="swiper-nav-style2 testimonials-three__swiper-nav-style">
