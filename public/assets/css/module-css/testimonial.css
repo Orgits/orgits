@@ -181,7 +181,7 @@
     left: 0;
     right: 0;
     opacity: 0.9;
-    background: linear-gradient(0deg, #000000 -1.22%, rgba(255, 255, 255, 0.00) 80.99%);
+    background: linear-gradient(0deg, var(--thm-black) -1.22%, rgba(var(--thm-white-rgb, 255, 255, 255), 0.00) 80.99%);
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .5s;
@@ -357,7 +357,7 @@
     left: 0;
     right: 0;
     opacity: 0.9;
-    background: linear-gradient(0deg, #000000 -1.22%, rgba(255, 255, 255, 0.00) 80.99%);
+    background: linear-gradient(0deg, var(--thm-black) -1.22%, rgba(var(--thm-white-rgb, 255, 255, 255), 0.00) 80.99%);
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .5s;

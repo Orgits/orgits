@@ -35,7 +35,7 @@
     pointer-events: none;
     opacity: 0;
     transition: opacity .5s ease-out;
-    background: linear-gradient(to top, #000000 0, rgba(0, 0, 0, 0) 95%);
+    background: linear-gradient(to top, var(--thm-black) 0, rgba(0, 0, 0, 0) 95%);
     z-index: 1;
 }
 
@@ -62,7 +62,7 @@
     right: 0;
     width: 160px;
     border-radius: 8px;
-    background-color: #B34FFF;
+    background-color: var(--thm-primary);
     padding: 18px 25px 23px;
     z-index: 2;
 }
@@ -117,7 +117,7 @@
     width: 120px;
     height: 120px;
     border-radius: 8px;
-    background-color: #FFC42D;
+    background-color: var(--thm-primary-light);
     transform: translateY(-50%);
     z-index: 2;
 }
@@ -141,7 +141,7 @@
     width: 90px;
     height: 90px;
     border-radius: 8px;
-    background-color: #22D497;
+    background-color: var(--thm-secondary);
     z-index: 2;
 }
 
@@ -485,14 +485,14 @@
 }
 
 .about-three__fact-single .count-outer {
-    color: #22D497;
+    color: var(--thm-secondary);
     font-size: 48px;
     line-height: 1.2em;
     font-weight: 700;
 }
 
 .about-three__fact-single .count-outer i {
-    color: #22D497;
+    color: var(--thm-secondary);
     font-size: 25px;
     margin-left: 5px;
 }

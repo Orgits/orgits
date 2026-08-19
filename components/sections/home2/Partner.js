@@ -52,14 +52,13 @@ const swiperOptions = {
     }
 
 
-
 }
 
- 
+
 export default function Partner() {
     return (
     <>
-            
+        
         {/*Start Partner Style2*/}
         <div className="partner-style2">
             <div className="container">
@@ -68,110 +67,110 @@ export default function Partner() {
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-1.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-1.png" alt="Zoho Authorized Partner"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-6.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-6.png" alt="Zoho"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-2.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-2.png" alt="Razorpay Authorized Partner"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-7.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-7.png" alt="Razorpay"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-3.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-3.png" alt="EzyLife"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-8.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-8.png" alt="EzyLife"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-4.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-4.png" alt="Ayaan IFMS"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-9.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-9.png" alt="Ayaan IFMS"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-5.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-5.png" alt="SG Rawat & Co."/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-10.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-10.png" alt="SG Rawat & Co."/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-1.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-1.png" alt="One Citizen One Plant"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-6.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-6.png" alt="One Citizen One Plant"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-2.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-2.png" alt="LDR"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-7.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-7.png" alt="LDR"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-3.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-3.png" alt="Trusted Client"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-8.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-8.png" alt="Trusted Client"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-4.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-4.png" alt="Trusted Client"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-9.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-9.png" alt="Trusted Client"/>
                             </div>
                         </div>
                         </SwiperSlide>
                         <SwiperSlide>
                         <div className="swiper-slide">
                             <div className="img-box">
-                                <img src="assets/img/brand/brand-v2-5.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-5.png" alt="Trusted Client"/>
                             </div>
 
                             <div className="img-box2">
-                                <img src="assets/img/brand/brand-v2-10.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v2-10.png" alt="Trusted Client"/>
                             </div>
                         </div>
                         </SwiperSlide>

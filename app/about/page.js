@@ -30,14 +30,14 @@ const swiperOptions = {
     },
 
 
-
 }
+
 
 export default function About() {
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="About company">
-        
+        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="About Orgits">
+
 
         {/*Start About Three*/}
         <section className="about-three">
@@ -56,29 +56,28 @@ export default function About() {
                         <div className="about-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Get To Know About Us</h4>
+                                    <h4>Who We Are</h4>
                                 </div>
                                 <h2>
-                                    We Are Here to Give You<br/>Effective Ideas
+                                    Builders, Thinkers,<br/>Strategists & Auditors
                                 </h2>
                             </div>
                             <div className="text">
-                                <p>Creative design slogans can help people connect more to the<br/>
-                                    scenario that the accounts for making available.</p>
+                                <p>From crafting a brand and building digital products to securing IT infrastructure, Orgits provides technology, digital marketing, cloud, automation and Information Systems Audit & compliance solutions tailored to business needs.</p>
                             </div>
                             <div className="about-three__fact-box">
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                                <h2>256</h2>
+                                            <CounterUp end={75} />
                                                 <i className="icon-plus-symbol-button"></i>
                                             </div>
                                             <div className="title">
-                                                <h3>Completed Projects</h3>
+                                                <h3>Businesses Served</h3>
                                             </div>
                                             <div className="text">
-                                                <p>With 100% Satisfaction</p>
+                                                <p>Across Industries</p>
                                             </div>
                                         </div>
                                     </div>
@@ -86,14 +85,14 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                                <h2>89</h2>
+                                            <CounterUp end={100} />
                                                 <i className="icon-percentage"></i>
                                             </div>
                                             <div className="title">
-                                                <h3>Company Growth</h3>
+                                                <h3>Professionals & Specialists</h3>
                                             </div>
                                             <div className="text">
-                                                <p>Avg. Every Year</p>
+                                                <p>Technology, Marketing & Compliance</p>
                                             </div>
                                         </div>
                                     </div>
@@ -102,12 +101,12 @@ export default function About() {
                             </div>
                             <div className="about-three__img">
                                 <div className="img-box">
-                                    <img src="assets/img/about/about-three__img1.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img1.jpg" alt="Orgits Team"/>
                                 </div>
                                 <div className="title-box">
-                                    <h3>We Are The Best Digital<br/>Agencies In The City</h3>
+                                    <h3>Technology, Marketing & Compliance<br/>Under One Roof</h3>
                                     <div className="btn-box">
-                                        <Link className="thm-btn" href="#">
+                                        <Link className="thm-btn" href="/about">
                                             <span className="txt">Learn More</span>
                                             <i className="icon-next"></i>
                                         </Link>
@@ -122,7 +121,7 @@ export default function About() {
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img2.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img2.jpg" alt="Orgits Office"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -130,7 +129,7 @@ export default function About() {
                                 <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Three Img*/}
                                     <div className="single-about-three__img-box">
-                                        <img src="assets/img/about/about-three__img3.jpg" alt="image"/>
+                                        <img src="assets/img/about/about-three__img3.jpg" alt="Orgits Workspace"/>
                                     </div>
                                     {/*End About Three Img*/}
                                 </li>
@@ -140,7 +139,7 @@ export default function About() {
                                 data-wow-duration="1500ms">
                                 {/*Single About Three Img*/}
                                 <div className="single-about-three__img-box">
-                                    <img src="assets/img/about/about-three__img4.jpg" alt="image"/>
+                                    <img src="assets/img/about/about-three__img4.jpg" alt="Orgits Collaboration"/>
                                 </div>
                                 {/*End About Three Img*/}
                             </div>
@@ -148,11 +147,11 @@ export default function About() {
                             <div className="overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                        <h2>15</h2>
+                                    <CounterUp end={4} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Years Of<br/>Experiences</p>
+                                        <p>Years Of<br/>Track Record</p>
                                     </div>
                                 </div>
                             </div>
@@ -171,9 +170,19 @@ export default function About() {
                     {/*Start Single Partner Logo Box*/}
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
-                            <Link href="#">
-                                <img src="assets/img/brand/brand-v3-1.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-9.png" alt="#"/>
+                            <Link href="https://zoho.com" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/brand/brand-v3-1.png" alt="Zoho Authorized Partner"/>
+                                <img className="" src="assets/img/brand/brand-v3-9.png" alt="Zoho"/>
+                            </Link>
+                        </div>
+                    </li>
+                    {/*End Single Partner Logo Box*/}
+                    {/*Start Single Partner Logo Box*/}
+                    <li className="col-xl-3 col-lg-3">
+                        <div className="single-partner-style3-logo-box">
+                            <Link href="https://razorpay.com" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/img/brand/brand-v3-2.png" alt="Razorpay Authorized Partner"/>
+                                <img className="" src="assets/img/brand/brand-v3-10.png" alt="Razorpay"/>
                             </Link>
                         </div>
                     </li>
@@ -182,8 +191,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-2.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-10.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-3.png" alt="EzyLife"/>
+                                <img className="" src="assets/img/brand/brand-v3-11.png" alt="EzyLife"/>
                             </Link>
                         </div>
                     </li>
@@ -192,18 +201,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-3.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-11.png" alt="#"/>
-                            </Link>
-                        </div>
-                    </li>
-                    {/*End Single Partner Logo Box*/}
-                    {/*Start Single Partner Logo Box*/}
-                    <li className="col-xl-3 col-lg-3">
-                        <div className="single-partner-style3-logo-box">
-                            <Link href="#">
-                                <img src="assets/img/brand/brand-v3-4.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-12.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-4.png" alt="Ayaan IFMS"/>
+                                <img className="" src="assets/img/brand/brand-v3-12.png" alt="Ayaan IFMS"/>
                             </Link>
                         </div>
                     </li>
@@ -215,8 +214,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-5.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-13.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-5.png" alt="SG Rawat & Co."/>
+                                <img className="" src="assets/img/brand/brand-v3-13.png" alt="SG Rawat & Co."/>
                             </Link>
                         </div>
                     </li>
@@ -225,8 +224,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-6.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-14.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-6.png" alt="One Citizen One Plant"/>
+                                <img className="" src="assets/img/brand/brand-v3-14.png" alt="One Citizen One Plant"/>
                             </Link>
                         </div>
                     </li>
@@ -235,8 +234,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-7.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-15.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-7.png" alt="LDR"/>
+                                <img className="" src="assets/img/brand/brand-v3-15.png" alt="LDR"/>
                             </Link>
                         </div>
                     </li>
@@ -245,8 +244,8 @@ export default function About() {
                     <li className="col-xl-3 col-lg-3">
                         <div className="single-partner-style3-logo-box">
                             <Link href="#">
-                                <img src="assets/img/brand/brand-v3-8.png" alt="#"/>
-                                <img className="" src="assets/img/brand/brand-v3-16.png" alt="#"/>
+                                <img src="assets/img/brand/brand-v3-8.png" alt="Trusted Client"/>
+                                <img className="" src="assets/img/brand/brand-v3-16.png" alt="Trusted Client"/>
                             </Link>
                         </div>
                     </li>
@@ -270,10 +269,10 @@ export default function About() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Featured Services</h4>
+                        <h4>What We Do</h4>
                     </div>
                     <h2>
-                        What We Offer For You
+                        Technology, Marketing & Compliance Solutions
                     </h2>
                 </div>
                 <div className="row">
@@ -289,11 +288,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Design Strategy</Link></h3>
+                                    <h3><Link href="/app-development">Product Development</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>From business requirements to production, we design and develop scalable digital products around real business goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -312,11 +310,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Web Development</Link></h3>
+                                    <h3><Link href="/web-development">Web & Mobile App Development</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>We build responsive web and mobile applications using modern technologies for business, customer and operational use cases.</p>
                                 </div>
                             </div>
                         </div>
@@ -334,11 +331,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Digital Marketing</Link></h3>
+                                    <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Drive measurable growth through Google and Meta Ads, marketing strategy, lead generation and digital acquisition.</p>
                                 </div>
                             </div>
                         </div>
@@ -356,11 +352,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Email Marketing</Link></h3>
+                                    <h3><Link href="/services">CRM & Marketing Automation</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Automate lead management, customer journeys, communication and marketing workflows to improve operational efficiency.</p>
                                 </div>
                             </div>
                         </div>
@@ -378,11 +373,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Product Development</Link></h3>
+                                    <h3><Link href="/services">IS Audit & IT Compliance</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Assess IT controls, cybersecurity, access management, audit trails, business continuity and regulatory compliance requirements.</p>
                                 </div>
                             </div>
                         </div>
@@ -398,11 +392,10 @@ export default function About() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Business Strategy</Link></h3>
+                                    <h3><Link href="/services">Cloud & IT Consulting</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Plan, deploy and manage cloud application infrastructure with practical IT consulting and secure deployment practices.</p>
                                 </div>
                             </div>
                         </div>
@@ -433,10 +426,10 @@ export default function About() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Team Members</h4>
+                        <h4>Our Leadership Team</h4>
                     </div>
                     <h2>
-                        Creative Team Leaders
+                        Technology, Marketing & Compliance Leadership
                     </h2>
                 </div>
                 <div className="row">
@@ -445,7 +438,7 @@ export default function About() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-1.jpg" alt="Anubhav Sharma"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -468,8 +461,8 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Daniel Stiphen</Link></h3>
-                                <p>Web Developerr</p>
+                                <h3><Link href="#">Anubhav Sharma</Link></h3>
+                                <p>CEO & IT Consultant</p>
                             </div>
                         </div>
                     </div>
@@ -480,7 +473,7 @@ export default function About() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-2.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-2.jpg" alt="CA Sahil Goyal"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -503,8 +496,8 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Jenifer M. Florita</Link></h3>
-                                <p>Website Developer</p>
+                                <h3><Link href="#">CA Sahil Goyal</Link></h3>
+                                <p>Managing Director</p>
                             </div>
                         </div>
                     </div>
@@ -515,7 +508,7 @@ export default function About() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-3.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-3.jpg" alt="Sahil Khan"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -538,8 +531,43 @@ export default function About() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Jhonshon Borison</Link></h3>
-                                <p>UI/UX Designer & Developer</p>
+                                <h3><Link href="#">Sahil Khan</Link></h3>
+                                <p>RevOps & Automation Strategist</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/*End Team Two Single*/}
+
+                    {/*Start Team Two Single*/}
+                    <div className="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.7s">
+                        <div className="team-two__single">
+                            <div className="team-two__single-overlay-bg"></div>
+                            <div className="team-two__single-img">
+                                <img src="assets/img/team/team-v2-4.jpg" alt="Mohammad Sahil"/>
+                                <div className="social-share-box">
+                                    <span className="icon-plus"></span>
+                                    <ul className="clearfix">
+                                        <li>
+                                            <Link href="#">
+                                                <i className="icon-facebook"></i>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                <i className="icon-twitter"></i>
+                                            </Link>
+                                        </li>
+                                        <li>
+                                            <Link href="#">
+                                                <i className="icon-linkedin"></i>
+                                            </Link>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="team-two__single-content">
+                                <h3><Link href="#">Mohammad Sahil</Link></h3>
+                                <p>Senior Product Designer</p>
                             </div>
                         </div>
                     </div>
@@ -568,11 +596,11 @@ export default function About() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={484} />
+                                    <CounterUp end={75} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Completed Projects</p>
+                                        <p>Businesses Served</p>
                                     </div>
                                 </div>
                             </div>
@@ -590,11 +618,11 @@ export default function About() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={209} />
+                                    <CounterUp end={50} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Happy Clients</p>
+                                        <p>Professionals & Specialists</p>
                                     </div>
                                 </div>
                             </div>
@@ -610,11 +638,11 @@ export default function About() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={123} />
+                                    <CounterUp end={45} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Winning Award</p>
+                                        <p>Freelancer Network</p>
                                     </div>
                                 </div>
                             </div>
@@ -632,11 +660,11 @@ export default function About() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={245} />
+                                    <CounterUp end={4} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Cup of Teas</p>
+                                        <p>Years Track Record</p>
                                     </div>
                                 </div>
                             </div>
@@ -696,10 +724,10 @@ export default function About() {
                         <div className="testimonials-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Customers Feedback</h4>
+                                    <h4>Client Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Orgits
+                                    What Our Clients Say About Orgits
                                 </h2>
                             </div>
 
@@ -723,15 +751,12 @@ export default function About() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "I've worked with several agencies, but Orgits truly stands out. Structured, creative, and always reliable. Anubhav personally stays involved and that makes all the difference."
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Mr. Atchuta Rao</h3>
+                                                <p>Director & Founder, Estah Society</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -742,15 +767,12 @@ export default function About() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "Very reliable team to work with. You understand our client needs very well and it shows in your work. You've been able to take website from a grade of F to A! that's fantastic!"
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Dr. Anwar Hussain</h3>
+                                                <p>MD Physician & Member of IMA, Health Tips By Dr. Anwar</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -765,9 +787,8 @@ export default function About() {
         </section>
         {/*End Testmonials Three*/}
 
+
             </Layout>
         </>
     )
 }
-
-

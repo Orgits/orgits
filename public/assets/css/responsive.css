@@ -2189,7 +2189,7 @@
 	}
 
 	.main-header-one__bottom {
-		background-color: #ffffff;
+		background-color: var(--thm-white);
 		padding: 31px 0px 31px;
 	}
 
@@ -2289,7 +2289,7 @@
 	}
 
 	.main-header-one__bottom {
-		background-color: #ffffff;
+		background-color: var(--thm-white);
 		padding: 31px 0px 31px;
 	}
 
@@ -2397,7 +2397,7 @@
 	}
 
 	.main-header-one__bottom {
-		background-color: #ffffff;
+		background-color: var(--thm-white);
 		padding: 31px 0px 31px;
 	}
 

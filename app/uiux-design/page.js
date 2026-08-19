@@ -1,4 +1,3 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
@@ -15,16 +14,12 @@ export default function Home() {
                         <div className="service-details__content">
                             <div className="service-details__img-box1">
                                 <div className="img-box">
-                                    <img src="assets/img/service/service-details__img3.jpg" alt="image"/>
+                                    <img src="assets/img/service/service-details__img3.jpg" alt="UI/UX Design"/>
                                 </div>
                                 <div className="content-box">
                                     <h2>UI/UX Design</h2>
                                     <p>
-                                        Applications are like the lifeblood of mobile phones and tablets today. The true
-                                        potential of you mobile phone is harnessed by applications that can provide
-                                        utility. Apps come under of the various segments. Nowad technology has become
-                                        super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own.
+                                        We design clear, intuitive and business-focused digital experiences that connect user needs with product goals.
                                     </p>
                                     <ul className="list-item clearfix">
                                         <li>
@@ -32,7 +27,7 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>UX research</p>
                                             </div>
                                         </li>
                                         <li>
@@ -40,7 +35,7 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>User flows</p>
                                             </div>
                                         </li>
                                         <li>
@@ -48,7 +43,31 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Wireframes</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>UI design</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>Responsive interfaces</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>Design systems</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -57,19 +76,14 @@ export default function Home() {
 
                             <div className="service-details__text">
                                 <div className="title">
-                                    <h3>Start with A Plan and Finish with Results</h3>
+                                    <h3>From User Research to Interface Design</h3>
                                     <p>
-                                        The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                        your brand by zeroing in on your target market. Affordable, targeted media for
-                                        everyone.
+                                        Our design process starts by understanding users and business objectives, then translates those insights into flows, wireframes and polished interfaces ready for development.
                                     </p>
                                 </div>
                                 <div className="text">
                                     <p>
-                                        At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                        occaecati Lead generati inbound marketing, web development, and marketing
-                                        automation solutions.
+                                        We believe good design is invisible—it just works. Our approach combines user research, behavioral psychology, and business strategy to create interfaces that drive engagement, conversion and satisfaction. From concept to design system, we deliver design assets that developers love to build.
                                     </p>
                                 </div>
                             </div>
@@ -78,35 +92,31 @@ export default function Home() {
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6">
                                         <div className="img-box">
-                                            <img src="assets/img/service/service-details__img2.jpg" alt="image"/>
+                                            <img src="assets/img/service/service-details__img2.jpg" alt="UI/UX Design Process"/>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6">
                                         <div className="content-box">
                                             <p>
-                                                Applications are like the lifeblood mobile phones and tablets today. The
-                                                true potential you mobile phone is harnessed applications that can
-                                                provide
-                                                utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves.
+                                                Design is not just what it looks like—it's how it works. We create user-centered designs validated through research and testing.
                                             </p>
                                             <ul className="list-item clearfix">
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>Our services will feel like mint of creativity.</p>
+                                                        <p>User research & persona development</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>We develop application excellent technology.</p>
+                                                        <p>Information architecture & user flows</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>Practice for providing all application problems.</p>
+                                                        <p>High-fidelity prototypes & usability testing</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -118,20 +128,20 @@ export default function Home() {
                             <div className="service-details__prev-next-option blog-details__prev-next-option">
                                 <div className="single-box left">
                                     <div className="icon">
-                                        <Link href="#"><span className="icon-left-arrow"></span></Link>
+                                        <Link href="/web-development"><span className="icon-left-arrow"></span></Link>
                                     </div>
                                     <div className="text">
                                         <p>Prev service</p>
-                                        <h3><Link href="#">We grow your business</Link></h3>
+                                        <h3><Link href="/web-development">Web Development</Link></h3>
                                     </div>
                                 </div>
                                 <div className="single-box right">
                                     <div className="text">
                                         <p>Next service</p>
-                                        <h3><Link href="#">Think beyond the wave</Link></h3>
+                                        <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
                                     </div>
                                     <div className="icon">
-                                        <Link href="#"><span className="icon-right-arrow-angle"></span></Link>
+                                        <Link href="/digital-marketing"><span className="icon-right-arrow-angle"></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -160,27 +170,27 @@ export default function Home() {
                                 <ul className="sidebar__category-list">
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="app-development">Mobile App Development<span
+                                        <Link href="/app-development">Mobile & Web App Development<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link className="active" href="#">UI/UX Designer<span
+                                        <Link href="/web-development">Web Development<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="web-development">Web Developer<span
+                                        <Link className="active" href="/uiux-design">UI/UX Design<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="digital-marketing">Digital Marketing<span
+                                        <Link href="/digital-marketing">Digital Marketing<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="corporate-agency">Corporate Agency<span
+                                        <Link href="/corporate-agency">IT Consulting & Digital Business Solutions<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                 </ul>
@@ -208,9 +218,9 @@ export default function Home() {
                                     style={{ backgroundImage: 'url(assets/img/service/service-details-sideber__img1.jpg)' }} >
                                 </div>
                                 <div className="content-box text-center">
-                                    <h3>Have Any Discussion<br/>About Project?</h3>
+                                    <h3>Have a Project<br/>to Discuss?</h3>
                                     <div className="btn-box">
-                                        <Link className="thm-btn" href="#">
+                                        <Link className="thm-btn" href="/contact">
                                             <span className="txt">Contact Us</span>
                                             <i className="icon-next"></i>
                                         </Link>

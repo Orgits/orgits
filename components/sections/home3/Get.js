@@ -12,9 +12,9 @@ export default function Get() {
                         <div className="get-in-touch-one__content">
                             <div className="sec-title sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Get In Touch</h4>
+                                    <h4>Contact Us</h4>
                                 </div>
-                                <h2>Have Any Questions? Feel<br/>Free to Contact Me...</h2>
+                                <h2>Let's Build Something<br/>That Matters</h2>
                             </div>
                             <ul className="get-in-touch-one__content-list-box">
                                 <li>
@@ -22,7 +22,7 @@ export default function Get() {
                                         <span className="icon-pin"></span>
                                     </div>
                                     <div className="text-box">
-                                        <p>2976 Westheimer Road, Santa Valley Ana<br/>New York City, 26790</p>
+                                        <p>India / Serving businesses across India and globally</p>
                                     </div>
                                 </li>
                                 <li>
@@ -31,7 +31,7 @@ export default function Get() {
                                     </div>
                                     <div className="text-box">
                                         <p>
-                                            <Link href="tel:880237255">+(880) 237 255, +(880) 237 255</Link>
+                                            <Link href="tel:+919289687928">+91 9289687928</Link>
                                         </p>
                                     </div>
                                 </li>
@@ -41,7 +41,17 @@ export default function Get() {
                                     </div>
                                     <div className="text-box">
                                         <p>
-                                            <Link href="mailto:yourmailsupport@gmail.com">yourmailsupport@gmail.com</Link>
+                                            <Link href="mailto:hello@orgits.in">hello@orgits.in</Link>
+                                        </p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div className="icon">
+                                        <span className="icon-globe"></span>
+                                    </div>
+                                    <div className="text-box">
+                                        <p>
+                                            <Link href="https://www.orgits.in" target="_blank" rel="noopener noreferrer">www.orgits.in</Link>
                                         </p>
                                     </div>
                                 </li>

@@ -16,7 +16,7 @@ export default function Error404() {
                                         <h2 className="error-page__title">404</h2>
                                     </div>
                                     <h3 className="error-page__tagline">Sorry we can't find that page!</h3>
-                                    <p className="error-page__text">The page you are looking for was never existed.</p>
+                                    <p className="error-page__text">The page you are looking for does not exist.</p>
                                     <form className="error-page__form">
                                         <div className="error-page__form-input">
                                             <input type="search" placeholder="Search here" />
@@ -40,16 +40,12 @@ export default function Error404() {
                                 <div className="col-xl-6 col-lg-6"></div>
                                 <div className="col-xl-6 col-lg-6">
                                     <div className="cta-one__right">
-                                        <h3 className="cta-one__title">Get Free Estimate</h3>
-                                        <p className="cta-one__text">Lorem Ipsum is simply is dumiomy is text Lorem Ipsum </p>
-                                        <form className="cta-one__form mc-form" data-url="MC_FORM_URL">
-                                            <div className="cta-one__form-input-box">
-                                                <input type="email" placeholder="Your email..." name="email" />
-                                                <button type="submit" className="cta-one__btn thm-btn">Login<span
-                                                        className="icon-plus"></span></button>
-                                            </div>
-                                        </form>
-                                        <div className="mc-form__response"></div>
+                                        <h3 className="cta-one__title">Page Not Found</h3>
+                                        <p className="cta-one__text">The page you're looking for doesn't exist. Let us help you find what you need.</p>
+                                        <Link className="thm-btn" href="/contact">
+                                            <span className="txt">Contact Us</span>
+                                            <i className="icon-next"></i>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>

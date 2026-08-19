@@ -234,15 +234,15 @@
 }
 
 .service-two__single-icon-box.color1 {
-    background-color: #D8A4FF;
+    background-color: var(--thm-primary);
 }
 
 .service-two__single-icon-box.color2 {
-    background-color: #FFA4B4;
+    background-color: var(--thm-secondary);
 }
 
 .service-two__single-icon-box.color3 {
-    background-color: #75EAF1;
+    background-color: var(--thm-primary-light);
 }
 
 .service-two__single-icon-box::before {
@@ -258,15 +258,15 @@
 }
 
 .service-two__single-icon-box.color1::before {
-    background-color: #D8A4FF;
+    background-color: var(--thm-primary);
 }
 
 .service-two__single-icon-box.color2::before {
-    background-color: #FFA4B4;
+    background-color: var(--thm-secondary);
 }
 
 .service-two__single-icon-box.color3::before {
-    background-color: #75EAF1;
+    background-color: var(--thm-primary-light);
 }
 
 .service-two__single-title-box {
@@ -631,7 +631,7 @@
 }
 
 .service-details__img-box1 .content-box h2 {
-    color: #0C0A1F;
+    color: var(--thm-primary-dark);
     font-size: 48px;
     line-height: 1.2em;
     font-weight: 700;
@@ -639,7 +639,7 @@
 }
 
 .service-details__img-box1 .content-box p {
-    color: #657078;
+    color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
@@ -687,7 +687,7 @@
 }
 
 .service-details__img-box1 .content-box .list-item li .text p {
-    color: #657078;
+    color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
@@ -706,7 +706,7 @@
 }
 
 .service-details__text .title h3 {
-    color: #0C0A1F;
+    color: var(--thm-primary-dark);
     font-size: 32px;
     line-height: 40px;
     font-weight: 700;
@@ -714,7 +714,7 @@
 }
 
 .service-details__text .title p {
-    color: #657078;
+    color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
@@ -757,7 +757,7 @@
 }
 
 .service-details__img-box2 .content-box p {
-    color: #657078;
+    color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
@@ -795,7 +795,7 @@
 }
 
 .service-details__img-box2 .content-box .list-item li .text p {
-    color: #657078;
+    color: var(--thm-body-font-color);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;

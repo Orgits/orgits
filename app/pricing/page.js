@@ -27,20 +27,18 @@ const swiperOptions = {
     },
 
 
-
 }
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Pricing">
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Engagement Models">
                 {/*Start Pricing One*/}
                 <section className="pricing-one">
                     <div className="container">
                         <div className="sec-title-two text-center sec-title-animation animation-style1">
-                            <h2>Pick Your <span>Pricing Plan</span></h2>
-                            <p>It’s about telling a story through the message and visuals
-                                that get your<br/>ideas across to your customers</p>
+                            <h2>Choose Your <span>Engagement Model</span></h2>
+                            <p>We offer flexible engagement models to suit different project needs and organizational structures.</p>
                         </div>
                         <div className="row">
 
@@ -48,11 +46,11 @@ export default function Home() {
                             <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                 <div className="pricing-one__single">
                                     <div className="pricing-one__single-title">
-                                        <h2>Free Plan</h2>
-                                        <p>Web design is our creativeness</p>
+                                        <h2>Fixed Scope Projects</h2>
+                                        <p>Best for clearly defined projects with a known scope and delivery requirements.</p>
                                     </div>
                                     <div className="pricing-one__single-value">
-                                        <h2>$0<span>/mo</span></h2>
+                                        <h2>Custom Pricing<span>/project</span></h2>
                                     </div>
                                     <div className="pricing-one__single-list">
                                         <ul>
@@ -60,31 +58,31 @@ export default function Home() {
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Authorizing your web identity</p>
+                                                <p>Defined scope, timeline and deliverables</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Design as boundless as space</p>
+                                                <p>Fixed price with milestone-based payments</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Undergo digital innovation</p>
+                                                <p>Dedicated project management</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Motivated web solutions</p>
+                                                <p>Quality assurance and UAT included</p>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="pricing-one__single-btn">
-                                        <Link className="thm-btn" href="#">
-                                            <span className="txt">Purchase This Plan</span>
+                                        <Link className="thm-btn" href="/contact">
+                                            <span className="txt">Discuss Your Project</span>
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>
@@ -96,14 +94,14 @@ export default function Home() {
                             <div className="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                                 <div className="pricing-one__single">
                                     <div className="category-box">
-                                        <p>Popular Plan</p>
+                                        <p>Popular Choice</p>
                                     </div>
                                     <div className="pricing-one__single-title">
-                                        <h2>Basic Plan</h2>
-                                        <p>We create websites for all</p>
+                                        <h2>Time & Material</h2>
+                                        <p>Best for projects where scope evolves through weekly sprints and iterative delivery.</p>
                                     </div>
                                     <div className="pricing-one__single-value">
-                                        <h2>$29<span>/mo</span></h2>
+                                        <h2>Custom Rates<span>/hour</span></h2>
                                     </div>
                                     <div className="pricing-one__single-list">
                                         <ul>
@@ -111,31 +109,31 @@ export default function Home() {
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Authorizing your web identity</p>
+                                                <p>Flexible scope with sprint-based delivery</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Design as boundless as space</p>
+                                                <p>Transparent weekly reporting</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Undergo digital innovation</p>
+                                                <p>Scale team up/down as needed</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Motivated web solutions</p>
+                                                <p>Pay for actual hours worked</p>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="pricing-one__single-btn">
-                                        <Link className="thm-btn" href="#">
-                                            <span className="txt">Purchase This Plan</span>
+                                        <Link className="thm-btn" href="/contact">
+                                            <span className="txt">Discuss Your Project</span>
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>
@@ -147,11 +145,11 @@ export default function Home() {
                             <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                                 <div className="pricing-one__single">
                                     <div className="pricing-one__single-title">
-                                        <h2>Premium Plan</h2>
-                                        <p>Brilliant websites true results</p>
+                                        <h2>Staff Augmentation</h2>
+                                        <p>Hire pre-vetted developers on a contract basis and build a dedicated extension of your team.</p>
                                     </div>
                                     <div className="pricing-one__single-value">
-                                        <h2>$49<span>/mo</span></h2>
+                                        <h2>Monthly Rate<span>/resource</span></h2>
                                     </div>
                                     <div className="pricing-one__single-list">
                                         <ul>
@@ -159,31 +157,31 @@ export default function Home() {
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Authorizing your web identity</p>
+                                                <p>Pre-vetted, skilled professionals</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Design as boundless as space</p>
+                                                <p>Minimum 6-month commitment</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Undergo digital innovation</p>
+                                                <p>Direct communication & management</p>
                                             </li>
                                             <li>
                                                 <div className="icon">
                                                     <span className="icon-check"></span>
                                                 </div>
-                                                <p>Motivated web solutions</p>
+                                                <p>Orgits handles HR, payroll, benefits</p>
                                             </li>
                                         </ul>
                                     </div>
                                     <div className="pricing-one__single-btn">
-                                        <Link className="thm-btn" href="#">
-                                            <span className="txt">Purchase This Plan</span>
+                                        <Link className="thm-btn" href="/contact">
+                                            <span className="txt">Talk to Our Team</span>
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>
@@ -192,8 +190,8 @@ export default function Home() {
                             {/*End Single Pricing One*/}
 
                         </div>
-                        <div className="pricing-one__text text-center">
-                            <p>Want to get a free consultation? <Link href="contact">Contact us.</Link></p>
+                        <div className="pricing-one__text text-center" style={{marginTop: '40px'}}>
+                            <p>Not sure which model fits your needs? <Link href="/contact">Contact us</Link> for a consultation.</p>
                         </div>
                     </div>
                 </section>
@@ -206,13 +204,12 @@ export default function Home() {
                             <div className="cta-two__inner-bg"
                                 style={{ backgroundImage: 'url(assets/img/pattern/cta-two__parttern1.png)' }} ></div>
                             <div className="cta-two__content sec-title-animation animation-style1">
-                                <h2>Have Any Discussion?</h2>
-                                <p>Gathered have greater made fruitful. Void to let to know
-                                    about that you'll sixth upon day.</p>
+                                <h2>Have a Project in Mind?</h2>
+                                <p>Let's discuss your requirements and find the right engagement model for your goals.</p>
                             </div>
                             <div className="cta-two__btn">
-                                <Link className="thm-btn" href="#">
-                                    <span className="txt">Contact with Us</span>
+                                <Link className="thm-btn" href="/contact">
+                                    <span className="txt">Contact Us</span>
                                     <i className="icon-next"></i>
                                 </Link>
                             </div>

@@ -49,7 +49,7 @@
 .page-header__inner .thm-breadcrumb li {
     position: relative;
     display: inline-block;
-    color: #ffffff;
+    color: var(--thm-white);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
@@ -69,7 +69,7 @@
 }
 
 .page-header__inner .thm-breadcrumb li a {
-    color: #ffffff;
+    color: var(--thm-white);
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;

@@ -1,5 +1,5 @@
 import Link from "next/link"
-export default function Pricing() {
+export default function Service() {
     return (
         <>
         {/*Start Service One*/}
@@ -7,9 +7,9 @@ export default function Pricing() {
             <div className="container">
                 <div className="sec-title text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Services</h4>
+                        <h4>What We Do</h4>
                     </div>
-                    <h2>Ready Services For You</h2>
+                    <h2>Technology, Marketing & Compliance Solutions</h2>
                 </div>
                 <div className="row">
                     {/*Start Single Service One*/}
@@ -21,7 +21,7 @@ export default function Pricing() {
                             </div>
                             <div className="service-one__single-content">
                                 <div className="title-box">
-                                    <h3><Link href="app-development">App Development</Link></h3>
+                                    <h3><Link href="/app-development">App & Web Development</Link></h3>
                                 </div>
                                 <div className="list-item">
                                     <ul>
@@ -30,7 +30,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Creative Strategy</p>
+                                                <p>Mobile & Web Apps</p>
                                             </div>
                                         </li>
                                         <li>
@@ -38,7 +38,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Brand Strategy</p>
+                                                <p>Admin Panels & CMS</p>
                                             </div>
                                         </li>
                                         <li>
@@ -46,7 +46,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Visual Strategy</p>
+                                                <p>E-commerce Platforms</p>
                                             </div>
                                         </li>
                                         <li>
@@ -54,7 +54,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Creative Directions</p>
+                                                <p>Marketplace Platforms</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -74,7 +74,7 @@ export default function Pricing() {
                             </div>
                             <div className="service-one__single-content">
                                 <div className="title-box">
-                                    <h3><Link href="app-development">Web Development</Link></h3>
+                                    <h3><Link href="/app-development">Product Development</Link></h3>
                                 </div>
                                 <div className="list-item">
                                     <ul>
@@ -83,7 +83,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Native & Web Apps</p>
+                                                <p>Business Requirements Analysis</p>
                                             </div>
                                         </li>
                                         <li>
@@ -91,7 +91,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Reality Experience</p>
+                                                <p>UX Research & Wireframes</p>
                                             </div>
                                         </li>
                                         <li>
@@ -99,7 +99,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Machine Learning</p>
+                                                <p>Development & QA</p>
                                             </div>
                                         </li>
                                         <li>
@@ -107,7 +107,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Brand Design</p>
+                                                <p>Deployment & Support</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -125,7 +125,7 @@ export default function Pricing() {
                             </div>
                             <div className="service-one__single-content">
                                 <div className="title-box">
-                                    <h3><Link href="app-development">Plugin Development</Link></h3>
+                                    <h3><Link href="/digital-marketing">CRM & Automation</Link></h3>
                                 </div>
                                 <div className="list-item">
                                     <ul>
@@ -134,7 +134,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Art Development</p>
+                                                <p>CRM Lead Automation</p>
                                             </div>
                                         </li>
                                         <li>
@@ -142,7 +142,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Plugin Development</p>
+                                                <p>Email Marketing Automation</p>
                                             </div>
                                         </li>
                                         <li>
@@ -150,7 +150,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Social Media</p>
+                                                <p>AI Chatbots</p>
                                             </div>
                                         </li>
                                         <li>
@@ -158,7 +158,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Creative Directions</p>
+                                                <p>Paid Ads Automation</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -176,7 +176,7 @@ export default function Pricing() {
                             </div>
                             <div className="service-one__single-content">
                                 <div className="title-box">
-                                    <h3><Link href="app-development">CMS Development</Link></h3>
+                                    <h3><Link href="/services">IS Audit & Compliance</Link></h3>
                                 </div>
                                 <div className="list-item">
                                     <ul>
@@ -185,7 +185,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Creative Strategy</p>
+                                                <p>IT Controls Assessment</p>
                                             </div>
                                         </li>
                                         <li>
@@ -193,7 +193,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Brand Strategy</p>
+                                                <p>RBI Regulatory Compliance</p>
                                             </div>
                                         </li>
                                         <li>
@@ -201,7 +201,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Visual Strategy</p>
+                                                <p>Cybersecurity Audit</p>
                                             </div>
                                         </li>
                                         <li>
@@ -209,7 +209,7 @@ export default function Pricing() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Creative Directions</p>
+                                                <p>BCP & DR Review</p>
                                             </div>
                                         </li>
                                     </ul>

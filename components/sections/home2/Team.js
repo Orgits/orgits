@@ -19,9 +19,8 @@ export default function Team() {
             </div>
             <div className="container">
                 <div className="sec-title-two text-center sec-title-animation animation-style1">
-                    <h2>Our Creative <span>Team Leaders</span></h2>
-                    <p>It’s about telling a story through the message and visuals
-                        that get your<br/>ideas across to your customers</p>
+                    <h2>Our Leadership <span>Team</span></h2>
+                    <p>Technology, Marketing & Compliance Leadership</p>
                 </div>
                 <div className="row">
 
@@ -29,22 +28,22 @@ export default function Team() {
                     <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div className="team-one__single">
                             <div className="team-one__single-img">
-                                <img src="assets/img/team/team-v1-1.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v1-1.jpg" alt="Anubhav Sharma"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
                                         <li>
-                                            <Link href="www.facebook.com">
+                                            <Link href="#">
                                                 <i className="icon-facebook"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.twitter.com">
+                                            <Link href="#">
                                                 <i className="icon-twitter"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.linkedin.com">
+                                            <Link href="#">
                                                 <i className="icon-linkedin"></i>
                                             </Link>
                                         </li>
@@ -52,8 +51,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-one__single-title">
-                                <h3><Link href="#">Stiphen Jhonson</Link></h3>
-                                <p>Web Developer</p>
+                                <h3><Link href="#">Anubhav Sharma</Link></h3>
+                                <p>CEO & IT Consultant</p>
                             </div>
                         </div>
                     </div>
@@ -62,22 +61,22 @@ export default function Team() {
                     <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s">
                         <div className="team-one__single">
                             <div className="team-one__single-img">
-                                <img src="assets/img/team/team-v1-2.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v1-2.jpg" alt="CA Sahil Goyal"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
                                         <li>
-                                            <Link href="www.facebook.com">
+                                            <Link href="#">
                                                 <i className="icon-facebook"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.twitter.com">
+                                            <Link href="#">
                                                 <i className="icon-twitter"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.linkedin.com">
+                                            <Link href="#">
                                                 <i className="icon-linkedin"></i>
                                             </Link>
                                         </li>
@@ -85,8 +84,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-one__single-title">
-                                <h3><Link href="#">Michle Jhon Doe</Link></h3>
-                                <p>UI/UX Designer</p>
+                                <h3><Link href="#">CA Sahil Goyal</Link></h3>
+                                <p>Managing Director</p>
                             </div>
                         </div>
                     </div>
@@ -95,22 +94,22 @@ export default function Team() {
                     <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div className="team-one__single">
                             <div className="team-one__single-img">
-                                <img src="assets/img/team/team-v1-3.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v1-3.jpg" alt="Sahil Khan"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
                                         <li>
-                                            <Link href="www.facebook.com">
+                                            <Link href="#">
                                                 <i className="icon-facebook"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.twitter.com">
+                                            <Link href="#">
                                                 <i className="icon-twitter"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.linkedin.com">
+                                            <Link href="#">
                                                 <i className="icon-linkedin"></i>
                                             </Link>
                                         </li>
@@ -118,8 +117,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-one__single-title">
-                                <h3><Link href="#">Jennifer Florica</Link></h3>
-                                <p>Web Designer</p>
+                                <h3><Link href="#">Sahil Khan</Link></h3>
+                                <p>RevOps & Automation Strategist</p>
                             </div>
                         </div>
                     </div>
@@ -128,22 +127,22 @@ export default function Team() {
                     <div className="col-xl-3 col-lg-6 col-md-6 wow fadeInDown" data-wow-delay=".3s">
                         <div className="team-one__single">
                             <div className="team-one__single-img">
-                                <img src="assets/img/team/team-v1-4.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v1-4.jpg" alt="Mohammad Sahil"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
                                         <li>
-                                            <Link href="www.facebook.com">
+                                            <Link href="#">
                                                 <i className="icon-facebook"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.twitter.com">
+                                            <Link href="#">
                                                 <i className="icon-twitter"></i>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="www.linkedin.com">
+                                            <Link href="#">
                                                 <i className="icon-linkedin"></i>
                                             </Link>
                                         </li>
@@ -151,8 +150,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-one__single-title">
-                                <h3><Link href="#">Daniels Locasta</Link></h3>
-                                <p>Web Developer</p>
+                                <h3><Link href="#">Mohammad Sahil</Link></h3>
+                                <p>Senior Product Designer</p>
                             </div>
                         </div>
                     </div>

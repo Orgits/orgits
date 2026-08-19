@@ -8,9 +8,9 @@ export default function Project() {
             <div className="container">
                 <div className="sec-title text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Portfolio</h4>
+                        <h4>Solution Areas</h4>
                     </div>
-                    <h2>Ready Services For You</h2>
+                    <h2>What We Can Build For You</h2>
                 </div>
 
                 {/*Start Single Project One*/}
@@ -18,9 +18,9 @@ export default function Project() {
                     <div className="row">
                         <div className="col-xl-7">
                             <div className="project-one__single-img-box">
-                                <img src="assets/img/project/project-one-1.jpg" alt="#"/>
+                                <img src="assets/img/project/project-one-1.jpg" alt="Investment & Exchange Platforms"/>
                                 <div className="overlay-icon">
-                                    <Link href="assets/img/project/project-one-1.jpg" className="img-popup">
+                                    <Link href="/project-details" className="img-popup">
                                         <span className="icon-plus"></span>
                                     </Link>
                                 </div>
@@ -32,24 +32,18 @@ export default function Project() {
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-user"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p><Link href="#">Developed By Jhon</Link></p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-calendar"></span>
-                                            </div>
-                                            <p><Link href="#">Sep 30, 2022</Link></p>
+                                            <p>Digital Platforms</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h2><Link href="#">Advanced Website UI Interfaces</Link></h2>
+                                    <h2><Link href="/project-details">Investment & Exchange Platforms</Link></h2>
                                 </div>
                                 <div className="btn-box">
-                                    <Link className="thm-btn" href="#">
-                                        <span className="txt">View Project</span>
+                                    <Link className="thm-btn" href="/project-details">
+                                        <span className="txt">View Details</span>
                                         <i className="icon-next"></i>
                                     </Link>
                                 </div>
@@ -68,24 +62,18 @@ export default function Project() {
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-user"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p><Link href="#">Developed By Jhon</Link></p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-calendar"></span>
-                                            </div>
-                                            <p><Link href="#">Sep 30, 2022</Link></p>
+                                            <p>Business Systems</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h2><Link href="#">Design and Extreme Programming</Link></h2>
+                                    <h2><Link href="/project-details">Admin Panels & CMS</Link></h2>
                                 </div>
                                 <div className="btn-box">
-                                    <Link className="thm-btn" href="#">
-                                        <span className="txt">View Project</span>
+                                    <Link className="thm-btn" href="/project-details">
+                                        <span className="txt">View Details</span>
                                         <i className="icon-next"></i>
                                     </Link>
                                 </div>
@@ -94,9 +82,9 @@ export default function Project() {
 
                         <div className="col-xl-7 order-11">
                             <div className="project-one__single-img-box">
-                                <img src="assets/img/project/project-one-2.jpg" alt="#"/>
+                                <img src="assets/img/project/project-one-2.jpg" alt="Admin Panels & CMS"/>
                                 <div className="overlay-icon">
-                                    <Link href="assets/img/project/project-one-2.jpg" className="img-popup">
+                                    <Link href="/project-details" className="img-popup">
                                         <span className="icon-plus"></span>
                                     </Link>
                                 </div>
@@ -112,9 +100,9 @@ export default function Project() {
                     <div className="row">
                         <div className="col-xl-7">
                             <div className="project-one__single-img-box">
-                                <img src="assets/img/project/project-one-3.jpg" alt="#"/>
+                                <img src="assets/img/project/project-one-3.jpg" alt="Learning Management Solutions"/>
                                 <div className="overlay-icon">
-                                    <Link href="assets/img/project/project-one-3.jpg" className="img-popup">
+                                    <Link href="/project-details" className="img-popup">
                                         <span className="icon-plus"></span>
                                     </Link>
                                 </div>
@@ -126,24 +114,18 @@ export default function Project() {
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-user"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p><Link href="#">Developed By Jhon</Link></p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-calendar"></span>
-                                            </div>
-                                            <p><Link href="#">Sep 30, 2022</Link></p>
+                                            <p>Education Technology</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h2><Link href="#">Design & Concept At Work</Link></h2>
+                                    <h2><Link href="/project-details">Learning Management Solutions</Link></h2>
                                 </div>
                                 <div className="btn-box">
-                                    <Link className="thm-btn" href="#">
-                                        <span className="txt">View Project</span>
+                                    <Link className="thm-btn" href="/project-details">
+                                        <span className="txt">View Details</span>
                                         <i className="icon-next"></i>
                                     </Link>
                                 </div>
@@ -154,8 +136,8 @@ export default function Project() {
                 {/*End Single Project One*/}
 
                 <div className="project-one__btn-box">
-                    <Link className="thm-btn" href="#">
-                        <span className="txt">View All Project</span>
+                    <Link className="thm-btn" href="/project">
+                        <span className="txt">View All Solutions</span>
                         <i className="icon-next"></i>
                     </Link>
                 </div>

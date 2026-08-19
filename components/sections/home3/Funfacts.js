@@ -17,11 +17,11 @@ export default function Funfacts() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={484} />
+                                    <CounterUp end={75} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Completed Projects</p>
+                                        <p>Businesses Served</p>
                                     </div>
                                 </div>
                             </div>
@@ -39,11 +39,11 @@ export default function Funfacts() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={209} />
+                                    <CounterUp end={50} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Happy Clients</p>
+                                        <p>Professionals & Specialists</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,11 +59,11 @@ export default function Funfacts() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={123} />
+                                    <CounterUp end={45} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Winning Award</p>
+                                        <p>Freelancer Network</p>
                                     </div>
                                 </div>
                             </div>
@@ -81,11 +81,11 @@ export default function Funfacts() {
                                 </div>
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={245} />
+                                    <CounterUp end={4} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Cup of Teas</p>
+                                        <p>Years Track Record</p>
                                     </div>
                                 </div>
                             </div>

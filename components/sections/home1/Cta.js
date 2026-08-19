@@ -11,16 +11,16 @@ export default function Cta() {
                     <div className="cta-three__content">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Get To Know About Us</h4>
+                                <h4>Let's Build Together</h4>
                             </div>
                             <h2>
-                                Let’s Get To Work Together<br/> Ready To Work Us
+                                Let's Build Something<br/>That Moves Your Business Forward
                             </h2>
                         </div>
                     </div>
                     <div className="cta-three__btn">
-                        <Link className="thm-btn" href="#">
-                            <span className="txt">Get Started</span>
+                        <Link className="thm-btn" href="/contact">
+                            <span className="txt">Talk to Our Team</span>
                             <i className="icon-next"></i>
                         </Link>
                     </div>

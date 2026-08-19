@@ -18,7 +18,7 @@ export default function Work() {
                     <div className="sub-title">
                         <h4>Our Working Process</h4>
                     </div>
-                    <h2>How Does We Work?</h2>
+                    <h2>How We Work</h2>
                 </div>
                 <div className="row">
 
@@ -34,10 +34,10 @@ export default function Work() {
                             <div className="content-box">
                                 <div className="title-box">
                                     <h5>First Step</h5>
-                                    <h3><Link href="#">Problem Analysis</Link></h3>
+                                    <h3><Link href="#">Understand Requirements</Link></h3>
                                 </div>
                                 <div className="text-box">
-                                    <p>All trials are our Pro plan by default you can try out all features.</p>
+                                    <p>We understand your business goals, requirements, users and technical needs before defining the solution.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,10 +59,10 @@ export default function Work() {
                             <div className="content-box">
                                 <div className="title-box">
                                     <h5>Second Step</h5>
-                                    <h3><Link href="#">Find Solutions</Link></h3>
+                                    <h3><Link href="#">Plan & Design</Link></h3>
                                 </div>
                                 <div className="text-box">
-                                    <p>All trials are our Pro plan by default you can try out all features.</p>
+                                    <p>We translate requirements into product direction, UX research, wireframes, UI design and an actionable delivery plan.</p>
                                 </div>
                             </div>
                         </div>
@@ -84,10 +84,10 @@ export default function Work() {
                             <div className="content-box">
                                 <div className="title-box">
                                     <h5>Third Step</h5>
-                                    <h3><Link href="#">Build and Develop</Link></h3>
+                                    <h3><Link href="#">Build, Test & Deploy</Link></h3>
                                 </div>
                                 <div className="text-box">
-                                    <p>All trials are our Pro plan by default you can try out all features.</p>
+                                    <p>Our team develops in sprints, performs QA and UAT, and prepares the solution for production deployment.</p>
                                 </div>
                             </div>
                         </div>

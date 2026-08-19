@@ -28,17 +28,16 @@ export default function Banner() {
                 <div className="banner-two__inner clearfix">
                     <div className="banner-two__content wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="big-title">
-                            <h2>Web Designing<br/>is Brainpower<br/>Made Visible</h2>
+                            <h2>Technology That Makes<br/>Business Visible</h2>
                         </div>
                         <div className="text">
-                            <p>There are many variations of passages of available, but the majority have suffered
-                                alterationd in some form, by injected humour, or randomised words.</p>
+                            <p>Orgits helps businesses build, automate, market and secure their digital operations through technology, AI, marketing automation and IT governance solutions.</p>
                         </div>
                         <div className="bottom-box">
                             <div className="btn-box">
-                                <Link className="thm-btn" href="contact">
+                                <Link className="thm-btn" href="/contact">
                                     <span className="txt">
-                                        Get Started
+                                        Talk to Our Team
                                         <i className="icon-next"></i>
                                     </span>
                                 </Link>
@@ -59,8 +58,8 @@ export default function Banner() {
                                     </li>
                                 </ul>
                                 <div className="text">
-                                    <p>20k+ Worldwide</p>
-                                    <p>Customers</p>
+                                    <p>75+ Businesses</p>
+                                    <p>Across Industries</p>
                                 </div>
                             </div>
                         </div>

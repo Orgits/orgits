@@ -22,10 +22,10 @@ export default function Team() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Team Members</h4>
+                        <h4>Our Leadership Team</h4>
                     </div>
                     <h2>
-                        Creative Team Leaders
+                        Technology, Marketing & Compliance Leadership
                     </h2>
                 </div>
                 <div className="row">
@@ -34,7 +34,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-1.jpg" alt="Anubhav Sharma"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -57,8 +57,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Daniel Stiphen</Link></h3>
-                                <p>Web Developerr</p>
+                                <h3><Link href="#">Anubhav Sharma</Link></h3>
+                                <p>CEO & IT Consultant</p>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-2.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-2.jpg" alt="CA Sahil Goyal"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -92,8 +92,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Jenifer M. Florita</Link></h3>
-                                <p>Website Developer</p>
+                                <h3><Link href="#">CA Sahil Goyal</Link></h3>
+                                <p>Managing Director</p>
                             </div>
                         </div>
                     </div>
@@ -104,7 +104,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-3.jpg" alt="image"/>
+                                <img src="assets/img/team/team-v2-3.jpg" alt="Sahil Khan"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -127,8 +127,8 @@ export default function Team() {
                                 </div>
                             </div>
                             <div className="team-two__single-content">
-                                <h3><Link href="#">Jhonshon Borison</Link></h3>
-                                <p>UI/UX Designer & Developer</p>
+                                <h3><Link href="#">Sahil Khan</Link></h3>
+                                <p>RevOps & Automation Strategist</p>
                             </div>
                         </div>
                     </div>

@@ -13,10 +13,10 @@ export default function Blog() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Blog & Airticle</h4>
+                        <h4>Orgits Insights</h4>
                     </div>
                     <h2>
-                        Read Our Latest Airticle
+                        Technology, Growth & Compliance Insights
                     </h2>
                 </div>
                 <div className="row">
@@ -25,27 +25,21 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img1.jpg" alt="#"/>
+                                <img src="assets/img/blog/blog-three__img1.jpg" alt="CRM Automation"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-calendar"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p>Sep 30, 2022</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-time"></span>
-                                            </div>
-                                            <p>5 Min Read</p>
+                                            <p>CRM & Marketing Automation</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">Designing The Next-Level<br/>Websites</Link></h3>
+                                    <h3><Link href="blog-details">How CRM Automation Improves Lead Management</Link></h3>
                                 </div>
                                 <div className="btn-box">
                                     <Link href="blog-details">
@@ -62,27 +56,21 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img2.jpg" alt="#"/>
+                                <img src="assets/img/blog/blog-three__img2.jpg" alt="Cloud Infrastructure"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-calendar"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p>Sep 30, 2022</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-time"></span>
-                                            </div>
-                                            <p>5 Min Read</p>
+                                            <p>Cloud & IT Consulting</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">Best Agencies Are Choose<br/>Their Clients Wisely</Link>
+                                    <h3><Link href="blog-details">Why Businesses Need Secure, Scalable Cloud Infrastructure</Link>
                                     </h3>
                                 </div>
                                 <div className="btn-box">
@@ -100,27 +88,21 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img3.jpg" alt="#"/>
+                                <img src="assets/img/blog/blog-three__img3.jpg" alt="IT Compliance"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
                                     <ul className="meta-info">
                                         <li>
                                             <div className="icon">
-                                                <span className="icon-calendar"></span>
+                                                <span className="icon-tag"></span>
                                             </div>
-                                            <p>Sep 30, 2022</p>
-                                        </li>
-                                        <li>
-                                            <div className="icon">
-                                                <span className="icon-time"></span>
-                                            </div>
-                                            <p>5 Min Read</p>
+                                            <p>IS Audit & IT Compliance</p>
                                         </li>
                                     </ul>
                                 </div>
                                 <div className="title-box">
-                                    <h3><Link href="blog-details">It is Your Time to Show<br/>Your Creativity </Link></h3>
+                                    <h3><Link href="blog-details">Preparing IT Systems for Audit & Regulatory Compliance</Link></h3>
                                 </div>
                                 <div className="btn-box">
                                     <Link href="blog-details">

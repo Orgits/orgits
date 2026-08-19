@@ -11,7 +11,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                     <div className="main-header-three__top-inner">
                         <div className="main-header-three__top-left">
                             <div className="welcome-text-one">
-                                <p><span className="icon-bell"></span> We Will Grow Your Small Business To The Next Level
+                                <p><span className="icon-bell"></span> Technology, AI & Digital Transformation That Moves Your Business Forward
                                 </p>
                             </div>
                         </div>
@@ -22,13 +22,13 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                                         <div className="icon">
                                             <span className="icon-phone-call"></span>
                                         </div>
-                                        <p><Link href="tel:1378902167">+1 378 902 167</Link></p>
+                                        <p><Link href="tel:+919289687928">+91 9289687928</Link></p>
                                     </li>
                                     <li>
                                         <div className="icon">
                                             <span className="icon-email"></span>
                                         </div>
-                                        <p><Link href="mailto:info@example.com">Support@gmail.com</Link></p>
+                                        <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
                                     </li>
                                 </ul>
                             </div>
@@ -46,7 +46,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
                             <div className="main-header-three__bottom-left">
                                 <div className="logo-box-one">
                                     <Link href="/">
-                                        <img src="assets/img/resource/logo-4.png" alt="Logo"/>
+                                        <img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/>
                                     </Link>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 
                             <div className="main-header-three__bottom-right">
                                 <div className="header-btn-box-one">
-                                    <Link className="thm-btn" href="contact">
+                                    <Link className="thm-btn" href="/contact">
                                         <span className="txt">
                                             Contact Us
                                             <i className="icon-next"></i>

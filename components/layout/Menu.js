@@ -31,7 +31,7 @@ export default function Menu() {
                     <ul className="sub-menu">
                         <li><Link href="services">Services</Link></li>
                         <li><Link href="app-development">App Development</Link></li>
-                        <li><Link href="uiux-design">Uiux Design</Link></li>
+                        <li><Link href="uiux-design">UI/UX Design</Link></li>
                         <li><Link href="web-development">Web Development</Link></li>
                         <li><Link href="digital-marketing">Digital Marketing</Link></li>
                         <li><Link href="corporate-agency">Corporate Agency</Link></li>

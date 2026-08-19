@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/anubhav/Github/production/Orgits/orgits/orgits/app/layout\":[\"static/media/c4c7b0ec92b72e30-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
+self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/anubhav/Github/NVIDIA/Orgits/orgits/app/layout":["static/media/103fc5fac08dcb15-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';

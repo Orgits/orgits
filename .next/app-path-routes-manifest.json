@@ -1,0 +1,23 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/_not-found": "/_not-found",
+  "/app-development/page": "/app-development",
+  "/blog-details/page": "/blog-details",
+  "/corporate-agency/page": "/corporate-agency",
+  "/contact/page": "/contact",
+  "/index-2/page": "/index-2",
+  "/about/page": "/about",
+  "/index-3/page": "/index-3",
+  "/digital-marketing/page": "/digital-marketing",
+  "/blog/page": "/blog",
+  "/faq/page": "/faq",
+  "/team/page": "/team",
+  "/project-details/page": "/project-details",
+  "/pricing/page": "/pricing",
+  "/services/page": "/services",
+  "/web-development/page": "/web-development",
+  "/project/page": "/project",
+  "/uiux-design/page": "/uiux-design",
+  "/testimonial/page": "/testimonial"
+}

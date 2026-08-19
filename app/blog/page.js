@@ -1,50 +1,49 @@
-
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Blog">
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Orgits Insights">
                 {/*Start Blog Page*/}
                 <section className="blog-page">
                     <div className="container">
+                        <div className="sec-title-three text-center sec-title-animation animation-style1" style={{marginBottom: '50px'}}>
+                            <div className="sub-title">
+                                <h4>Orgits Insights</h4>
+                            </div>
+                            <h2>
+                                Technology, Growth & Compliance Insights
+                            </h2>
+                        </div>
                         <div className="row">
                             <div className="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                                 <div className="blog-page__content">
                                     {/*Start Single Blog Page*/}
                                     <div className="blog-page__single">
                                         <div className="blog-page__single-img">
-                                            <img src="assets/img/blog/blog-page1__img1.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-page1__img1.jpg" alt="CRM Automation"/>
                                         </div>
                                         <div className="blog-page__single-content">
                                             <div className="meta-box">
                                                 <ul className="meta-info">
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-user"></span>
+                                                            <span className="icon-tag"></span>
                                                         </div>
-                                                        <p><Link href="#">Admin</Link></p>
+                                                        <p>CRM & Marketing Automation</p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-calendar"></span>
+                                                            <span className="icon-time"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
-                                                    </li>
-                                                    <li>
-                                                        <div className="icon">
-                                                            <span className="icon-comment"></span>
-                                                        </div>
-                                                        <p><Link href="#">0 Comments</Link></p>
+                                                        <p>8 Min Read</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Communicate The Message Your Audience is
-                                                        <br/>Waiting for Products
-                                                    </Link>
+                                                    <Link href="blog-details">CRM Automation: From Lead Capture to Follow-Up</Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
@@ -60,36 +59,28 @@ export default function Home() {
                                     {/*Start Single Blog Page*/}
                                     <div className="blog-page__single">
                                         <div className="blog-page__single-img">
-                                            <img src="assets/img/blog/blog-page1__img2.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-page1__img2.jpg" alt="Web Application Development"/>
                                         </div>
                                         <div className="blog-page__single-content">
                                             <div className="meta-box">
                                                 <ul className="meta-info">
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-user"></span>
+                                                            <span className="icon-tag"></span>
                                                         </div>
-                                                        <p><Link href="#">Admin</Link></p>
+                                                        <p>Software Development</p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-calendar"></span>
+                                                            <span className="icon-time"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
-                                                    </li>
-                                                    <li>
-                                                        <div className="icon">
-                                                            <span className="icon-comment"></span>
-                                                        </div>
-                                                        <p><Link href="#">0 Comments</Link></p>
+                                                        <p>7 Min Read</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Digital Marketing is The Backbone of
-                                                        Your<br/>Business Growth
-                                                    </Link>
+                                                    <Link href="blog-details">What Businesses Should Consider Before Building a Web Application</Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
@@ -105,36 +96,28 @@ export default function Home() {
                                     {/*Start Single Blog Page*/}
                                     <div className="blog-page__single">
                                         <div className="blog-page__single-img">
-                                            <img src="assets/img/blog/blog-page1__img3.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-page1__img3.jpg" alt="IT Controls"/>
                                         </div>
                                         <div className="blog-page__single-content">
                                             <div className="meta-box">
                                                 <ul className="meta-info">
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-user"></span>
+                                                            <span className="icon-tag"></span>
                                                         </div>
-                                                        <p><Link href="#">Admin</Link></p>
+                                                        <p>IS Audit & IT Compliance</p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-calendar"></span>
+                                                            <span className="icon-time"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
-                                                    </li>
-                                                    <li>
-                                                        <div className="icon">
-                                                            <span className="icon-comment"></span>
-                                                        </div>
-                                                        <p><Link href="#">0 Comments</Link></p>
+                                                        <p>6 Min Read</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Our Mission is to Help The Entire World
-                                                        Do<br/>Business Online
-                                                    </Link>
+                                                    <Link href="blog-details">Why IT Controls Matter for Growing Businesses</Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
@@ -150,36 +133,28 @@ export default function Home() {
                                     {/*Start Single Blog Page*/}
                                     <div className="blog-page__single">
                                         <div className="blog-page__single-img">
-                                            <img src="assets/img/blog/blog-page1__img4.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-page1__img4.jpg" alt="Information Systems Audit"/>
                                         </div>
                                         <div className="blog-page__single-content">
                                             <div className="meta-box">
                                                 <ul className="meta-info">
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-user"></span>
+                                                            <span className="icon-tag"></span>
                                                         </div>
-                                                        <p><Link href="#">Admin</Link></p>
+                                                        <p>IS Audit & IT Compliance</p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-calendar"></span>
+                                                            <span className="icon-time"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
-                                                    </li>
-                                                    <li>
-                                                        <div className="icon">
-                                                            <span className="icon-comment"></span>
-                                                        </div>
-                                                        <p><Link href="#">0 Comments</Link></p>
+                                                        <p>7 Min Read</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="title-box">
                                                 <h3>
-                                                    <Link href="blog-details">Making Your Business A Success with Cutting
-                                                        <br/>Edge Technology
-                                                    </Link>
+                                                    <Link href="blog-details">Preparing for an Information Systems Audit</Link>
                                                 </h3>
                                             </div>
                                             <div className="btn-box">
@@ -191,6 +166,81 @@ export default function Home() {
                                         </div>
                                     </div>
                                     {/*End Single Blog Page*/}
+
+                                    {/*Start Single Blog Page*/}
+                                    <div className="blog-page__single">
+                                        <div className="blog-page__single-img">
+                                            <img src="assets/img/blog/blog-page1__img5.jpg" alt="Digital Marketing"/>
+                                        </div>
+                                        <div className="blog-page__single-content">
+                                            <div className="meta-box">
+                                                <ul className="meta-info">
+                                                    <li>
+                                                        <div className="icon">
+                                                            <span className="icon-tag"></span>
+                                                        </div>
+                                                        <p>Digital Marketing</p>
+                                                    </li>
+                                                    <li>
+                                                        <div className="icon">
+                                                            <span className="icon-time"></span>
+                                                        </div>
+                                                        <p>6 Min Read</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="title-box">
+                                                <h3>
+                                                    <Link href="blog-details">Google & Meta Ads: Building a Structured Lead Generation System</Link>
+                                                </h3>
+                                            </div>
+                                            <div className="btn-box">
+                                                <Link href="blog-details">
+                                                    Read More
+                                                    <i className="icon-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/*End Single Blog Page*/}
+
+                                    {/*Start Single Blog Page*/}
+                                    <div className="blog-page__single">
+                                        <div className="blog-page__single-img">
+                                            <img src="assets/img/blog/blog-page1__img6.jpg" alt="Cloud Infrastructure"/>
+                                        </div>
+                                        <div className="blog-page__single-content">
+                                            <div className="meta-box">
+                                                <ul className="meta-info">
+                                                    <li>
+                                                        <div className="icon">
+                                                            <span className="icon-tag"></span>
+                                                        </div>
+                                                        <p>Cloud & IT Consulting</p>
+                                                    </li>
+                                                    <li>
+                                                        <div className="icon">
+                                                            <span className="icon-time"></span>
+                                                        </div>
+                                                        <p>5 Min Read</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div className="title-box">
+                                                <h3>
+                                                    <Link href="blog-details">Cloud Infrastructure for Scalable Business Applications</Link>
+                                                </h3>
+                                            </div>
+                                            <div className="btn-box">
+                                                <Link href="blog-details">
+                                                    Read More
+                                                    <i className="icon-right"></i>
+                                                </Link>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {/*End Single Blog Page*/}
+
                                 </div>
                             </div>
 
@@ -209,7 +259,7 @@ export default function Home() {
                                     {/*Start Sidebar Single*/}
                                     <div className="sidebar__single sidebar__latest-blog wow fadeInUp" data-wow-delay=".4s">
                                         <div className="title-box">
-                                            <h2>Latest From Blog</h2>
+                                            <h2>Latest Insights</h2>
                                         </div>
 
                                         <ul className="sidebar__latest-blog-list">
@@ -218,8 +268,8 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img1.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Powerful Ideas & Sales<br/>Acceleration</Link></h4>
-                                                    <p><span className="icon-calendar"></span> September 10, 2022</p>
+                                                    <h4><Link href="#">CRM Automation: From Lead Capture to Follow-Up</Link></h4>
+                                                    <p><span className="icon-tag"></span> CRM & Marketing Automation</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -227,8 +277,8 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Craft Digital Marketing<br/>That Converts</Link></h4>
-                                                    <p><span className="icon-calendar"></span> December 12, 2022</p>
+                                                    <h4><Link href="#">What Businesses Should Consider Before Building a Web Application</Link></h4>
+                                                    <p><span className="icon-tag"></span> Software Development</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -236,13 +286,14 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img3.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Start with A Plan and<br/>Finish with Results.</Link></h4>
-                                                    <p><span className="icon-calendar"></span> November 08, 2022</p>
+                                                    <h4><Link href="#">Why IT Controls Matter for Growing Businesses</Link></h4>
+                                                    <p><span className="icon-tag"></span> IS Audit & IT Compliance</p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}
+
                                     {/*Start Sidebar Single*/}
                                     <div className="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
                                         <div className="title-box">
@@ -252,27 +303,35 @@ export default function Home() {
                                         <ul className="sidebar__category-list">
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Business Agency <span>(8)</span></Link>
+                                                <Link href="#">Digital Transformation <span>(3)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> UI/UX Designer <span>(12)</span></Link>
+                                                <Link href="#">Software Development <span>(4)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Web Developer <span>(20)</span></Link>
+                                                <Link href="#">CRM & Automation <span>(2)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Financial Strategy <span>(15)</span></Link>
+                                                <Link href="#">Digital Marketing <span>(3)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Digital Marketing <span>(9)</span></Link>
+                                                <Link href="#">Cloud & IT <span>(2)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Corporate Agency <span>(12)</span></Link>
+                                                <Link href="#">IS Audit & Compliance <span>(3)</span></Link>
+                                            </li>
+                                            <li>
+                                                <div className="cercale-box"></div>
+                                                <Link href="#">Cybersecurity <span>(2)</span></Link>
+                                            </li>
+                                            <li>
+                                                <div className="cercale-box"></div>
+                                                <Link href="#">Business Technology <span>(4)</span></Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -285,17 +344,16 @@ export default function Home() {
                                         </div>
 
                                         <ul className="sidebar__tags-list clearfix">
-                                            <li> <Link href="#">Design</Link> </li>
-                                            <li> <Link href="#">Development</Link> </li>
-                                            <li> <Link href="#">Agency</Link> </li>
-                                            <li> <Link href="#">UI/UX</Link> </li>
-                                            <li> <Link href="#">Marketing</Link> </li>
-                                            <li> <Link href="#">Business</Link> </li>
-                                            <li> <Link href="#">Financial</Link> </li>
-                                            <li> <Link href="#">App UI</Link> </li>
-                                            <li> <Link href="#">Corporate</Link> </li>
-                                            <li> <Link href="#">Design Studio</Link> </li>
-                                            <li> <Link href="#">Web App</Link> </li>
+                                            <li> <Link href="#">Digital Transformation</Link> </li>
+                                            <li> <Link href="#">Software Development</Link> </li>
+                                            <li> <Link href="#">CRM Automation</Link> </li>
+                                            <li> <Link href="#">Digital Marketing</Link> </li>
+                                            <li> <Link href="#">Cloud Infrastructure</Link> </li>
+                                            <li> <Link href="#">IS Audit</Link> </li>
+                                            <li> <Link href="#">Cybersecurity</Link> </li>
+                                            <li> <Link href="#">Business Technology</Link> </li>
+                                            <li> <Link href="#">Lead Generation</Link> </li>
+                                            <li> <Link href="#">Scalability</Link> </li>
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}

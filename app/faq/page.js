@@ -22,7 +22,7 @@ export default function Faq() {
 
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Faq">
+            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="FAQ">
             {/*Search Field Start*/}
             <section className="search-field">
                 <div className="container">
@@ -49,102 +49,61 @@ export default function Faq() {
                             <div className="section-title__tagline-box">
                                 <span className="section-title__tagline">general questions</span>
                             </div>
-                            <h2 className="section-title__title">client frequent question</h2>
+                            <h2 className="section-title__title">Frequently Asked Questions</h2>
                         </div>
                         <div className="faq-page__inner">
                             <div className="accrodion-grp faq-one-accrodion" data-grp-name="faq-one-accrodion">
                             <div className={isActive.key == 1 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(1)}>
                                     <div className="accrodion-title">
-                                        <h4>How can we improve our digital presence?</h4>
+                                        <h4>What if the developer leaves?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
+                                            <p>Even if a developer leaves mid-project, Orgits has leadership support across key domains and access to a wider professional network. We can work to identify and onboard a suitable replacement so project continuity is maintained.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                     <div className="faq-page__count"></div>
                                 </div>
                                 <div className={isActive.key == 2 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(2)}>
                                     <div className="accrodion-title">
-                                        <h4>How can we increase our profitability and revenue?</h4>
+                                        <h4>What is the billing cycle?</h4>
                                     </div>
                                     <div className="accrodion-content" onClick={() => handleToggle(2)}>
                                         <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
+                                            <p>For ongoing engagements, invoices are raised at the beginning of each month to keep operations and financial planning predictable.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                     <div className="faq-page__count"></div>
                                 </div>
                                 <div className={isActive.key == 3 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(3)}>
                                     <div className="accrodion-title">
-                                        <h4>How can we optimize our supply chain costs?</h4>
+                                        <h4>What is the minimum contract period?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
+                                            <p>For staff augmentation engagements, the current minimum contract period is six months.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                     <div className="faq-page__count"></div>
                                 </div>
                                 <div className={isActive.key == 4 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(4)}>
                                     <div className="accrodion-title">
-                                        <h4>What are the effective ways to manage our employees?</h4>
+                                        <h4>What happens if a developer gets stuck?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
+                                            <p>Orgits has expertise across multiple domains. When an engineer encounters a difficult issue, the leadership and wider technical team can support the engineer in resolving it.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                     <div className="faq-page__count"></div>
                                 </div>
                                 <div className={isActive.key == 5 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(5)}>
                                     <div className="accrodion-title">
-                                        <h4>How can we develop and implement business strategy?</h4>
+                                        <h4>How much does Orgits charge?</h4>
                                     </div>
                                     <div className="accrodion-content">
                                         <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
-                                        </div>{/* /.inner */}
-                                    </div>
-                                    <div className="faq-page__count"></div>
-                                </div>
-                                <div className={isActive.key == 6 ? "accrodion active" : "accrodion"} onClick={() => handleToggle(6)}>
-                                    <div className="accrodion-title">
-                                        <h4>What are the current and best practices in our industry?</h4>
-                                    </div>
-                                    <div className="accrodion-content">
-                                        <div className="inner">
-                                            <p>Dignissim mollis taciti netus nisl congue cubilia antena dictum porta vehicula
-                                                name cubilia lorem mattis fermentum mauris pulvinar montes tortor rhoncus
-                                                vulputate platea faucibus vitae ullamcorper urna montes facilisi aenean agna
-                                                purus enime ton amet ridiculus penatibus lacinia an adipiscing libero erose
-                                                massa conubia phasellus adipisci nulla aliquam quisque curabitur quis convallis
-                                                diam natoque sed.metus</p>
+                                            <p>Pricing depends on the expertise, skills, scope and engagement model required for the project. We recommend discussing the requirement first so the right model can be proposed.</p>
                                         </div>{/* /.inner */}
                                     </div>
                                     <div className="faq-page__count"></div>
@@ -154,34 +113,6 @@ export default function Faq() {
                     </div>
                 </section>
                 {/*FAQ Page End*/}
-
-                {/*CTA One Start */}
-                <section className="cta-one">
-                    <div className="container">
-                        <div className="cta-one__inner">
-                            <div className="cta-one__bg"  style={{ backgroundImage: 'url(assets/images/backgrounds/cta-one-bg.jpg)' }} >
-                            </div>
-                            <div className="row">
-                                <div className="col-xl-6 col-lg-6"></div>
-                                <div className="col-xl-6 col-lg-6">
-                                    <div className="cta-one__right">
-                                        <h3 className="cta-one__title">Get Free Estimate</h3>
-                                        <p className="cta-one__text">Lorem Ipsum is simply is dumiomy is text Lorem Ipsum </p>
-                                        <form className="cta-one__form mc-form" data-url="MC_FORM_URL">
-                                            <div className="cta-one__form-input-box">
-                                                <input type="email" placeholder="Your email..." name="email"/>
-                                                <button type="submit" className="cta-one__btn thm-btn">Login<span
-                                                        className="icon-plus"></span></button>
-                                            </div>
-                                        </form>
-                                        <div className="mc-form__response"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                {/*CTA One End */}
 
             </Layout>
         </>

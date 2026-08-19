@@ -15,16 +15,12 @@ export default function Home() {
                             <div className="service-details__content">
                                 <div className="service-details__img-box1">
                                     <div className="img-box">
-                                        <img src="assets/img/service/service-details__img4.jpg" alt="image"/>
+                                        <img src="assets/img/service/service-details__img4.jpg" alt="Web Development"/>
                                     </div>
                                     <div className="content-box">
                                         <h2>Web Development</h2>
                                         <p>
-                                            Applications are like the lifeblood of mobile phones and tablets today. The true
-                                            potential of you mobile phone is harnessed by applications that can provide
-                                            utility. Apps come under of the various segments. Nowad technology has become
-                                            super advanced. Even normal people are getting themselves enrolled in coding and
-                                            programming and creating applications on their own.
+                                            We build responsive websites and web applications designed around business objectives, user experience, performance and long-term scalability.
                                         </p>
                                         <ul className="list-item clearfix">
                                             <li>
@@ -32,7 +28,7 @@ export default function Home() {
                                                     <span className="icon-check"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <p>Our services will feel like A mint of creativity.</p>
+                                                    <p>Business & corporate websites</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -40,7 +36,7 @@ export default function Home() {
                                                     <span className="icon-check"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <p>Our services will feel like A mint of creativity.</p>
+                                                    <p>Web applications</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -48,7 +44,31 @@ export default function Home() {
                                                     <span className="icon-check"></span>
                                                 </div>
                                                 <div className="text">
-                                                    <p>Our services will feel like A mint of creativity.</p>
+                                                    <p>Admin panels & CMS</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div className="icon">
+                                                    <span className="icon-check"></span>
+                                                </div>
+                                                <div className="text">
+                                                    <p>API integrations</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div className="icon">
+                                                    <span className="icon-check"></span>
+                                                </div>
+                                                <div className="text">
+                                                    <p>E-commerce platforms</p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div className="icon">
+                                                    <span className="icon-check"></span>
+                                                </div>
+                                                <div className="text">
+                                                    <p>Cloud deployment</p>
                                                 </div>
                                             </li>
                                         </ul>
@@ -57,19 +77,14 @@ export default function Home() {
 
                                 <div className="service-details__text">
                                     <div className="title">
-                                        <h3>Start with A Plan and Finish with Results</h3>
+                                        <h3>Web Experiences Built Around Your Business</h3>
                                         <p>
-                                            The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                            your brand by zeroing in on your target market. Affordable, targeted media for
-                                            everyone.
+                                            From a business website to a complex web application, Orgits combines UX, frontend, backend, database and cloud capabilities to deliver practical digital products.
                                         </p>
                                     </div>
                                     <div className="text">
                                         <p>
-                                            At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                            voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                            occaecati Lead generati inbound marketing, web development, and marketing
-                                            automation solutions.
+                                            We work with modern frontend frameworks (React, Next.js, Angular), backend technologies (Node.js, Python, PHP), databases (PostgreSQL, MongoDB, MySQL) and cloud platforms (AWS, Google Cloud, Azure, DigitalOcean) to build web solutions that are fast, secure and maintainable.
                                         </p>
                                     </div>
                                 </div>
@@ -78,35 +93,31 @@ export default function Home() {
                                     <div className="row">
                                         <div className="col-xl-6 col-lg-6">
                                             <div className="img-box">
-                                                <img src="assets/img/service/service-details__img2.jpg" alt="image"/>
+                                                <img src="assets/img/service/service-details__img2.jpg" alt="Web Development Process"/>
                                             </div>
                                         </div>
                                         <div className="col-xl-6 col-lg-6">
                                             <div className="content-box">
                                                 <p>
-                                                    Applications are like the lifeblood mobile phones and tablets today. The
-                                                    true potential you mobile phone is harnessed applications that can
-                                                    provide
-                                                    utility. Apps come under of the various segments. Nowad technology has
-                                                    become super advanced even normal people are getting themselves.
+                                                    Our web development approach emphasizes clean code, performance optimization, accessibility and SEO-friendly architecture from day one.
                                                 </p>
                                                 <ul className="list-item clearfix">
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>Our services will feel like mint of creativity.</p>
+                                                            <p>Responsive, mobile-first design</p>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>We develop application excellent technology.</p>
+                                                            <p>Performance optimization & Core Web Vitals</p>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>Practice for providing all application problems.</p>
+                                                            <p>Secure, scalable cloud deployment</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -118,20 +129,20 @@ export default function Home() {
                                 <div className="service-details__prev-next-option blog-details__prev-next-option">
                                     <div className="single-box left">
                                         <div className="icon">
-                                            <Link href="#"><span className="icon-left-arrow"></span></Link>
+                                            <Link href="/app-development"><span className="icon-left-arrow"></span></Link>
                                         </div>
                                         <div className="text">
                                             <p>Prev service</p>
-                                            <h3><Link href="#">We grow your business</Link></h3>
+                                            <h3><Link href="/app-development">Mobile & Web App Development</Link></h3>
                                         </div>
                                     </div>
                                     <div className="single-box right">
                                         <div className="text">
                                             <p>Next service</p>
-                                            <h3><Link href="#">Think beyond the wave</Link></h3>
+                                            <h3><Link href="/uiux-design">UI/UX Design</Link></h3>
                                         </div>
                                         <div className="icon">
-                                            <Link href="#"><span className="icon-right-arrow-angle"></span></Link>
+                                            <Link href="/uiux-design"><span className="icon-right-arrow-angle"></span></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -160,27 +171,27 @@ export default function Home() {
                                     <ul className="sidebar__category-list">
                                         <li>
                                             <div className="cercale-box"></div>
-                                            <Link href="app-development">Mobile App Development<span
+                                            <Link href="/app-development">Mobile & Web App Development<span
                                                     className="icon-right-arrow-angle"></span></Link>
                                         </li>
                                         <li>
                                             <div className="cercale-box"></div>
-                                            <Link href="uiux-design">UI/UX Designer<span
+                                            <Link href="/uiux-design">UI/UX Design<span
                                                     className="icon-right-arrow-angle"></span></Link>
                                         </li>
                                         <li>
                                             <div className="cercale-box"></div>
-                                            <Link className="active" href="#">Web Developer<span
+                                            <Link className="active" href="/web-development">Web Development<span
                                                     className="icon-right-arrow-angle"></span></Link>
                                         </li>
                                         <li>
                                             <div className="cercale-box"></div>
-                                            <Link href="digital-marketing">Digital Marketing<span
+                                            <Link href="/digital-marketing">Digital Marketing<span
                                                     className="icon-right-arrow-angle"></span></Link>
                                         </li>
                                         <li>
                                             <div className="cercale-box"></div>
-                                            <Link href="corporate-agency">Corporate Agency<span
+                                            <Link href="/corporate-agency">IT Consulting & Digital Business Solutions<span
                                                     className="icon-right-arrow-angle"></span></Link>
                                         </li>
                                     </ul>
@@ -208,9 +219,9 @@ export default function Home() {
                                         style={{ backgroundImage: 'url(assets/img/service/service-details-sideber__img1.jpg)' }} >
                                     </div>
                                     <div className="content-box text-center">
-                                        <h3>Have Any Discussion<br/>About Project?</h3>
+                                        <h3>Have a Project<br/>to Discuss?</h3>
                                         <div className="btn-box">
-                                            <Link className="thm-btn" href="#">
+                                            <Link className="thm-btn" href="/contact">
                                                 <span className="txt">Contact Us</span>
                                                 <i className="icon-next"></i>
                                             </Link>

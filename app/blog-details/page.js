@@ -13,43 +13,33 @@ export default function Home() {
                                 <div className="blog-details__content">
                                     <div className="blog-details__img-box1">
                                         <div className="blog-details__img1">
-                                            <img src="assets/img/blog/blog-details__img1.jpg" alt="image"/>
+                                            <img src="assets/img/blog/blog-details__img1.jpg" alt="CRM Automation"/>
                                         </div>
                                         <div className="blog-details-img1__content">
                                             <div className="meta-box">
                                                 <ul className="meta-info">
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-user"></span>
+                                                            <span className="icon-tag"></span>
                                                         </div>
-                                                        <p><Link href="#">Admin</Link></p>
+                                                        <p>CRM & Marketing Automation</p>
                                                     </li>
                                                     <li>
                                                         <div className="icon">
-                                                            <span className="icon-calendar"></span>
+                                                            <span className="icon-time"></span>
                                                         </div>
-                                                        <p><Link href="#">Oct 14, 2022</Link></p>
-                                                    </li>
-                                                    <li>
-                                                        <div className="icon">
-                                                            <span className="icon-comment"></span>
-                                                        </div>
-                                                        <p><Link href="#">0 Comments</Link></p>
+                                                        <p>8 Min Read</p>
                                                     </li>
                                                 </ul>
                                             </div>
                                             <div className="title-box">
                                                 <h2>
-                                                    <Link href="#">Repair Will Be For You What You Part <br/> Want It To Be</Link>
+                                                    <Link href="#">How CRM Automation Helps Businesses Build a More Efficient Sales Process</Link>
                                                 </h2>
                                             </div>
                                             <div className="text-box">
                                                 <p>
-                                                    Applications are like the lifeblood of mobile phones and tablets today. The
-                                                    true potential of you mobile phone is harnessed by applications that can
-                                                    provide utility. Apps come under of the various segments. Nowad technology
-                                                    has become super advanced. Even normal people are getting themselves
-                                                    enrolled in coding and programming and creating applications on their own.
+                                                    Businesses often lose potential opportunities because leads are captured in different places, follow-ups depend on manual work, and customer information is not organized into a consistent process.
                                                 </p>
                                             </div>
                                             <div className="list-item">
@@ -57,28 +47,25 @@ export default function Home() {
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>Our services will feel like A mint of creativity.</p>
+                                                            <p>Centralize lead information in one system</p>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>We develop applications with excellent technology.</p>
+                                                            <p>Automate repetitive follow-up tasks</p>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>
-                                                                A web communications practice for providing all application
-                                                                problems.
-                                                            </p>
+                                                            <p>Connect marketing with sales workflows</p>
                                                         </div>
                                                     </li>
                                                     <li>
                                                         <div className="circle-box"></div>
                                                         <div className="text">
-                                                            <p>Advancing beyond your expectations.</p>
+                                                            <p>Improve pipeline visibility for management</p>
                                                         </div>
                                                     </li>
                                                 </ul>
@@ -90,22 +77,19 @@ export default function Home() {
                                         <div className="row">
                                             <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="blog-details__img2-single">
-                                                    <img src="assets/img/blog/blog-details__img2.jpg" alt="image"/>
+                                                    <img src="assets/img/blog/blog-details__img2.jpg" alt="CRM Dashboard"/>
                                                 </div>
                                             </div>
                                             <div className="col-xl-6 col-lg-6 col-md-6">
                                                 <div className="blog-details__img2-single">
-                                                    <img src="assets/img/blog/blog-details__img3.jpg" alt="image"/>
+                                                    <img src="assets/img/blog/blog-details__img3.jpg" alt="Automation Workflow"/>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="blog-details__img2-text">
-                                            <h3><Link href="#">Repair For People Who Want More</Link></h3>
+                                            <h3><Link href="#">Section 1 — Centralize Lead Information</Link></h3>
                                             <p>
-                                                Several ways and will continue to do so. As a result, it is something that will
-                                                never cease to halt. It’s an ever-growing business, which requires the help of
-                                                proper slogans to make yourself and and application stand out from under a rock,
-                                                lived an app named to do.
+                                                CRM systems create a structured place for lead and customer information. Instead of scattered spreadsheets, email threads, and sticky notes, all prospect data lives in one searchable database. This means no more lost contacts, duplicate entries, or confusion about who last spoke to a lead.
                                             </p>
                                         </div>
                                     </div>
@@ -113,18 +97,20 @@ export default function Home() {
                                     <div className="blog-details__text">
                                         <div className="text1">
                                             <div className="quote-box"></div>
-                                            <p>“At vero eos et accusamus et iust odio dignissimos ducimus blanditiis
-                                                praesentium voluptatum deleniti atque corrupti quos dol quamolestias
-                                                excepturi sint occaecati cupiditate non provident”
-                                            </p>
+                                            <p>"Technology becomes more valuable when it removes operational friction. CRM and marketing automation can help businesses create a more consistent and scalable sales process."</p>
                                         </div>
                                         <div className="text2">
                                             <p>
-                                                Authentic vexillologist thundercats, kale chips next level flannel activated
-                                                charcoal keffiyeh single-origin coffee lo-fi swag stumptown marfa dreamcatcher.
-                                                Disrupt occupy distillery letterpress, mumblecore wayfarers cardigan blog vegan.
-                                                Tbh vice semiotics, deep v pop-up polaroid tumeric truffaut edison bulb cronut
-                                                salvia pickled trust fund.
+                                                <strong>Section 2 — Automate Repetitive Work</strong><br/>
+                                                Lead assignment, follow-up reminders, email workflows and notifications can all be automated. When a new lead comes in, the system can instantly route it to the right salesperson based on territory, product interest, or workload. Automated email sequences nurture prospects who aren't ready to buy yet, while tasks and reminders keep active deals moving forward.
+                                            </p>
+                                            <p>
+                                                <strong>Section 3 — Connect Marketing With Sales</strong><br/>
+                                                Advertising, lead capture, CRM and communication work as one workflow. When a prospect clicks an ad, fills a form, or downloads content, that activity flows directly into the CRM. Sales sees the full context—what campaign brought them in, what pages they viewed, what content they engaged with. This eliminates the "marketing vs sales" disconnect and creates a unified view of the customer journey.
+                                            </p>
+                                            <p>
+                                                <strong>Section 4 — Improve Visibility</strong><br/>
+                                                Structured CRM data gives management better visibility into pipeline activity. Dashboards show deal stages, conversion rates, sales cycle length, and forecast accuracy. Leaders can identify bottlenecks, coach reps based on real data, and make informed decisions about resource allocation and strategy.
                                             </p>
                                         </div>
                                     </div>
@@ -132,17 +118,23 @@ export default function Home() {
                                     <div className="blog-details__tag-share">
                                         <div className="tag2">
                                             <div className="text">
-                                                <p>Tag:</p>
+                                                <p>Tags:</p>
                                             </div>
                                             <ul className="tag2-list">
                                                 <li>
-                                                    <Link href="#">Cleaning</Link>
+                                                    <Link href="#">CRM</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Repair</Link>
+                                                    <Link href="#">Marketing Automation</Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="#">Electrician</Link>
+                                                    <Link href="#">RevOps</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Digital Transformation</Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="#">Business Automation</Link>
                                                 </li>
                                             </ul>
                                         </div>
@@ -162,11 +154,6 @@ export default function Home() {
                                                     </Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="www.pinterest.com" className="bg-color2">
-                                                        <span className="fa-brands fa-pinterest-p"></span>
-                                                    </Link>
-                                                </li>
-                                                <li>
                                                     <Link href="www.linkedin.com" className="bg-color3">
                                                         <span className="icon-linkedin"></span>
                                                     </Link>
@@ -178,164 +165,23 @@ export default function Home() {
                                     <div className="blog-details__prev-next-option">
                                         <div className="single-box left">
                                             <div className="icon">
-                                                <Link href="#"><span className="icon-left-arrow"></span></Link>
+                                                <Link href="/blog"><span className="icon-left-arrow"></span></Link>
                                             </div>
                                             <div className="text">
-                                                <p>Prev Blog</p>
-                                                <h3><Link href="#">We grow your business</Link></h3>
+                                                <p>Prev Insight</p>
+                                                <h3><Link href="/blog">Orgits Insights</Link></h3>
                                             </div>
                                         </div>
                                         <div className="single-box right">
                                             <div className="text">
-                                                <p>Next Blog</p>
-                                                <h3><Link href="#">Think beyond the wave</Link></h3>
+                                                <p>Next Insight</p>
+                                                <h3><Link href="/blog">Why IT Controls Matter for Growing Businesses</Link></h3>
                                             </div>
                                             <div className="icon">
-                                                <Link href="#"><span className="icon-right-arrow-angle"></span></Link>
+                                                <Link href="/blog"><span className="icon-right-arrow-angle"></span></Link>
                                             </div>
                                         </div>
                                     </div>
-
-                                    {/*Start comment box*/}
-                                    <div className="blog-details__comment-box">
-                                        <div className="title">
-                                            <h3>Comments (03)</h3>
-                                        </div>
-
-                                        {/*Start single comment*/}
-                                        <div className="single-comment-box">
-                                            <div className="img-holder">
-                                                <img src="assets/img/blog/comments__img1.jpg" alt="Image"/>
-                                            </div>
-                                            <div className="text-holder">
-                                                <div className="top">
-                                                    <div className="text-box">
-                                                        <h3>Jhonathon Smith</h3>
-                                                        <p>Nov 12, 2022 at 12:12 am</p>
-                                                    </div>
-                                                    <div className="reply">
-                                                        <Link href="#">Reply</Link>
-                                                    </div>
-                                                </div>
-                                                <div className="text">
-                                                    <p>
-                                                        Mauris non dignissim purus, ac commodo diam. Donec sit amet
-                                                        lacinia nulla. Aliquam quis purus in justo pulvinar tempor.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/*End single comment*/}
-                                        {/*Start single comment*/}
-                                        <div className="single-comment-box ml105">
-                                            <div className="img-holder">
-                                                <img src="assets/img/blog/comments__img2.jpg" alt="Image"/>
-                                            </div>
-                                            <div className="text-holder">
-                                                <div className="top">
-                                                    <div className="text-box">
-                                                        <h3>Daniel Shikhsa</h3>
-                                                        <p>Nov 13, 2022 at 2:27 am</p>
-                                                    </div>
-                                                    <div className="reply">
-                                                        <Link href="#">Reply</Link>
-                                                    </div>
-                                                </div>
-                                                <div className="text">
-                                                    <p>
-                                                        Mauris non dignissim purus, ac commodo diam. Donec sit amet this lacinia
-                                                        nulla. Aliquam quis purus in justo pulvinar tempor.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/*End single comment*/}
-                                        {/*Start single comment*/}
-                                        <div className="single-comment-box">
-                                            <div className="img-holder">
-                                                <img src="assets/img/blog/comments__img3.jpg" alt="Image"/>
-                                            </div>
-                                            <div className="text-holder">
-                                                <div className="top">
-                                                    <div className="text-box">
-                                                        <h3>Endiria Vegaka</h3>
-                                                        <p>Nov 13, 2022 at 3:27 am</p>
-                                                    </div>
-                                                    <div className="reply">
-                                                        <Link href="#">Reply</Link>
-                                                    </div>
-                                                </div>
-                                                <div className="text">
-                                                    <p>
-                                                        Mauris non dignissim purus, ac commodo diam. Donec sit amet lacinia
-                                                        nulla. Aliquam quis purus in justo pulvinar tempor.
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        {/*End single comment*/}
-                                    </div>
-                                    {/*End comment box*/}
-
-                                    {/*Start add comment box*/}
-                                    <div className="add-comment-box">
-                                        <div className="title">
-                                            <h3>Leave a Reply</h3>
-                                            <p>Your email address will not be published. Required fields are marked *</p>
-                                        </div>
-                                        <form id="add-comment-form" action="#">
-                                            <div className="row">
-                                                <div className="col-md-12">
-                                                    <div className="row">
-                                                        <div className="col-md-6">
-                                                            <div className="form-group">
-                                                                <div className="input-box">
-                                                                    <input type="text" name="fname"
-                                                                        placeholder="Your Name*"/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div className="col-md-6">
-                                                            <div className="form-group">
-                                                                <div className="input-box">
-                                                                    <input type="email" name="femail"
-                                                                        placeholder="Email Address*"/>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <div className="form-group">
-                                                                <div className="input-box">
-                                                                    <textarea name="fcomments" placeholder="Comment"
-                                                                        required=""></textarea>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <div className="checked-box2">
-                                                                
-                                                            </div>
-                                                            <div className="button-box">
-                                                                <button className="thm-btn" type="submit">
-                                                                    <span className="txt">
-                                                                        Post Your Comment
-                                                                    </span>
-                                                                </button>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    {/*End add comment box*/}
-
 
                                 </div>
                             </div>
@@ -355,7 +201,7 @@ export default function Home() {
                                     {/*Start Sidebar Single*/}
                                     <div className="sidebar__single sidebar__latest-blog wow fadeInUp" data-wow-delay=".4s">
                                         <div className="title-box">
-                                            <h2>Latest From Blog</h2>
+                                            <h2>Latest Insights</h2>
                                         </div>
 
                                         <ul className="sidebar__latest-blog-list">
@@ -364,8 +210,8 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img1.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Powerful Ideas & Sales<br/>Acceleration</Link></h4>
-                                                    <p><span className="icon-calendar"></span> September 10, 2022</p>
+                                                    <h4><Link href="#">What Businesses Should Consider Before Building a Web Application</Link></h4>
+                                                    <p><span className="icon-tag"></span> Software Development</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -373,8 +219,8 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img2.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Craft Digital Marketing<br/>That Converts</Link></h4>
-                                                    <p><span className="icon-calendar"></span> December 12, 2022</p>
+                                                    <h4><Link href="#">Why IT Controls Matter for Growing Businesses</Link></h4>
+                                                    <p><span className="icon-tag"></span> IS Audit & IT Compliance</p>
                                                 </div>
                                             </li>
                                             <li>
@@ -382,13 +228,14 @@ export default function Home() {
                                                     <img src="assets/img/blog/blog-page1-sideber__img3.jpg" alt=""/>
                                                 </div>
                                                 <div className="content-box">
-                                                    <h4><Link href="#">Start with A Plan and<br/>Finish with Results.</Link></h4>
-                                                    <p><span className="icon-calendar"></span> November 08, 2022</p>
+                                                    <h4><Link href="#">Google & Meta Ads: Building a Structured Lead Generation System</Link></h4>
+                                                    <p><span className="icon-tag"></span> Digital Marketing</p>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}
+
                                     {/*Start Sidebar Single*/}
                                     <div className="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
                                         <div className="title-box">
@@ -398,27 +245,27 @@ export default function Home() {
                                         <ul className="sidebar__category-list">
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Business Agency <span>(02)</span></Link>
+                                                <Link href="#">Digital Transformation <span>(3)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> UI/UX Designer <span>(05)</span></Link>
+                                                <Link href="#">Software Development <span>(4)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Web Developer <span>(10)</span></Link>
+                                                <Link href="#">CRM & Automation <span>(2)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Financial Strategy <span>(03)</span></Link>
+                                                <Link href="#">Digital Marketing <span>(3)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Digital Marketing <span>(10)</span></Link>
+                                                <Link href="#">Cloud & IT <span>(2)</span></Link>
                                             </li>
                                             <li>
                                                 <div className="cercale-box"></div>
-                                                <Link href="#"> Corporate Agency <span>(03)</span></Link>
+                                                <Link href="#">IS Audit & Compliance <span>(3)</span></Link>
                                             </li>
                                         </ul>
                                     </div>
@@ -431,17 +278,14 @@ export default function Home() {
                                         </div>
 
                                         <ul className="sidebar__tags-list clearfix">
-                                            <li> <Link href="#">Design</Link> </li>
-                                            <li> <Link href="#">Development</Link> </li>
-                                            <li> <Link href="#">Agency</Link> </li>
-                                            <li> <Link href="#">UI/UX</Link> </li>
-                                            <li> <Link href="#">Marketing</Link> </li>
-                                            <li> <Link href="#">Business</Link> </li>
-                                            <li> <Link href="#">Financial</Link> </li>
-                                            <li> <Link href="#">App UI</Link> </li>
-                                            <li> <Link href="#">Corporate</Link> </li>
-                                            <li> <Link href="#">Design Studio</Link> </li>
-                                            <li> <Link href="#">Web App</Link> </li>
+                                            <li> <Link href="#">CRM</Link> </li>
+                                            <li> <Link href="#">Marketing Automation</Link> </li>
+                                            <li> <Link href="#">RevOps</Link> </li>
+                                            <li> <Link href="#">Digital Transformation</Link> </li>
+                                            <li> <Link href="#">Business Automation</Link> </li>
+                                            <li> <Link href="#">Lead Management</Link> </li>
+                                            <li> <Link href="#">Sales Process</Link> </li>
+                                            <li> <Link href="#">Workflow Automation</Link> </li>
                                         </ul>
                                     </div>
                                     {/*End Sidebar Single*/}

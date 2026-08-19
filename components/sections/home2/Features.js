@@ -17,50 +17,64 @@ export default function Features() {
                 <img src="assets/img/shape/features-one__shape5.png" alt="shape"/>
             </div>
             <div className="container">
+                <div className="sec-title-two text-center sec-title-animation animation-style1" style={{marginBottom: '50px'}}>
+                    <h2>Technology Stack<br/><span>Built for Modern Business Applications</span></h2>
+                </div>
                 <div className="row">
-                    <div className="col-xl-6">
+                    <div className="col-xl-3 col-lg-6">
                         <div className="features-one__logo">
-                            <div className="features-one__shape2">
-                                <img src="assets/img/shape/features-one__shape2.png" alt="shape"/>
-                            </div>
-                            <div className="features-one__logo-single style1">
-                                <img src="assets/img/resource/features-one__logo1.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style2">
-                                <img src="assets/img/resource/features-one__logo2.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style3">
-                                <img src="assets/img/resource/features-one__logo3.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style4">
-                                <img src="assets/img/resource/features-one__logo4.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style5">
-                                <img src="assets/img/resource/features-one__logo5.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style6">
-                                <img src="assets/img/resource/features-one__logo6.png" alt="logo"/>
-                            </div>
-                            <div className="features-one__logo-single style7">
-                                <img src="assets/img/resource/features-one__logo7.png" alt="logo"/>
-                            </div>
+                            <h4>Backend & Database</h4>
+                            <ul style={{listStyle: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+                                <li>Node.js</li>
+                                <li>Python</li>
+                                <li>PHP</li>
+                                <li>MySQL</li>
+                                <li>MongoDB</li>
+                                <li>PostgreSQL</li>
+                            </ul>
                         </div>
                     </div>
-                    <div className="col-xl-6">
-                        <div className="features-one__content">
-                            <div className="sec-title-two  sec-title-animation animation-style1">
-                                <h2>Integrating Cutting Edge<br/><span>25+ Web Technologies</span></h2>
-                                <p>
-                                    Web design is not about making a website—it’s about making an investment in your
-                                    organization. Successful web design takes into<br/>account more than just aesthetics.
-                                </p>
-                            </div>
-                            <div className="features-one__content-btn">
-                                <Link className="thm-btn" href="#">
-                                    <span className="txt">See All Integration</span>
-                                    <i className="icon-next"></i>
-                                </Link>
-                            </div>
+                    <div className="col-xl-3 col-lg-6">
+                        <div className="features-one__logo">
+                            <h4>Frontend</h4>
+                            <ul style={{listStyle: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+                                <li>React</li>
+                                <li>Angular</li>
+                                <li>Next.js</li>
+                                <li>JavaScript</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-6">
+                        <div className="features-one__logo">
+                            <h4>Mobile</h4>
+                            <ul style={{listStyle: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+                                <li>Android</li>
+                                <li>iOS</li>
+                                <li>Flutter</li>
+                                <li>React Native</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-3 col-lg-6">
+                        <div className="features-one__logo">
+                            <h4>CRM & Automation</h4>
+                            <ul style={{listStyle: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+                                <li>Zoho</li>
+                                <li>HubSpot</li>
+                                <li>Salesforce</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-xl-12" style={{marginTop: '30px'}}>
+                        <div className="features-one__logo">
+                            <h4>Cloud</h4>
+                            <ul style={{listStyle: 'none', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '20px'}}>
+                                <li>AWS</li>
+                                <li>Google Cloud</li>
+                                <li>Microsoft Azure</li>
+                                <li>DigitalOcean</li>
+                            </ul>
                         </div>
                     </div>
                 </div>

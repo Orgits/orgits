@@ -13,10 +13,8 @@ export default function Home() {
                             <div className="col-xl-6 col-lg-6">
                                 <div className="contact-page__top-content">
                                     <div className="contact-page__top-content-top sec-title-animation animation-style1">
-                                        <h2>Get in Touch</h2>
-                                        <p>A vast majority of the app marketers mainly concent post-launch app marketing
-                                            techniques and measures while completely missing pre-launch campaign. This
-                                            prevents the </p>
+                                        <h2>Let's Build Something That Matters</h2>
+                                        <p>Tell us about your business, technology, marketing or compliance requirement. Our team will review your needs and help identify the right next step.</p>
                                     </div>
 
                                     <div className="contact-page__top-content-bottom">
@@ -30,7 +28,7 @@ export default function Home() {
 
                                                     <div className="content-box">
                                                         <h4>Address</h4>
-                                                        <p>254, North City, Bulex Center, New York</p>
+                                                        <p>India / Serving businesses across India and globally</p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -43,8 +41,7 @@ export default function Home() {
 
                                                     <div className="content-box">
                                                         <h4>Phone</h4>
-                                                        <p><Link href="tel:919289687928">09 (354) 587 874</Link> or <Link
-                                                                href="tel:919289687928">10 (698) 852 741</Link></p>
+                                                        <p><Link href="tel:+919289687928">+91 9289687928</Link></p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -57,9 +54,20 @@ export default function Home() {
 
                                                     <div className="content-box">
                                                         <h4>Email</h4>
-                                                        <p><Link href="mailto:yourmail@email.com">info@example.com</Link>
-                                                            or <Link href="mailto:yourmail@email.com">info@example.com</Link>
-                                                        </p>
+                                                        <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
+                                                    </div>
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <div className="inner">
+                                                    <div className="icon-box">
+                                                        <span className="icon-globe"></span>
+                                                    </div>
+
+                                                    <div className="content-box">
+                                                        <h4>Website</h4>
+                                                        <p><Link href="https://www.orgits.in" target="_blank" rel="noopener noreferrer">www.orgits.in</Link></p>
                                                     </div>
                                                 </div>
                                             </li>
@@ -70,9 +78,9 @@ export default function Home() {
 
                             <div className="col-xl-6 col-lg-6">
                                 <div className="contact-page__google-map">
-                                    <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
-                                        className="contact-page-google-map__one"></iframe>
+                                    <div style={{backgroundColor: '#f0f0f0', height: '400px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#999'}}>
+                                        Map placeholder - No verified physical office location available
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -85,8 +93,8 @@ export default function Home() {
                         <div className="container">
                             <div className="contact-page__bottom-form-inner">
                                 <div className="title-box sec-title-animation animation-style1">
-                                    <h2>Let’s Get in Touch</h2>
-                                    <p>Your email address will not be published. Required fields are marked *</p>
+                                    <h2>Let's Get in Touch</h2>
+                                    <p>Tell us what you are looking to build, automate, improve or secure.</p>
                                 </div>
                                 <div className="contact-page__bottom-form-inner-box">
                                     <form action="assets/inc/sendemail.php"

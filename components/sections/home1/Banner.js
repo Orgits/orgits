@@ -34,22 +34,21 @@ export default function Banner() {
                     <div className="banner-three__content-inner">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Welcome To Orgits</h4>
+                                <h4>Technology, AI & Digital Transformation</h4>
                             </div>
-                            <h2>
-                                Digital Agency<br/>For Growth
+                            <h2 style={{fontSize: '4.5rem'}}>
+                                Building Growth<br/>For Business
                             </h2>
                         </div>
                         <div className="text">
                             <p>
-                                There are many variations of passages of available, but the<br/>
-                                majority have suffered alterationd.
+                                We help enterprises and startups build, automate and secure their digital operations through software development, CRM automation, digital marketing, cloud solutions, and IT governance & audit.
                             </p>
                         </div>
                         <div className="btn-box">
-                            <Link className="thm-btn" href="#">
+                            <Link className="thm-btn" href="/contact">
                                 <span className="txt">
-                                    Get Started
+                                    Start a Conversation
                                     <i className="icon-next"></i>
                                 </span>
                             </Link>
@@ -61,8 +60,8 @@ export default function Banner() {
                                     </a>
                                 </div>
                                 <div className="text2">
-                                    <p>Watch Our</p>
-                                    <p>Demo Video</p>
+                                    <p>Explore Our</p>
+                                    <p>Capabilities</p>
                                 </div>
                             </div>
                         </div>

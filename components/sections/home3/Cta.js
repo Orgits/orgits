@@ -1,4 +1,3 @@
-
 'use client'
 import Link from "next/link"
 export default function Cta() {
@@ -28,17 +27,16 @@ export default function Cta() {
                         <img src="assets/img/shape/cta-one__shape6.png" alt="#"/>
                     </div>
                     <div className="cta-one__inner-title-box">
-                        <h2>Have A Project In Mind? Let’s Get Start.</h2>
+                        <h2>Let's Connect to Build Something<br/>Incredible Together!</h2>
                     </div>
                     <div className="cta-one__inner-text-box">
                         <p>
-                            Sedut perspiciatis omnis iste natus voluptate accusantium doloremque
-                            <br/>laudan totam aperiaaqus epsa quae abillo.
+                            Have a technology, marketing or compliance challenge? Let's discuss how we can help.
                         </p>
                     </div>
                     <div className="cta-one__inner-btn-box">
-                        <Link className="thm-btn" href="#">
-                            <span className="txt">Just Say Hello</span>
+                        <Link className="thm-btn" href="/contact">
+                            <span className="txt">Talk to Our Team</span>
                             <i className="icon-next"></i>
                         </Link>
                     </div>

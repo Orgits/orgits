@@ -9,21 +9,20 @@ export default function Footer3() {
             <div className="footer-main">
                 <div className="container">
                     <div className="footer-one__img1 float-bob-x">
-                        <img src="assets/img/footer/footer-one-1.png" alt="#"/>
+                        <img src="assets/img/footer/footer-one-1.png" alt=""/>
                     </div>
                     <div className="footer-one__img2 float-bob-y">
-                        <img src="assets/img/footer/footer-one-2.png" alt="#"/>
+                        <img src="assets/img/footer/footer-one-2.png" alt=""/>
                     </div>
                     <div className="footer-main__inner text-center">
                         <div className="footer-one__logo-box">
-                            <Link href="/"><img src="assets/img/logo/footer-one-1.png" alt="#"/></Link>
+                            <Link href="/"><img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/></Link>
                         </div>
                         <div className="footer-one__big-title">
-                            <h2>Let’s Talk with Me!</h2>
+                            <h2>Let's Build Something Together!</h2>
                         </div>
                         <div className="footer-one__text-box">
-                            <p>We are not only better, but we are also the best in the advertisement.
-                                <br/>Always gives you digital graphic designing </p>
+                            <p>Technology, automation, marketing and IT governance solutions for growing businesses.</p>
                         </div>
                         <div className="footer-one__socel-link">
                             <ul className="clearfix">
@@ -64,16 +63,16 @@ export default function Footer3() {
                                     <p><Link href="/">Home</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link href="about">About</Link></p>
+                                    <p><Link href="/about">About</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link href="web-development">Services</Link></p>
+                                    <p><Link href="/services">Services</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link href="#">Portfolio</Link></p>
+                                    <p><Link href="/project">Solutions</Link></p>
                                 </li>
                                 <li>
-                                    <p><Link href="blog-details">Blog</Link></p>
+                                    <p><Link href="/blog">Insights</Link></p>
                                 </li>
                             </ul>
                         </div>
@@ -82,7 +81,7 @@ export default function Footer3() {
                                 <span className="icon-mail-inbox-app"></span>
                             </div>
                             <div className="text">
-                                <p><Link href="mailto:yourmailsupport@gmail.com">yourmailsupport@gmail.com</Link></p>
+                                <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
                             </div>
                         </div>
 
@@ -96,7 +95,7 @@ export default function Footer3() {
                 <div className="container">
                     <div className="footer-bottom__inner">
                     <div className="copyright-text text-center">
-                                <p>Copyright © 2024 Orgits Business Solutions Pvt. Ltd.<Link
+                                <p>Copyright © 2026 Orgits Business Solutions Pvt. Ltd.<Link
                                         href="https://orgits.in">|| </Link>
                                     All Rights Reserved</p>
                             </div>

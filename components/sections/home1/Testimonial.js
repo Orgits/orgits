@@ -52,7 +52,6 @@ const swiperOptions = {
     }
 
 
-
 }
 
 
@@ -106,10 +105,10 @@ export default function Testimonial() {
                         <div className="testimonials-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Customers Feedback</h4>
+                                    <h4>Client Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Orgits
+                                    What Our Clients Say About Orgits
                                 </h2>
                             </div>
 
@@ -133,15 +132,12 @@ export default function Testimonial() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "I've worked with several agencies, but Orgits truly stands out. Structured, creative, and always reliable. Anubhav personally stays involved and that makes all the difference."
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Mr. Atchuta Rao</h3>
+                                                <p>Director & Founder, Estah Society</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -152,15 +148,12 @@ export default function Testimonial() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "Very reliable team to work with. You understand our client needs very well and it shows in your work. You've been able to take website from a grade of F to A! that's fantastic!"
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Dr. Anwar Hussain</h3>
+                                                <p>MD Physician & Member of IMA, Health Tips By Dr. Anwar</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -176,7 +169,7 @@ export default function Testimonial() {
             </div>
         </section>
         {/*End Testmonials Three*/}
-            
+        
         </>
     )
 }

@@ -140,7 +140,7 @@
     width: 710px;
     height: 710px;
     border-radius: 50%;
-    background: linear-gradient(180deg, #9E7CFF 0%, #FF86EC 52.82%, #FF9C9C 100%);
+    background: linear-gradient(180deg, var(--thm-primary) 0%, var(--thm-primary-light) 52.82%, var(--thm-secondary) 100%);
     z-index: -1;
 }
 
@@ -330,7 +330,7 @@
 .banner-three {
     position: relative;
     display: block;
-    background-color: #F6FAE7;
+    background-color: var(--thm-primary-lighter);
     padding: 235px 0 109px;
     overflow: hidden;
     z-index: 10;

@@ -55,13 +55,12 @@ const swiperOptions = {
     }
 
 
-
 }
 export default function Home() {
 
     return (
         <>
-            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Our services">
+            <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Our Services">
                 <div>
                     {/*Start Service Three*/}
                     <section className="service-three service">
@@ -77,10 +76,10 @@ export default function Home() {
                         <div className="container">
                             <div className="sec-title-three text-center sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Featured Services</h4>
+                                    <h4>What We Do</h4>
                                 </div>
                                 <h2>
-                                    What We Offer For You
+                                    Technology, Marketing & Compliance Solutions
                                 </h2>
                             </div>
                             <div className="row">
@@ -96,11 +95,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Design Strategy</Link></h3>
+                                                <h3><Link href="/app-development">Product Development</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>From business requirements to production, we design and develop scalable digital products around real business goals.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -119,11 +117,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Web Development</Link></h3>
+                                                <h3><Link href="/web-development">Web & Mobile App Development</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>We build responsive web and mobile applications using modern technologies for business, customer and operational use cases.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -141,11 +138,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Digital Marketing</Link></h3>
+                                                <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>Drive measurable growth through Google and Meta Ads, marketing strategy, lead generation and digital acquisition.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -163,11 +159,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Email Marketing</Link></h3>
+                                                <h3><Link href="/services">CRM & Marketing Automation</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>Automate lead management, customer journeys, communication and marketing workflows to improve operational efficiency.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -185,11 +180,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Product Development</Link></h3>
+                                                <h3><Link href="/services">IS Audit & IT Compliance</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>Assess IT controls, cybersecurity, access management, audit trails, business continuity and regulatory compliance requirements.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -205,11 +199,10 @@ export default function Home() {
                                         </div>
                                         <div className="service-three__single-content">
                                             <div className="title">
-                                                <h3><Link href="web-development">Business Strategy</Link></h3>
+                                                <h3><Link href="/services">Cloud & IT Consulting</Link></h3>
                                             </div>
                                             <div className="text">
-                                                <p>All trials are our Pro planed by default you
-                                                    can try out all the features available.</p>
+                                                <p>Plan, deploy and manage cloud application infrastructure with practical IT consulting and secure deployment practices.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -220,222 +213,241 @@ export default function Home() {
                     </section>
                     {/*End Service Three*/}
 
-                    {/*Start Fact Counter One*/}
-                    <section className="fact-counter-one about">
-                        <div className="shape1"><img src="assets/img/shape/fact-counter-one-about-shape1.png" alt=""/></div>
-                        <div className="shape2"><img src="assets/img/shape/fact-counter-one-about-shape2.png" alt=""/></div>
-                        <div className="shape3"><img src="assets/img/shape/fact-counter-one-about-shape3.png" alt=""/></div>
-                        <div className="shape4"><img src="assets/img/shape/fact-counter-one-about-shape4.png" alt=""/></div>
+                    {/* IS Audit & IT Compliance Section */}
+                    <section className="service-three" style={{backgroundColor: '#f8f9fa', paddingTop: '80px', paddingBottom: '80px'}}>
                         <div className="container">
-                            <div className="row">
-                                {/*Start Single Fact Counter*/}
-                                <div className="col-xl-3 col-lg-6 col-md-6">
-                                    <div className="single-fact-counter wow fadeInUp" data-wow-delay=".1s">
-                                        <div className="single-fact-counter-inner">
-                                            <div className="single-fact-counter-icon">
-                                                <span className="icon-completed-projects"><span className="path1"></span><span
-                                                        className="path2"></span><span className="path3"></span></span>
+                            <div className="sec-title-three text-center sec-title-animation animation-style1">
+                                <div className="sub-title">
+                                    <h4>Specialized Compliance</h4>
+                                </div>
+                                <h2>
+                                    IS Audit & IT Compliance Services
+                                </h2>
+                                <p style={{maxWidth: '700px', margin: '20px auto 0', color: '#666'}}>
+                                    Helping institutions stay audit-ready, regulator-compliant and IT-secure.
+                                </p>
+                            </div>
+                            <div className="row" style={{marginTop: '50px'}}>
+
+                                {/* Service 1 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-product-development"><span className="path1"></span><span
+                                                    className="path2"></span><span className="path3"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>IT Controls & Risk Assessment</h3>
                                             </div>
-                                            <div className="outer-box">
-                                                <div className="count-outer count-box">
-                                                <CounterUp end={484} />
-                                                    <i className="icon-plus-symbol-button"></i>
-                                                </div>
-                                                <div className="title">
-                                                    <p>Completed Projects</p>
-                                                </div>
+                                            <div className="text">
+                                                <p>Evaluate IT controls and identify vulnerabilities across systems, applications and operational processes.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/*End Single Fact Counter*/}
-                                {/*Start Single Fact Counter*/}
-                                <div className="col-xl-3 col-lg-6 col-md-6">
-                                    <div className="single-fact-counter wow fadeInUp" data-wow-delay=".2s">
-                                        <div className="single-fact-counter-inner">
-                                            <div className="single-fact-counter-icon">
-                                                <span className="icon-happy-clients"><span className="path1"></span><span
-                                                        className="path2"></span><span className="path3"></span><span
-                                                        className="path4"></span></span>
+
+                                {/* Service 2 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-web-development2"><span className="path1"></span><span
+                                                    className="path2"></span><span className="path3"></span><span className="path4"></span><span
+                                                    className="path5"></span><span className="path6"></span><span className="path7"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>RBI Regulatory Compliance</h3>
                                             </div>
-                                            <div className="outer-box">
-                                                <div className="count-outer count-box">
-                                                <CounterUp end={209} />
-                                                    <i className="icon-plus-symbol-button"></i>
-                                                </div>
-                                                <div className="title">
-                                                    <p>Happy Clients</p>
-                                                </div>
+                                            <div className="text">
+                                                <p>Support alignment with applicable RBI Master Directions and IT framework requirements for regulated institutions.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/*End Single Fact Counter*/}
-                                {/*Start Single Fact Counter*/}
-                                <div className="col-xl-3 col-lg-6 col-md-6">
-                                    <div className="single-fact-counter wow fadeInUp" data-wow-delay=".3s">
-                                        <div className="single-fact-counter-inner">
-                                            <div className="single-fact-counter-icon">
-                                                <span className="icon-winning-award"></span>
+
+                                {/* Service 3 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-digital-marketing"><span className="path1"></span><span
+                                                    className="path2"></span><span className="path3"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Data Security & Cybersecurity Audit</h3>
                                             </div>
-                                            <div className="outer-box">
-                                                <div className="count-outer count-box">
-                                                <CounterUp end={123} />
-                                                    <i className="icon-plus-symbol-button"></i>
-                                                </div>
-                                                <div className="title">
-                                                    <p>Winning Award</p>
-                                                </div>
+                                            <div className="text">
+                                                <p>Review encryption, access controls and cybersecurity practices to identify weaknesses and improve protection.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/*End Single Fact Counter*/}
-                                {/*Start Single Fact Counter*/}
-                                <div className="col-xl-3 col-lg-6 col-md-6">
-                                    <div className="single-fact-counter wow fadeInUp" data-wow-delay=".4s">
-                                        <div className="single-fact-counter-inner">
-                                            <div className="single-fact-counter-icon">
-                                                <span className="icon-cup-teas"><span className="path1"></span><span
-                                                        className="path2"></span><span className="path3"></span><span
-                                                        className="path4"></span></span>
+
+                                {/* Service 4 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-email-marketing"><span className="path1"></span><span
+                                                    className="path2"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Business Continuity & Disaster Recovery Review</h3>
                                             </div>
-                                            <div className="outer-box">
-                                                <div className="count-outer count-box">
-                                                <CounterUp end={245} />
-                                                    <i className="icon-plus-symbol-button"></i>
-                                                </div>
-                                                <div className="title">
-                                                    <p>Cup of Teas</p>
-                                                </div>
+                                            <div className="text">
+                                                <p>Assess BCP and disaster recovery arrangements against operational and regulatory expectations.</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/*End Single Fact Counter*/}
+
+                                {/* Service 5 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-business-strategy"></span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Access Management & Audit Trail</h3>
+                                            </div>
+                                            <div className="text">
+                                                <p>Assess user access, privilege management and system audit logs to strengthen accountability and control.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </section>
-                    {/*End Fact Counter One*/}
 
-
-                    {/*Start Testmonials Three*/}
-                    <section className="testimonials-three about">
-                        <div className="testimonials-three__shape1 rotate-me">
-                            <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes"/>
-                        </div>
-                        <div className="testimonials-three__shape2 rotate-me">
-                            <img src="assets/img/shape/testimonials-three__shape2.png" alt="shapes"/>
-                        </div>
-                        <div className="testimonials-three__shape3 rotate-me">
-                            <img src="assets/img/shape/testimonials-three__shape3.png" alt="shapes"/>
-                        </div>
+                    {/* Marketing Automation Section */}
+                    <section className="service-three" style={{paddingTop: '80px', paddingBottom: '80px'}}>
                         <div className="container">
-                            <div className="row">
-                                <div className="col-xl-5">
-                                    <div className="testimonials-three__img">
-                                        <ul>
-                                            <li className="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                                {/*Single About Two Img*/}
-                                                <div className="single-testimonials-three__img-box">
-                                                    <div className="inner">
-                                                        <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image"/>
-                                                    </div>
-                                                </div>
-                                                {/*End About Two Img*/}
-                                                {/*Single About Two Img*/}
-                                                <div className="single-testimonials-three__img-box">
-                                                    <div className="inner">
-                                                        <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image"/>
-                                                    </div>
-                                                </div>
-                                                {/*End About Two Img*/}
-                                            </li>
-                                            <li className="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                                {/*Single About Two Img*/}
-                                                <div className="single-testimonials-three__img-box">
-                                                    <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image"/>
-                                                </div>
-                                                {/*End About Two Img*/}
-                                            </li>
-                                        </ul>
+                            <div className="sec-title-three text-center sec-title-animation animation-style1">
+                                <div className="sub-title">
+                                    <h4>Automation</h4>
+                                </div>
+                                <h2>
+                                    Marketing Automation
+                                </h2>
+                            </div>
+                            <div className="row" style={{marginTop: '50px'}}>
+
+                                {/* Service 1 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-design-strategy1">
+                                                <span className="path1"></span><span className="path2"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>CRM Lead Automation</h3>
+                                            </div>
+                                            <div className="text">
+                                                <p>Automate lead capture, scoring, routing and follow-up workflows to accelerate sales cycles.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div className="col-xl-7">
-                                    <div className="testimonials-three__content">
-                                        <div className="sec-title-four sec-title-animation animation-style1">
-                                            <div className="sub-title">
-                                                <h4>Customers Feedback</h4>
-                                            </div>
-                                            <h2>
-                                                What Says Our Client’s<br/>About Orgits
-                                            </h2>
+                                {/* Service 2 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-web-development2"><span className="path1"></span><span
+                                                    className="path2"></span><span className="path3"></span><span className="path4"></span><span
+                                                    className="path5"></span><span className="path6"></span><span className="path7"></span>
+                                            </span>
                                         </div>
-
-                                        {/* If we need navigation buttons */}
-                                        <div className="swiper-nav-style2 testimonials-three__swiper-nav-style">
-                                            <div className="swiper-button-prev srp" id="testimonials-three__swiper-button-prev">
-                                                <i className="icon-left-arrow right"></i>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Email Marketing Automation</h3>
                                             </div>
-                                            <div className="swiper-button-next srn" id="testimonials-three__swiper-button-next">
-                                                <i className="icon-right-arrow-angle left"></i>
+                                            <div className="text">
+                                                <p>Design automated email sequences for nurture, onboarding, re-engagement and transactional communication.</p>
                                             </div>
                                         </div>
-                                        <div className="testimonials-three__content-inner">
-                                            <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
-
-                                                <div className="swiper-wrapper">
-                                                    <SwiperSlide>
-                                                    <div className="swiper-slide">
-                                                        <div className="icon-box">
-                                                            <span className="icon-quote"></span>
-                                                        </div>
-                                                        <div className="text">
-                                                            <p>
-                                                                “ Concor delivers sectors concor delivers world className infrastructure
-                                                                the is a world className infrastructure solutions across a broad
-                                                                industry start and end of creativity to customers and the
-                                                                stakeholders across the world broad ...”
-                                                            </p>
-                                                        </div>
-                                                        <div className="athor-box">
-                                                            <h3>Alina Kolaminov</h3>
-                                                            <p>Marketing Agent</p>
-                                                        </div>
-                                                    </div>
-                                                    </SwiperSlide>
-                                                    <SwiperSlide>
-                                                    <div className="swiper-slide">
-                                                        <div className="icon-box">
-                                                            <span className="icon-quote"></span>
-                                                        </div>
-                                                        <div className="text">
-                                                            <p>
-                                                                “ Concor delivers sectors concor delivers world className infrastructure
-                                                                the is a world className infrastructure solutions across a broad
-                                                                industry start and end of creativity to customers and the
-                                                                stakeholders across the world broad ...”
-                                                            </p>
-                                                        </div>
-                                                        <div className="athor-box">
-                                                            <h3>Alina Kolaminov</h3>
-                                                            <p>Marketing Agent</p>
-                                                        </div>
-                                                    </div>
-                                                    </SwiperSlide>
-                                                </div>
-
-
-                                            </Swiper>
-                                        </div>
-
                                     </div>
                                 </div>
+
+                                {/* Service 3 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-digital-marketing"><span className="path1"></span><span
+                                                    className="path2"></span><span className="path3"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Paid Ads Automation</h3>
+                                            </div>
+                                            <div className="text">
+                                                <p>Automate campaign management, budget optimization and performance reporting across Google and Meta platforms.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Service 4 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-email-marketing"><span className="path1"></span><span
+                                                    className="path2"></span>
+                                            </span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>Google & Meta Ads</h3>
+                                            </div>
+                                            <div className="text">
+                                                <p>Strategic paid advertising campaigns that drive qualified traffic, leads and measurable business outcomes.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Service 5 */}
+                                <div className="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                                    data-wow-duration="1500ms">
+                                    <div className="service-three__single">
+                                        <div className="service-three__single-icon">
+                                            <span className="icon-business-strategy"></span>
+                                        </div>
+                                        <div className="service-three__single-content">
+                                            <div className="title">
+                                                <h3>AI Chatbots Automation</h3>
+                                            </div>
+                                            <div className="text">
+                                                <p>Deploy intelligent conversational agents for lead qualification, customer support and engagement automation.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </div>
                         </div>
                     </section>
-                    {/*End Testmonials Three*/}
+
                 </div>
 
             </Layout>

@@ -46,10 +46,10 @@ export default function Service() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Featured Services</h4>
+                        <h4>What We Do</h4>
                     </div>
                     <h2>
-                        What We Offer For You
+                        Technology, Marketing & Compliance Solutions
                     </h2>
                 </div>
                 <div className="row">
@@ -65,11 +65,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Design Strategy</Link></h3>
+                                    <h3><Link href="/app-development">Product Development</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>From business requirements to production, we design and develop scalable digital products around real business goals.</p>
                                 </div>
                             </div>
                         </div>
@@ -88,11 +87,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Web Development</Link></h3>
+                                    <h3><Link href="/web-development">Web & Mobile App Development</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>We build responsive web and mobile applications using modern technologies for business, customer and operational use cases.</p>
                                 </div>
                             </div>
                         </div>
@@ -110,11 +108,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Digital Marketing</Link></h3>
+                                    <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Drive measurable growth through Google and Meta Ads, marketing strategy, lead generation and digital acquisition.</p>
                                 </div>
                             </div>
                         </div>
@@ -132,11 +129,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Email Marketing</Link></h3>
+                                    <h3><Link href="/services">CRM & Marketing Automation</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Automate lead management, customer journeys, communication and marketing workflows to improve operational efficiency.</p>
                                 </div>
                             </div>
                         </div>
@@ -154,11 +150,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Product Development</Link></h3>
+                                    <h3><Link href="/services">IS Audit & IT Compliance</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Assess IT controls, cybersecurity, access management, audit trails, business continuity and regulatory compliance requirements.</p>
                                 </div>
                             </div>
                         </div>
@@ -174,11 +169,10 @@ export default function Service() {
                             </div>
                             <div className="service-three__single-content">
                                 <div className="title">
-                                    <h3><Link href="web-development">Business Strategy</Link></h3>
+                                    <h3><Link href="/services">Cloud & IT Consulting</Link></h3>
                                 </div>
                                 <div className="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Plan, deploy and manage cloud application infrastructure with practical IT consulting and secure deployment practices.</p>
                                 </div>
                             </div>
                         </div>

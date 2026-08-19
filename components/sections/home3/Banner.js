@@ -1,4 +1,3 @@
-
 'use client'
 import Link from "next/link"
 export default function Banner() {
@@ -19,19 +18,18 @@ export default function Banner() {
                 <div className="banner-one__inner">
                     <div className="banner-one__content wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="sub-title">
-                            <h5>Senior Web Developer</h5>
+                            <h5>Technology, Automation & Digital Growth</h5>
                         </div>
                         <div className="big-title">
-                            <h2>Hi I’m Jhon Smith<br/>Web Developer</h2>
+                            <h2>We Build Digital Products,<br/>Automate Operations & Drive Growth</h2>
                         </div>
                         <div className="text">
-                            <p>There are many variations of passages of available, but the<br/> majority have suffered
-                                randomised words.</p>
+                            <p>We build digital products, automate business operations, drive digital acquisition and help organizations strengthen their IT governance and security.</p>
                         </div>
                         <div className="btn-box">
-                            <Link className="thm-btn" href="#">
+                            <Link className="thm-btn" href="/contact">
                                 <span className="txt">
-                                    Just Say Hello
+                                    Start a Conversation
                                     <i className="icon-next"></i>
                                 </span>
                             </Link>
@@ -40,7 +38,7 @@ export default function Banner() {
 
                     <div className="banner-one__img wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="inner">
-                            <img src="assets/img/slider/banner-one__mian-img.jpg" alt="banner"/>
+                            <img src="assets/img/slider/banner-one__mian-img.jpg" alt="Orgits Solutions"/>
                         </div>
                         <div className="banner-one__img-bg"></div>
                     </div>

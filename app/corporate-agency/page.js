@@ -4,7 +4,7 @@ export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Corporate Agency">
+        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="IT Consulting & Digital Business Solutions">
         {/*Start Service Details*/}
         <section className="service-details">
             <div className="container">
@@ -14,16 +14,12 @@ export default function Home() {
                         <div className="service-details__content">
                             <div className="service-details__img-box1">
                                 <div className="img-box">
-                                    <img src="assets/img/service/service-details__img6.jpg" alt="image"/>
+                                    <img src="assets/img/service/service-details__img6.jpg" alt="IT Consulting & Digital Business Solutions"/>
                                 </div>
                                 <div className="content-box">
-                                    <h2>Corporate Agency</h2>
+                                    <h2>IT Consulting & Digital Business Solutions</h2>
                                     <p>
-                                        Applications are like the lifeblood of mobile phones and tablets today. The true
-                                        potential of you mobile phone is harnessed by applications that can provide
-                                        utility. Apps come under of the various segments. Nowad technology has become
-                                        super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own.
+                                        We help businesses make better technology decisions, improve digital operations and implement solutions across software, cloud, CRM, marketing automation and IT governance.
                                     </p>
                                     <ul className="list-item clearfix">
                                         <li>
@@ -31,7 +27,7 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>IT Consulting</p>
                                             </div>
                                         </li>
                                         <li>
@@ -39,7 +35,7 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Digital Transformation</p>
                                             </div>
                                         </li>
                                         <li>
@@ -47,7 +43,31 @@ export default function Home() {
                                                 <span className="icon-check"></span>
                                             </div>
                                             <div className="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Cloud Application Development</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>CRM & Marketing Automation</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>Digital Marketing</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div className="icon">
+                                                <span className="icon-check"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>IT Governance & Audit</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -56,19 +76,14 @@ export default function Home() {
 
                             <div className="service-details__text">
                                 <div className="title">
-                                    <h3>Start with A Plan and Finish with Results</h3>
+                                    <h3>Technology Solutions Aligned With Business Goals</h3>
                                     <p>
-                                        The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                        your brand by zeroing in on your target market. Affordable, targeted media for
-                                        everyone.
+                                        We combine technical expertise with business understanding to deliver solutions that solve real problems—from modernizing legacy systems and migrating to cloud, to implementing CRM automation and strengthening IT governance.
                                     </p>
                                 </div>
                                 <div className="text">
                                     <p>
-                                        At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                        occaecati Lead generati inbound marketing, web development, and marketing
-                                        automation solutions.
+                                        Our consulting approach starts with understanding your business context, challenges and objectives. We then design practical technology roadmaps, select the right platforms and tools, and oversee implementation through to adoption. Whether you need a fractional CTO, a cloud migration partner, or help building a digital product, we bring the right expertise to the table.
                                     </p>
                                 </div>
                             </div>
@@ -77,35 +92,31 @@ export default function Home() {
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6">
                                         <div className="img-box">
-                                            <img src="assets/img/service/service-details__img2.jpg" alt="image"/>
+                                            <img src="assets/img/service/service-details__img2.jpg" alt="IT Consulting Process"/>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6">
                                         <div className="content-box">
                                             <p>
-                                                Applications are like the lifeblood mobile phones and tablets today. The
-                                                true potential you mobile phone is harnessed applications that can
-                                                provide
-                                                utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves.
+                                                We work as an extension of your team—providing strategic guidance, technical leadership and hands-on execution across the technology lifecycle.
                                             </p>
                                             <ul className="list-item clearfix">
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>Our services will feel like mint of creativity.</p>
+                                                        <p>Technology strategy & roadmap</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>We develop application excellent technology.</p>
+                                                        <p>Vendor selection & platform evaluation</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div className="circle-box"></div>
                                                     <div className="text">
-                                                        <p>Practice for providing all application problems.</p>
+                                                        <p>Implementation oversight & delivery</p>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -117,20 +128,20 @@ export default function Home() {
                             <div className="service-details__prev-next-option blog-details__prev-next-option">
                                 <div className="single-box left">
                                     <div className="icon">
-                                        <Link href="#"><span className="icon-left-arrow"></span></Link>
+                                        <Link href="/digital-marketing"><span className="icon-left-arrow"></span></Link>
                                     </div>
                                     <div className="text">
                                         <p>Prev service</p>
-                                        <h3><Link href="#">We grow your business</Link></h3>
+                                        <h3><Link href="/digital-marketing">Digital Marketing</Link></h3>
                                     </div>
                                 </div>
                                 <div className="single-box right">
                                     <div className="text">
                                         <p>Next service</p>
-                                        <h3><Link href="#">Think beyond the wave</Link></h3>
+                                        <h3><Link href="/services">All Services</Link></h3>
                                     </div>
                                     <div className="icon">
-                                        <Link href="#"><span className="icon-right-arrow-angle"></span></Link>
+                                        <Link href="/services"><span className="icon-right-arrow-angle"></span></Link>
                                     </div>
                                 </div>
                             </div>
@@ -159,27 +170,27 @@ export default function Home() {
                                 <ul className="sidebar__category-list">
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="app-development">Mobile App Development<span
+                                        <Link href="/app-development">Mobile & Web App Development<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="uiux-design">UI/UX Designer<span
+                                        <Link href="/uiux-design">UI/UX Design<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="web-development">Web Developer<span
+                                        <Link href="/web-development">Web Development<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link href="digital-marketing">Digital Marketing<span
+                                        <Link href="/digital-marketing">Digital Marketing<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                     <li>
                                         <div className="cercale-box"></div>
-                                        <Link className="active" href="#">Corporate Agency<span
+                                        <Link className="active" href="/corporate-agency">IT Consulting & Digital Business Solutions<span
                                                 className="icon-right-arrow-angle"></span></Link>
                                     </li>
                                 </ul>
@@ -207,9 +218,9 @@ export default function Home() {
                                     style={{ backgroundImage: 'url(assets/img/service/service-details-sideber__img1.jpg)' }} >
                                 </div>
                                 <div className="content-box text-center">
-                                    <h3>Have Any Discussion<br/>About Project?</h3>
+                                    <h3>Have a Project<br/>to Discuss?</h3>
                                     <div className="btn-box">
-                                        <Link className="thm-btn" href="#">
+                                        <Link className="thm-btn" href="/contact">
                                             <span className="txt">Contact Us</span>
                                             <i className="icon-next"></i>
                                         </Link>

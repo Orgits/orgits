@@ -23,29 +23,28 @@ export default function About() {
                         <div className="about-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Get To Know About Us</h4>
+                                    <h4>Who We Are</h4>
                                 </div>
                                 <h2>
-                                    We Are Here to Give You<br/>Effective Ideas
+                                    Builders, Thinkers,<br/>Strategists & Auditors
                                 </h2>
                             </div>
                             <div className="text">
-                                <p>Creative design slogans can help people connect more to the<br/>
-                                    scenario that the accounts for making available.</p>
+                                <p>From building digital products and brands to securing IT infrastructure, Orgits provides a complete range of technology, marketing and IT governance solutions tailored to business needs.</p>
                             </div>
                             <div className="about-three__fact-box">
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                            <CounterUp end={256} />
+                                            <CounterUp end={75} />
                                                 <i className="icon-plus-symbol-button"></i>
                                             </div>
                                             <div className="title">
-                                                <h3>Completed Projects</h3>
+                                                <h3>Businesses Served</h3>
                                             </div>
                                             <div className="text">
-                                                <p>With 100% Satisfaction</p>
+                                                <p>Across Industries</p>
                                             </div>
                                         </div>
                                     </div>
@@ -53,14 +52,14 @@ export default function About() {
                                     <div className="col-xl-6 col-lg-6 col-md-6">
                                         <div className="about-three__fact-single">
                                             <div className="count-outer count-box">
-                                            <CounterUp end={89} />
+                                            <CounterUp end={100} />
                                                 <i className="icon-percentage"></i>
                                             </div>
                                             <div className="title">
-                                                <h3>Company Growth</h3>
+                                                <h3>Professionals & Specialists</h3>
                                             </div>
                                             <div className="text">
-                                                <p>Avg. Every Year</p>
+                                                <p>Technology, Marketing & Compliance</p>
                                             </div>
                                         </div>
                                     </div>
@@ -72,9 +71,9 @@ export default function About() {
                                     <img src="assets/img/about/about-three__img1.jpg" alt="image"/>
                                 </div>
                                 <div className="title-box">
-                                    <h3>We Are The Best Digital<br/>Agencies In The City</h3>
+                                    <h3>Technology, Marketing & Compliance<br/>Under One Roof</h3>
                                     <div className="btn-box">
-                                        <Link className="thm-btn" href="about">
+                                        <Link className="thm-btn" href="/about">
                                             <span className="txt">Learn More</span>
                                             <i className="icon-next"></i>
                                         </Link>
@@ -115,11 +114,11 @@ export default function About() {
                             <div className="overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                    <CounterUp end={15} />
+                                    <CounterUp end={4} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <p>Years Of<br/>Experiences</p>
+                                        <p>Years Of<br/>Track Record</p>
                                     </div>
                                 </div>
                             </div>

@@ -65,10 +65,10 @@ export default function Project() {
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Cases Studies</h4>
+                        <h4>Solution Areas</h4>
                     </div>
                     <h2>
-                        Some Of Our Recent Works
+                        What We Can Build For You
                     </h2>
                 </div>
                 <div className="row">
@@ -94,15 +94,15 @@ export default function Project() {
                                     </SwiperSlide>
                                     {/*End Single Project Two*/}
 
-                                    {/*Start Single Project Two*/}
+{/*Start Single Project Two*/}
                                     <SwiperSlide>
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
                                             <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img2.jpg" alt="image"/>
+                                                <img src="assets/img/project/project-two__img1.jpg" alt="Cloud Server Deployment"/>
                                                 <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    <h4>Cloud & Infrastructure</h4>
+                                                    <h3><Link href="#">Cloud Server Deployment</Link></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,10 +131,10 @@ export default function Project() {
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
                                             <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="image"/>
+                                                <img src="assets/img/project/project-two__img4.jpg" alt="E-commerce Platforms"/>
                                                 <div className="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
+                                                    <h4>Digital Commerce</h4>
+                                                    <h3><Link href="#">E-commerce Platforms</Link></h3>
                                                 </div>
                                             </div>
                                         </div>

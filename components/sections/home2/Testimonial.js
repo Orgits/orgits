@@ -53,14 +53,14 @@ const swiperOptions = {
     }
 
 
-
 }
+
 
 export default function Testimonial() {
     
     return (
         <>
-            
+        
         {/*Start Testimonial Two*/}
         <section className="testimonials-two">
             <div className="testimonials-two__shape1">
@@ -83,7 +83,7 @@ export default function Testimonial() {
             </div>
             <div className="container">
                 <div className="testimonials-two__text text-center sec-title-animation animation-style1">
-                    <h2>What Our Customers Says<br/>About Us</h2>
+                    <h2>What Our Clients Say<br/>About Orgits</h2>
                 </div>
                 <div className="testimonials-two__inner">
                     <Swiper {...swiperOptions} className="thm-swiper__slider swiper-container">
@@ -96,18 +96,17 @@ export default function Testimonial() {
                                 <div className="testimonials-two__single">
                                     <div className="athour-box">
                                         <div className="img-box">
-                                            <img src="assets/img/testimonial/testimonials-two__img1.jpg" alt="image"/>
+                                            <img src="assets/img/testimonial/testimonials-two__img1.jpg" alt="Mr. Atchuta Rao"/>
                                         </div>
                                         <div className="title">
-                                            <h3>Alane Smith</h3>
-                                            <p>Web Developer</p>
+                                            <h3>Mr. Atchuta Rao</h3>
+                                            <p>Director & Founder, Estah Society</p>
                                         </div>
                                     </div>
                                     <div className="testimonials-two__single-content">
-                                        <h3>“Outstanding Support Team”</h3>
+                                        <h3>“Outstanding Partnership”</h3>
                                         <p>
-                                            Etiam non mattis turpisantum. Nuncagh sodales ante nisi, et semper sem to be
-                                            pellentesque sed cras idnacum deloed aprin delrutta acina cuim.
+                                            "I've worked with several agencies, but Orgits truly stands out. Structured, creative, and always reliable. Anubhav personally stays involved and that makes all the difference."
                                         </p>
                                         <div className="reting-box">
                                             <ul className="clearfix">
@@ -150,18 +149,17 @@ export default function Testimonial() {
                                 <div className="testimonials-two__single">
                                     <div className="athour-box">
                                         <div className="img-box">
-                                            <img src="assets/img/testimonial/testimonials-two__img2.jpg" alt="image"/>
+                                            <img src="assets/img/testimonial/testimonials-two__img2.jpg" alt="Dr. Anwar Hussain"/>
                                         </div>
                                         <div className="title">
-                                            <h3>Alina Kolaminov</h3>
-                                            <p>Marketing Agent</p>
+                                            <h3>Dr. Anwar Hussain</h3>
+                                            <p>MD Physician & Member of IMA, Health Tips By Dr. Anwar</p>
                                         </div>
                                     </div>
                                     <div className="testimonials-two__single-content">
-                                        <h3>“Awesome Services”</h3>
+                                        <h3>“Exceptional Results”</h3>
                                         <p>
-                                            Etiam non mattis turpisantum. Nuncagh sodales ante nisi, et semper sem to be
-                                            pellentesque sed cras idnacum deloed aprin delrutta acina cuim.
+                                            "Very reliable team to work with. You understand our client needs very well and it shows in your work. You've been able to take website from a grade of F to A! that's fantastic!"
                                         </p>
                                         <div className="reting-box">
                                             <ul className="clearfix">
@@ -204,71 +202,17 @@ export default function Testimonial() {
                                 <div className="testimonials-two__single">
                                     <div className="athour-box">
                                         <div className="img-box">
-                                            <img src="assets/img/testimonial/testimonials-two__img3.jpg" alt="image"/>
+                                            <img src="assets/img/testimonial/testimonials-two__img3.jpg" alt="Mr. Michael Wong"/>
                                         </div>
                                         <div className="title">
-                                            <h3>Cavid Zeynal</h3>
-                                            <p>UI/UX Designer</p>
+                                            <h3>Mr. Michael Wong</h3>
+                                            <p>Executive Director - PPAHS, Former Director Public Affairs - Abbott Laboratories</p>
                                         </div>
                                     </div>
                                     <div className="testimonials-two__single-content">
-                                        <h3>“Very Professional Service”</h3>
+                                        <h3>“Reliable Delivery”</h3>
                                         <p>
-                                            Etiam non mattis turpisantum. Nuncagh sodales ante nisi, et semper sem to be
-                                            pellentesque sed cras idnacum deloed aprin delrutta acina cuim.
-                                        </p>
-                                        <div className="reting-box">
-                                            <ul className="clearfix">
-                                                <li>
-                                                    <div className="icon">
-                                                        <span className="icon-star"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div className="icon">
-                                                        <span className="icon-star"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div className="icon">
-                                                        <span className="icon-star"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div className="icon">
-                                                        <span className="icon-star"></span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div className="icon">
-                                                        <span className="icon-star"></span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </SwiperSlide>
-                            {/*End Testimonial Two*/}
-                            {/*Start Testimonial Two*/}
-                            <SwiperSlide>
-                            <div className="swiper-slide">
-                                <div className="testimonials-two__single">
-                                    <div className="athour-box">
-                                        <div className="img-box">
-                                            <img src="assets/img/testimonial/testimonials-two__img3.jpg" alt="image"/>
-                                        </div>
-                                        <div className="title">
-                                            <h3>Cavid Zeynal</h3>
-                                            <p>UI/UX Designer</p>
-                                        </div>
-                                    </div>
-                                    <div className="testimonials-two__single-content">
-                                        <h3>“Very Professional Service”</h3>
-                                        <p>
-                                            Etiam non mattis turpisantum. Nuncagh sodales ante nisi, et semper sem to be
-                                            pellentesque sed cras idnacum deloed aprin delrutta acina cuim.
+                                            Client feedback from leadership at PPAHS reflects the value of reliable digital delivery and business understanding.
                                         </p>
                                         <div className="reting-box">
                                             <ul className="clearfix">
@@ -317,11 +261,11 @@ export default function Testimonial() {
                         <div className="col-xl-4 col-lg-4">
                             <div className="fact-two__single text-center">
                                 <div className="counter-box count-box">
-                                    <h2> 40</h2>
+                                    <h2> 75+</h2>
                                     <i className="icon-plus-symbol-button"></i>
                                 </div>
                                 <div className="text-box">
-                                    <p>Over the past 6 years, I’ve worked with<br/>more than 40 companies.</p>
+                                    <p>Businesses served across<br/>multiple industries.</p>
                                 </div>
                             </div>
                         </div>
@@ -331,10 +275,10 @@ export default function Testimonial() {
                         <div className="col-xl-4 col-lg-4">
                             <div className="fact-two__single text-center">
                                 <div className="counter-box count-box">
-                                    <h2>5/5</h2>
+                                    <h2>50+</h2>
                                 </div>
                                 <div className="text-box">
-                                    <p>Clients have consistently rated us 5/5,<br/>except one Brett.</p>
+                                    <p>Professionals & specialists in<br/>technology, marketing & compliance.</p>
                                 </div>
                             </div>
                         </div>
@@ -344,12 +288,12 @@ export default function Testimonial() {
                         <div className="col-xl-4 col-lg-4">
                             <div className="fact-two__single text-center">
                                 <div className="counter-box count-box">
-                                    <h2>3</h2>
-                                    <span className="m">m</span>
+                                    <h2>3+</h2>
+                                    <span className="m">yrs</span>
                                     <i className="icon-plus-symbol-button"></i>
                                 </div>
                                 <div className="text-box">
-                                    <p>We’ve driven over 3M conversions through<br/>content worldwide.</p>
+                                    <p>Years of proven track record<br/>delivering business solutions.</p>
                                 </div>
                             </div>
                         </div>

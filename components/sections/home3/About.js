@@ -1,4 +1,6 @@
 'use client'
+import Link from "next/link"
+import CounterUp from "@/components/elements/CounterUp"
 export default function About() {
     return (
         <>
@@ -9,24 +11,24 @@ export default function About() {
                     <div className="col-xl-6 wow animated fadeInLeft" data-wow-delay="0.1s">
                         <div className="about-one__img-box">
                             <div className="about-one__img-box-inner">
-                                <img src="assets/img/about/about-one-1.jpg" alt="#"/>
+                                <img src="assets/img/about/about-one-1.jpg" alt="Orgits Team"/>
                             </div>
                             <div className="about-one__overlay-box text-center">
                                 <div className="outer-box">
                                     <div className="count-outer count-box">
-                                        <h2>8</h2>
+                                    <CounterUp end={4} />
                                         <i className="icon-plus-symbol-button"></i>
                                     </div>
                                     <div className="title">
-                                        <h4>Years Of<br/>Experiences</h4>
+                                        <h4>Years Of<br/>Track Record</h4>
                                     </div>
                                 </div>
                             </div>
                             <div className="about-one__overlay-icon-box1">
-                                <img src="assets/img/about/about-one__logo1.png" alt="logo"/>
+                                <img src="assets/img/about/about-one__logo1.png" alt="Zoho Partner"/>
                             </div>
                             <div className="about-one__overlay-icon-box2">
-                                <img src="assets/img/about/about-one__logo2.png" alt="logo"/>
+                                <img src="assets/img/about/about-one__logo2.png" alt="Razorpay Partner"/>
                             </div>
                         </div>
                     </div>
@@ -35,27 +37,24 @@ export default function About() {
                         <div className="about-one__content-box">
                             <div className="sec-title sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>About Us</h4>
+                                    <h4>About Orgits</h4>
                                 </div>
-                                <h2>Ready Services For You</h2>
+                                <h2>Ready-to-Deploy Business<br/>Technology Solutions</h2>
                             </div>
                             <div className="text">
                                 <p>
-                                    Im a About Me Web Developer, Over the past10+ years I’ve created well-crafted mobile
-                                    and web apps by connecting Business goals with user needs. Previously worked at a
-                                    healthcare start-up as a product designer and Formerly at Electronic Arts, Apple,
-                                    Sea Group.
+                                    Orgits brings together software development, CRM and marketing automation, digital marketing, cloud infrastructure and IT audit expertise under one business solutions team.
                                 </p>
                             </div>
                             <div className="about-one__content-list-box">
                                 <ul>
                                     <li>
                                         <div className="circle-box"></div>
-                                        <p>Consultants rarely have the luxury of partnering with businesses.</p>
+                                        <p>We combine technology, marketing and compliance to solve business problems.</p>
                                     </li>
                                     <li>
                                         <div className="circle-box"></div>
-                                        <p>Trust, support and develop each other to achieve excellent results.</p>
+                                        <p>Builders, thinkers, strategists & auditors working as one team.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -69,12 +68,12 @@ export default function About() {
                                                     
                                                     <div className="inner-text count-box">
                                                         
-                                                        <span className="count-Parsent">76 %</span>
+                                                        <span className="count-Parsent">75+</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="circle-progress-title">
-                                                <h3>Wordpress</h3>
+                                                <h3>Businesses Served</h3>
                                             </div>
                                         </div>
                                     </li>
@@ -83,16 +82,16 @@ export default function About() {
                                         <div className="circle-progress-single text-center">
                                             <div className="progress-box">
                                                 <div className="graph-outer">
-                    
+                                                   
                                                     <div className="inner-text count-box">
-                                                        <span className="count-text" data-stop="82"
+                                                        <span className="count-text" data-stop="50"
                                                             data-speed="2000"></span>
-                                                        <span className="count-Parsent">82 %</span>
+                                                        <span className="count-Parsent">50+</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="circle-progress-title">
-                                                <h3>Development</h3>
+                                                <h3>Professionals</h3>
                                             </div>
                                         </div>
                                     </li>
@@ -103,12 +102,12 @@ export default function About() {
                                                 <div className="graph-outer">
                                                     
                                                     <div className="inner-text count-box">
-                                                        <span className="count-Parsent">90 %</span>
+                                                        <span className="count-Parsent">45+</span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="circle-progress-title">
-                                                <h3>Java Script</h3>
+                                                <h3>Freelancer Network</h3>
                                             </div>
                                         </div>
                                     </li>

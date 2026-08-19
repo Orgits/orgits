@@ -185,8 +185,8 @@ Contact Page Css
     font-weight: 400;
     width: 100%;
     height: 60px;
-    background: #ffffff;
-    border: 0px solid #e4e4e4;
+    background: var(--thm-white);
+    border: 0px solid var(--thm-border-color);
     padding: 0 30px;
     margin-bottom: 20px;
     border-radius: 0px;
@@ -201,8 +201,8 @@ Contact Page Css
     font-weight: 400;
     width: 100%;
     height: 150px;
-    border: 0px solid #e4e4e4;
-    background: #ffffff;
+    border: 0px solid var(--thm-border-color);
+    background: var(--thm-white);
     padding: 20px 30px 30px;
     margin-bottom: 10px;
     outline: none;

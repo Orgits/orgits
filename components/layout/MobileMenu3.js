@@ -36,7 +36,7 @@ const MobileMenu = ({ isSidebar, handleMobileMenu }) => {
             </div>
             <div className="nav-logo">
                 <Link href="/">
-                    <img src="assets/img/resource/logo-1.png" alt="Logo"/>
+                    <img src="assets/img/resource/logo-3.svg" alt="Orgits Business Solutions Pvt. Ltd."/>
                 </Link>
             </div>
             <div className="menu-outer">

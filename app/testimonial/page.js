@@ -54,13 +54,12 @@ const swiperOptions = {
     }
 
 
-
 }
 export default function Home() {
 
     return (
         <>
-        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Testimonial">
+        <Layout headerStyle={4} footerStyle={1} breadcrumbTitle="Testimonials">
 
         {/*Start Testmonials Three*/}
         <section className="testimonials-three testimonials">
@@ -109,10 +108,10 @@ export default function Home() {
                         <div className="testimonials-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Customers Feedback</h4>
+                                    <h4>Client Feedback</h4>
                                 </div>
                                 <h2>
-                                    What Says Our Client’s<br/>About Orgits
+                                    What Our Clients Say About Orgits
                                 </h2>
                             </div>
 
@@ -136,15 +135,12 @@ export default function Home() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "I've worked with several agencies, but Orgits truly stands out. Structured, creative, and always reliable. Anubhav personally stays involved and that makes all the difference."
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Mr. Atchuta Rao</h3>
+                                                <p>Director & Founder, Estah Society</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -155,15 +151,28 @@ export default function Home() {
                                             </div>
                                             <div className="text">
                                                 <p>
-                                                    “ Concor delivers sectors concor delivers world className infrastructure
-                                                    the is a world className infrastructure solutions across a broad
-                                                    industry start and end of creativity to customers and the
-                                                    stakeholders across the world broad ...”
+                                                    "Very reliable team to work with. You understand our client needs very well and it shows in your work. You've been able to take website from a grade of F to A! that's fantastic!"
                                                 </p>
                                             </div>
                                             <div className="athor-box">
-                                                <h3>Alina Kolaminov</h3>
-                                                <p>Marketing Agent</p>
+                                                <h3>Dr. Anwar Hussain</h3>
+                                                <p>MD Physician & Member of IMA, Health Tips By Dr. Anwar</p>
+                                            </div>
+                                        </div>
+                                        </SwiperSlide>
+                                        <SwiperSlide>
+                                        <div className="swiper-slide">
+                                            <div className="icon-box">
+                                                <span className="icon-quote"></span>
+                                            </div>
+                                            <div className="text">
+                                                <p>
+                                                    Client feedback from leadership at PPAHS reflects the value of reliable digital delivery and business understanding.
+                                                </p>
+                                            </div>
+                                            <div className="athor-box">
+                                                <h3>Mr. Michael Wong</h3>
+                                                <p>Executive Director - PPAHS, Former Director Public Affairs - Abbott Laboratories</p>
                                             </div>
                                         </div>
                                         </SwiperSlide>
@@ -187,13 +196,12 @@ export default function Home() {
                     <div className="cta-two__inner-bg"
                          style={{ backgroundImage: 'url(assets/img/pattern/cta-two__parttern1.png)' }} ></div>
                     <div className="cta-two__content sec-title-animation animation-style1">
-                        <h2>Have Any Discussion?</h2>
-                        <p>Gathered have greater made fruitful. Void to let to know
-                            about that you'll sixth upon day.</p>
+                        <h2>Ready to Start Your Project?</h2>
+                        <p>Join the businesses that trust Orgits for technology, marketing and compliance solutions.</p>
                     </div>
                     <div className="cta-two__btn">
-                        <Link className="thm-btn" href="#">
-                            <span className="txt">Contact with Us</span>
+                        <Link className="thm-btn" href="/contact">
+                            <span className="txt">Talk to Our Team</span>
                             <i className="icon-next"></i>
                         </Link>
                     </div>
