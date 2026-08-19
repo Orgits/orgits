@@ -1,0 +1,88 @@
+/* [project]/public/assets/css/module-css/breadcrumb.css [app-client] (css) */
+.page-header {
+  background: var(--thm-black);
+  z-index: 1;
+  padding: 282px 0 133px;
+  display: block;
+  position: relative;
+}
+
+.page-header .shape1 {
+  opacity: .2;
+  z-index: -1;
+  position: absolute;
+  top: 200px;
+  left: 65px;
+}
+
+.page-header .shape2 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: -20px;
+}
+
+.page-header__inner {
+  display: block;
+  position: relative;
+}
+
+.page-header__inner h2 {
+  color: var(--thm-white);
+  text-transform: capitalize;
+  margin-bottom: 26px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+
+.page-header__inner .thm-breadcrumb {
+  display: block;
+  position: relative;
+}
+
+.page-header__inner .thm-breadcrumb li {
+  color: var(--thm-white);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  display: inline-block;
+  position: relative;
+}
+
+.page-header__inner .thm-breadcrumb li i {
+  font-size: 18px;
+  line-height: 18px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
+
+.page-header__inner .thm-breadcrumb li.color-base {
+  color: var(--thm-secondary);
+}
+
+.page-header__inner .thm-breadcrumb li a {
+  color: var(--thm-white);
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  transition: all .2s linear .1s;
+}
+
+.page-header__inner .thm-breadcrumb li a span {
+  padding-right: 5px;
+  font-size: 17px;
+  line-height: 17px;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+}
+
+.page-header__inner .thm-breadcrumb li a:hover {
+  color: var(--thm-secondary);
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_breadcrumb_css_1igg3k2._.single.css.map*/

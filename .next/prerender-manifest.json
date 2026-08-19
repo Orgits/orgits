@@ -1,1 +1,633 @@
-{"version":4,"routes":{"/blog":{"initialRevalidateSeconds":false,"srcRoute":"/blog","dataRoute":"/blog.rsc"},"/index-2":{"initialRevalidateSeconds":false,"srcRoute":"/index-2","dataRoute":"/index-2.rsc"},"/favicon.ico":{"initialHeaders":{"cache-control":"public, max-age=0, must-revalidate","content-type":"image/x-icon","x-next-cache-tags":"/favicon.ico/route"},"initialRevalidateSeconds":false,"srcRoute":"/favicon.ico","dataRoute":null},"/index-3":{"initialRevalidateSeconds":false,"srcRoute":"/index-3","dataRoute":"/index-3.rsc"},"/project":{"initialRevalidateSeconds":false,"srcRoute":"/project","dataRoute":"/project.rsc"},"/app-development":{"initialRevalidateSeconds":false,"srcRoute":"/app-development","dataRoute":"/app-development.rsc"},"/faq":{"initialRevalidateSeconds":false,"srcRoute":"/faq","dataRoute":"/faq.rsc"},"/services":{"initialRevalidateSeconds":false,"srcRoute":"/services","dataRoute":"/services.rsc"},"/digital-marketing":{"initialRevalidateSeconds":false,"srcRoute":"/digital-marketing","dataRoute":"/digital-marketing.rsc"},"/blog-details":{"initialRevalidateSeconds":false,"srcRoute":"/blog-details","dataRoute":"/blog-details.rsc"},"/team":{"initialRevalidateSeconds":false,"srcRoute":"/team","dataRoute":"/team.rsc"},"/uiux-design":{"initialRevalidateSeconds":false,"srcRoute":"/uiux-design","dataRoute":"/uiux-design.rsc"},"/project-details":{"initialRevalidateSeconds":false,"srcRoute":"/project-details","dataRoute":"/project-details.rsc"},"/web-development":{"initialRevalidateSeconds":false,"srcRoute":"/web-development","dataRoute":"/web-development.rsc"},"/pricing":{"initialRevalidateSeconds":false,"srcRoute":"/pricing","dataRoute":"/pricing.rsc"},"/corporate-agency":{"initialRevalidateSeconds":false,"srcRoute":"/corporate-agency","dataRoute":"/corporate-agency.rsc"},"/testimonial":{"initialRevalidateSeconds":false,"srcRoute":"/testimonial","dataRoute":"/testimonial.rsc"},"/":{"initialRevalidateSeconds":false,"srcRoute":"/","dataRoute":"/index.rsc"},"/about":{"initialRevalidateSeconds":false,"srcRoute":"/about","dataRoute":"/about.rsc"},"/contact":{"initialRevalidateSeconds":false,"srcRoute":"/contact","dataRoute":"/contact.rsc"}},"dynamicRoutes":{},"notFoundRoutes":[],"preview":{"previewModeId":"4552d4dadc4e92a0c7f5604e50e9e27c","previewModeSigningKey":"8b79c29c2a3553e44ab9c8155e78c5b4357adafadf50b3bf4bdffb8bb67fd5e5","previewModeEncryptionKey":"1a343f69925ef0f4d4e90aa6e5c3c136b6a18108001794d0a0c295388c6f3723"}}
+{
+  "version": 4,
+  "routes": {
+    "/": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 75999,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/",
+      "dataRoute": "/index.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_global-error": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 9199,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_global-error",
+      "dataRoute": "/_global-error.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/_not-found": {
+      "initialStatus": 404,
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 26179,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/_not-found",
+      "dataRoute": "/_not-found.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/about": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 46736,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/about",
+      "dataRoute": "/about.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/app-development": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 39579,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/app-development",
+      "dataRoute": "/app-development.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 48174,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog",
+      "dataRoute": "/blog.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blog-details": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 46950,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blog-details",
+      "dataRoute": "/blog-details.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/contact": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 33416,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/contact",
+      "dataRoute": "/contact.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/corporate-agency": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 39544,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/corporate-agency",
+      "dataRoute": "/corporate-agency.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/digital-marketing": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 30362,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/digital-marketing",
+      "dataRoute": "/digital-marketing.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/faq": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 27969,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/faq",
+      "dataRoute": "/faq.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
+      "routeType": "route",
+      "response": "complete",
+      "compute": "static",
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/index-2": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 88529,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/index-2",
+      "dataRoute": "/index-2.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/index-3": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 69311,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/index-3",
+      "dataRoute": "/index-3.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/pricing": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 29389,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/pricing",
+      "dataRoute": "/pricing.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/project": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 41705,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/project",
+      "dataRoute": "/project.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/project-details": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 39578,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/project-details",
+      "dataRoute": "/project-details.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 36249,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services",
+      "dataRoute": "/services.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/team": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 40824,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/team",
+      "dataRoute": "/team.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/testimonial": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 29553,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/testimonial",
+      "dataRoute": "/testimonial.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/uiux-design": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 39085,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/uiux-design",
+      "dataRoute": "/uiux-design.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/web-development": {
+      "routeType": "page",
+      "response": "complete",
+      "compute": "static",
+      "htmlSize": 30247,
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/web-development",
+      "dataRoute": "/web-development.rsc",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    }
+  },
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "c647d0e494a400f732f8c78111341b33",
+    "previewModeSigningKey": "7ec18f7dc7d310c3ac1ebf3c07d97be8cbc554fd07ccfa23b9bf1efa616a4d45",
+    "previewModeEncryptionKey": "9c9e63cb5fbd2fa80b92b7e765dfd8a49711cc8facfb5b2c4bf4e2308d93ff3c"
+  }
+}

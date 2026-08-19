@@ -1,1 +1,177 @@
-{"version":3,"pages404":true,"caseSensitive":false,"basePath":"","redirects":[{"source":"/:path+/","destination":"/:path+","internal":true,"statusCode":308,"regex":"^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"}],"headers":[],"dynamicRoutes":[],"staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/about","regex":"^/about(?:/)?$","routeKeys":{},"namedRegex":"^/about(?:/)?$"},{"page":"/app-development","regex":"^/app\\-development(?:/)?$","routeKeys":{},"namedRegex":"^/app\\-development(?:/)?$"},{"page":"/blog","regex":"^/blog(?:/)?$","routeKeys":{},"namedRegex":"^/blog(?:/)?$"},{"page":"/blog-details","regex":"^/blog\\-details(?:/)?$","routeKeys":{},"namedRegex":"^/blog\\-details(?:/)?$"},{"page":"/contact","regex":"^/contact(?:/)?$","routeKeys":{},"namedRegex":"^/contact(?:/)?$"},{"page":"/corporate-agency","regex":"^/corporate\\-agency(?:/)?$","routeKeys":{},"namedRegex":"^/corporate\\-agency(?:/)?$"},{"page":"/digital-marketing","regex":"^/digital\\-marketing(?:/)?$","routeKeys":{},"namedRegex":"^/digital\\-marketing(?:/)?$"},{"page":"/faq","regex":"^/faq(?:/)?$","routeKeys":{},"namedRegex":"^/faq(?:/)?$"},{"page":"/favicon.ico","regex":"^/favicon\\.ico(?:/)?$","routeKeys":{},"namedRegex":"^/favicon\\.ico(?:/)?$"},{"page":"/index-2","regex":"^/index\\-2(?:/)?$","routeKeys":{},"namedRegex":"^/index\\-2(?:/)?$"},{"page":"/index-3","regex":"^/index\\-3(?:/)?$","routeKeys":{},"namedRegex":"^/index\\-3(?:/)?$"},{"page":"/pricing","regex":"^/pricing(?:/)?$","routeKeys":{},"namedRegex":"^/pricing(?:/)?$"},{"page":"/project","regex":"^/project(?:/)?$","routeKeys":{},"namedRegex":"^/project(?:/)?$"},{"page":"/project-details","regex":"^/project\\-details(?:/)?$","routeKeys":{},"namedRegex":"^/project\\-details(?:/)?$"},{"page":"/services","regex":"^/services(?:/)?$","routeKeys":{},"namedRegex":"^/services(?:/)?$"},{"page":"/team","regex":"^/team(?:/)?$","routeKeys":{},"namedRegex":"^/team(?:/)?$"},{"page":"/testimonial","regex":"^/testimonial(?:/)?$","routeKeys":{},"namedRegex":"^/testimonial(?:/)?$"},{"page":"/uiux-design","regex":"^/uiux\\-design(?:/)?$","routeKeys":{},"namedRegex":"^/uiux\\-design(?:/)?$"},{"page":"/web-development","regex":"^/web\\-development(?:/)?$","routeKeys":{},"namedRegex":"^/web\\-development(?:/)?$"}],"dataRoutes":[],"rsc":{"header":"RSC","varyHeader":"RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Url","contentTypeHeader":"text/x-component"},"rewrites":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "onMatchHeaders": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/app-development",
+      "regex": "^/app\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/app\\-development(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/blog-details",
+      "regex": "^/blog\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog\\-details(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/corporate-agency",
+      "regex": "^/corporate\\-agency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/corporate\\-agency(?:/)?$"
+    },
+    {
+      "page": "/digital-marketing",
+      "regex": "^/digital\\-marketing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/digital\\-marketing(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/index-2",
+      "regex": "^/index\\-2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/index\\-2(?:/)?$"
+    },
+    {
+      "page": "/index-3",
+      "regex": "^/index\\-3(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/index\\-3(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/project",
+      "regex": "^/project(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/project(?:/)?$"
+    },
+    {
+      "page": "/project-details",
+      "regex": "^/project\\-details(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/project\\-details(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/team",
+      "regex": "^/team(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/team(?:/)?$"
+    },
+    {
+      "page": "/testimonial",
+      "regex": "^/testimonial(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/testimonial(?:/)?$"
+    },
+    {
+      "page": "/uiux-design",
+      "regex": "^/uiux\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/uiux\\-design(?:/)?$"
+    },
+    {
+      "page": "/web-development",
+      "regex": "^/web\\-development(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/web\\-development(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}
