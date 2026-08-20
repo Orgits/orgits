@@ -12,4 +12,4 @@
 :HL["assets/img/team/team-v1-6.jpg","image"]
 :HL["assets/img/team/team-v1-7.jpg","image"]
 :HL["assets/img/team/team-v1-8.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"team","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"x2D-HyXclN5uOQ0_uhOik"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"team","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Pc5l0GOeAaP07IzdgRggy"}

@@ -15,4 +15,4 @@
 :HL["assets/img/blog/blog-two__img1.jpg","image"]
 :HL["assets/img/blog/blog-two__img2.jpg","image"]
 :HL["assets/img/blog/blog-two__img3.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"index-2","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"x2D-HyXclN5uOQ0_uhOik"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"index-2","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"Pc5l0GOeAaP07IzdgRggy"}
