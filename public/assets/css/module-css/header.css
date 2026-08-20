@@ -1078,3 +1078,305 @@ Main Header Three About
 .main-header-three.about .sticky-menu {
     background: var(--thm-black);
 }
+/*=============================
+    New Header Layout - Three Part (Logo | Nav | Contact)
+===============================*/
+.main-header-three__bottom-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.main-header-three__bottom-left {
+    flex: 0 0 auto;
+}
+
+.main-header-three__bottom-middle {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    min-width: 0;
+}
+
+.main-header-three__bottom-right {
+    flex: 0 0 auto;
+}
+
+.menu-area__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu-wrap {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.main-header-three .navbar-wrap ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.main-header-three .navbar-wrap ul li {
+    margin-left: 0;
+}
+
+.main-header-three .navbar-wrap ul li:first-child {
+    margin-left: 0;
+}
+
+.main-header-three .navbar-wrap ul li a {
+    padding: 18px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--thm-black);
+    white-space: nowrap;
+}
+
+.main-header-three .navbar-wrap>ul>li.active>a,
+.main-header-three .navbar-wrap>ul>li:hover>a {
+    color: var(--thm-primary);
+}
+
+/* Mega Menu Integration */
+.main-navigation {
+    position: relative;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1140px;
+    min-width: 900px;
+    background: var(--thm-white);
+    border-top: 1px solid var(--thm-border-color);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+    z-index: 1000;
+    padding: 32px 24px;
+    animation: megaMenuIn 0.2s ease;
+}
+
+@keyframes megaMenuIn {
+    from { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+    to { opacity: 1; transform: translateX(-50%) translateY(0); }
+}
+
+.mega-menu__container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.mega-menu__columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    flex: 1;
+    min-width: 0;
+}
+
+.mega-menu__column {
+    min-width: 0;
+}
+
+.mega-menu__heading {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--thm-black);
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--thm-border-color);
+}
+
+.mega-menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mega-menu__item {
+    margin: 0 0 10px;
+}
+
+.mega-menu__link {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--thm-body-font-color);
+    text-decoration: none;
+    padding: 4px 0;
+    transition: color 0.15s ease;
+}
+
+.mega-menu__link:hover {
+    color: var(--thm-primary);
+}
+
+.mega-menu__cta {
+    width: 100%;
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--thm-border-color);
+}
+
+.mega-menu__cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 20px 24px;
+    background: var(--thm-primary-lighter);
+    border-radius: 8px;
+}
+
+.mega-menu__cta-heading {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--thm-black);
+    margin: 0 0 4px;
+}
+
+.mega-menu__cta-text {
+    font-size: 13px;
+    color: var(--thm-text-muted);
+    margin: 0;
+}
+
+.mega-menu__cta-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Mobile Navigation Updates */
+@media (max-width: 1200px) {
+    .main-header-three__bottom-inner {
+        gap: 16px;
+    }
+    .main-header-three .navbar-wrap ul li a {
+        padding: 14px 16px;
+        font-size: 14px;
+    }
+    .mega-menu {
+        min-width: 100vw;
+        left: 0;
+        transform: none;
+        padding: 24px 16px;
+    }
+    .mega-menu__columns {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-header-three__top {
+        display: none;
+    }
+    .main-header-three__bottom-middle {
+        order: 3;
+        flex: 1 1 100%;
+        justify-content: flex-end;
+        padding-top: 12px;
+    }
+    .main-header-three__bottom-left {
+        order: 1;
+    }
+    .main-header-three__bottom-right {
+        order: 2;
+    }
+    .menu-area__inner {
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .menu-wrap {
+        display: none;
+    }
+    .menu-area .mobile-nav-toggler.alt {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .mega-menu__columns {
+        grid-template-columns: 1fr;
+    }
+    .mega-menu__cta-content {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    .mega-menu__cta-btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Sticky Header Adjustments */
+.sticky-menu .main-header-three .navbar-wrap ul li a {
+    padding: 14px 20px;
+}
+
+/* Mobile Menu Adjustments for New Structure */
+@media (max-width: 992px) {
+    .mobile-menu .navigation li a {
+        font-size: 15px;
+        padding: 12px 25px;
+    }
+    .mobile-menu .navigation li ul li a {
+        font-size: 14px;
+        padding: 10px 25px 10px 40px;
+    }
+    .mobile-menu .navigation li ul li ul li a {
+        padding: 10px 25px 10px 55px;
+    }
+}
+
+/* Mega Menu Hover State */
+.has-mega-menu {
+    position: relative;
+}
+
+.has-mega-menu:hover .mega-menu,
+.has-mega-menu:focus-within .mega-menu {
+    display: block;
+}
+
+/* Ensure mega menu stays open when hovering over it */
+.has-mega-menu .mega-menu:hover {
+    display: block;
+}
+
+/* Focus states for accessibility */
+.nav-trigger:focus,
+.mega-menu__link:focus,
+.mega-menu__cta-btn:focus {
+    outline: 2px solid var(--thm-primary);
+    outline-offset: 2px;
+}
+

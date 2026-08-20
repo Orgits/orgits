@@ -35,6 +35,7 @@ self.__SERVER_FILES_MANIFEST={
         3840
       ],
       "imageSizes": [
+        16,
         32,
         48,
         64,
@@ -50,6 +51,7 @@ self.__SERVER_FILES_MANIFEST={
       "disableStaticImages": false,
       "minimumCacheTTL": 14400,
       "formats": [
+        "image/avif",
         "image/webp"
       ],
       "maximumRedirects": 3,
@@ -64,7 +66,12 @@ self.__SERVER_FILES_MANIFEST={
           "search": ""
         }
       ],
-      "remotePatterns": [],
+      "remotePatterns": [
+        {
+          "protocol": "https",
+          "hostname": "**"
+        }
+      ],
       "qualities": [
         75
       ],

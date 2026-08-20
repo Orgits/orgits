@@ -46,18 +46,18 @@ export default function Home() {
                                                 </div>
                                             </li>
 
-                                            <li>
-                                                <div className="inner">
-                                                    <div className="icon-box">
-                                                        <span className="icon-email"></span>
-                                                    </div>
-
-                                                    <div className="content-box">
-                                                        <h4>Email</h4>
-                                                        <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
-                                                    </div>
+<li>
+                                            <div className="inner">
+                                                <div className="icon-box">
+                                                    <span className="icon-email"></span>
                                                 </div>
-                                            </li>
+
+                                                <div className="content-box">
+                                                    <h4>Email</h4>
+                                                    <p><Link href="/contact">hello@orgits.in</Link></p>
+                                                </div>
+                                            </div>
+                                        </li>
 
                                             <li>
                                                 <div className="inner">

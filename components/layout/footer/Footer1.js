@@ -64,7 +64,7 @@ export default function Footer1() {
                                                 <div className="icon">
                                                     <span className="icon-mail-inbox-app"></span>
                                                 </div>
-                                                <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
+                                                <p><Link href="/contact">hello@orgits.in</Link></p>
                                             </li>
                                             <li>
                                                 <div className="icon">

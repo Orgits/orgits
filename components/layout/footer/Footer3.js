@@ -27,22 +27,22 @@ export default function Footer3() {
                         <div className="footer-one__socel-link">
                             <ul className="clearfix">
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.facebook.com/orgits" aria-label="Facebook">
                                         <i className="icon-facebook"></i>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://twitter.com/orgits" aria-label="Twitter">
                                         <i className="icon-twitter"></i>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.instagram.com/orgits" aria-label="Instagram">
                                         <i className="icon-instagram-symbol"></i>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link href="#">
+                                    <Link href="https://www.linkedin.com/company/orgits" aria-label="LinkedIn">
                                         <i className="icon-linkedin"></i>
                                     </Link>
                                 </li>
@@ -81,7 +81,7 @@ export default function Footer3() {
                                 <span className="icon-mail-inbox-app"></span>
                             </div>
                             <div className="text">
-                                <p><Link href="mailto:hello@orgits.in">hello@orgits.in</Link></p>
+                                <p><Link href="/contact">hello@orgits.in</Link></p>
                             </div>
                         </div>
 

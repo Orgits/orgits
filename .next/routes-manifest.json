@@ -14,7 +14,44 @@
       "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
     }
   ],
-  "headers": [],
+  "headers": [
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "X-DNS-Prefetch-Control",
+          "value": "on"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    },
+    {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.google-analytics.com https://www.googletagmanager.com https://www.youtube.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com https://www.googletagmanager.com; frame-src 'self' https://www.youtube.com; base-uri 'self'; form-action 'self'"
+        }
+      ],
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))?(?:/)?$"
+    }
+  ],
   "onMatchHeaders": [],
   "rewrites": {
     "beforeFiles": [],
@@ -126,10 +163,154 @@
       "namedRegex": "^/project\\-details(?:/)?$"
     },
     {
+      "page": "/robots.txt",
+      "regex": "^/robots\\.txt(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/robots\\.txt(?:/)?$"
+    },
+    {
       "page": "/services",
       "regex": "^/services(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/services/ai-solutions",
+      "regex": "^/services/ai\\-solutions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/ai\\-solutions(?:/)?$"
+    },
+    {
+      "page": "/services/brand-design",
+      "regex": "^/services/brand\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/brand\\-design(?:/)?$"
+    },
+    {
+      "page": "/services/cloud-services",
+      "regex": "^/services/cloud\\-services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/cloud\\-services(?:/)?$"
+    },
+    {
+      "page": "/services/content-marketing",
+      "regex": "^/services/content\\-marketing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/content\\-marketing(?:/)?$"
+    },
+    {
+      "page": "/services/creative-design",
+      "regex": "^/services/creative\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/creative\\-design(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-automation",
+      "regex": "^/services/hubspot\\-automation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-automation(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-crm",
+      "regex": "^/services/hubspot\\-crm(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-crm(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-implementation",
+      "regex": "^/services/hubspot\\-implementation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-implementation(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-integration",
+      "regex": "^/services/hubspot\\-integration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-integration(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-marketing-hub",
+      "regex": "^/services/hubspot\\-marketing\\-hub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-marketing\\-hub(?:/)?$"
+    },
+    {
+      "page": "/services/hubspot-sales-hub",
+      "regex": "^/services/hubspot\\-sales\\-hub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/hubspot\\-sales\\-hub(?:/)?$"
+    },
+    {
+      "page": "/services/it-infrastructure",
+      "regex": "^/services/it\\-infrastructure(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/it\\-infrastructure(?:/)?$"
+    },
+    {
+      "page": "/services/marketing-creatives",
+      "regex": "^/services/marketing\\-creatives(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/marketing\\-creatives(?:/)?$"
+    },
+    {
+      "page": "/services/marketing-strategy",
+      "regex": "^/services/marketing\\-strategy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/marketing\\-strategy(?:/)?$"
+    },
+    {
+      "page": "/services/performance-marketing",
+      "regex": "^/services/performance\\-marketing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/performance\\-marketing(?:/)?$"
+    },
+    {
+      "page": "/services/seo",
+      "regex": "^/services/seo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/seo(?:/)?$"
+    },
+    {
+      "page": "/services/website-design",
+      "regex": "^/services/website\\-design(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/website\\-design(?:/)?$"
+    },
+    {
+      "page": "/services/zoho-automation",
+      "regex": "^/services/zoho\\-automation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/zoho\\-automation(?:/)?$"
+    },
+    {
+      "page": "/services/zoho-consulting",
+      "regex": "^/services/zoho\\-consulting(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/zoho\\-consulting(?:/)?$"
+    },
+    {
+      "page": "/services/zoho-crm-customization",
+      "regex": "^/services/zoho\\-crm\\-customization(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/zoho\\-crm\\-customization(?:/)?$"
+    },
+    {
+      "page": "/services/zoho-crm-implementation",
+      "regex": "^/services/zoho\\-crm\\-implementation(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/zoho\\-crm\\-implementation(?:/)?$"
+    },
+    {
+      "page": "/services/zoho-integration",
+      "regex": "^/services/zoho\\-integration(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/zoho\\-integration(?:/)?$"
+    },
+    {
+      "page": "/sitemap.xml",
+      "regex": "^/sitemap\\.xml(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sitemap\\.xml(?:/)?$"
     },
     {
       "page": "/team",
