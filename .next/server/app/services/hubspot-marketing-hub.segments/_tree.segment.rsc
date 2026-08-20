@@ -1,6 +1,6 @@
 :HL["/_next/static/chunks/29ni58tma0bh5.css","style"]
 :HL["/_next/static/chunks/1-3hczrhte162.css","style"]
-:HL["/_next/static/chunks/2qpa6ksdt40n3.css","style"]
+:HL["/_next/static/chunks/14_ppz3w8nj0u.css","style"]
 :HL["/_next/static/chunks/2z1dwrp7dzb1w.css","style"]
 :HL["/_next/static/chunks/0i9s9cgas8i_o.css","style"]
 :HL["/_next/static/media/Gilroy_Bold-s.p.0uq5b1hbu8z7a.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
@@ -10,4 +10,4 @@
 :HL["/_next/static/media/ab57efd000576a30-s.p.3fofz6dws3mg0.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["assets/img/service/service-details__img3.jpg","image"]
 :HL["assets/img/service/service-details__img4.jpg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"hubspot-marketing-hub","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"_5gMQ8Qm4ozDEzNChW6Yv"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4180,"slots":{"children":{"name":"services","param":null,"prefetchHints":4192,"slots":{"children":{"name":"hubspot-marketing-hub","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"bAezKo25-amaq11TcegB2"}
