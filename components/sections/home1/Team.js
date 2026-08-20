@@ -5,24 +5,24 @@ export default function Team() {
         {/*Start Team Two*/}
         <section className="team-two">
             <div className="team-two__shape1">
-                <img src="assets/img/shape/team-two__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/team-two__shape1.png" alt="" width="505" height="509"/>
             </div>
             <div className="team-two__shape2">
-                <img src="assets/img/shape/team-two__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/team-two__shape2.png" alt="" width="685" height="402"/>
             </div>
             <div className="team-two__shape3">
-                <img src="assets/img/shape/team-two__shape3.png" alt="shapes"/>
+                <img src="assets/img/shape/team-two__shape3.png" alt="" width="804" height="740"/>
             </div>
             <div className="team-two__shape4">
-                <img src="assets/img/shape/team-two__shape4.png" alt="shapes"/>
+                <img src="assets/img/shape/team-two__shape4.png" alt="" width="693" height="421"/>
             </div>
             <div className="team-two__shape5">
-                <img src="assets/img/shape/team-two__shape5.png" alt="shapes"/>
+                <img src="assets/img/shape/team-two__shape5.png" alt="" width="418" height="503"/>
             </div>
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Our Leadership Team</h4>
+                        <h3>Our Leadership Team</h3>
                     </div>
                     <h2>
                         Technology, Marketing & Compliance Leadership
@@ -34,7 +34,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="Anubhav Sharma"/>
+                                <img src="assets/img/team/team-v2-1.jpg" alt="Anubhav Sharma" width="345" height="390"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -69,7 +69,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-2.jpg" alt="CA Sahil Goyal"/>
+                                <img src="assets/img/team/team-v2-2.jpg" alt="CA Sahil Goyal" width="345" height="390"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">
@@ -104,7 +104,7 @@ export default function Team() {
                         <div className="team-two__single">
                             <div className="team-two__single-overlay-bg"></div>
                             <div className="team-two__single-img">
-                                <img src="assets/img/team/team-v2-3.jpg" alt="Sahil Khan"/>
+                                <img src="assets/img/team/team-v2-3.jpg" alt="Sahil Khan" width="345" height="390"/>
                                 <div className="social-share-box">
                                     <span className="icon-plus"></span>
                                     <ul className="clearfix">

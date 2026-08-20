@@ -8,10 +8,10 @@ export default function Footer1() {
             {/* Start Footer Main */}
             <div className="footer-main footer-main__three">
                 <div className="footer-three__shape1">
-                    <img src="assets/img/shape/footer-three__shape1.png" alt="shapes"/>
+                    <img src="assets/img/shape/footer-three__shape1.png" alt=""/>
                 </div>
                 <div className="footer-three__shape2">
-                    <img src="assets/img/shape/footer-three__shape2.png" alt="shapes"/>
+                    <img src="assets/img/shape/footer-three__shape2.png" alt=""/>
                 </div>
                 <div className="container">
                     {/* Start Footer Main Two Top*/}

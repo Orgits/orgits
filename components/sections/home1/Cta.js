@@ -11,7 +11,7 @@ export default function Cta() {
                     <div className="cta-three__content">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Let's Build Together</h4>
+                                <h3>Let's Build Together</h3>
                             </div>
                             <h2>
                                 Let's Build Something<br/>That Moves Your Business Forward

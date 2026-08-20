@@ -61,13 +61,13 @@ export default function Testimonial() {
         {/*Start Testmonials Three*/}
         <section className="testimonials-three">
             <div className="testimonials-three__shape1 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape1.png" alt=""/>
             </div>
             <div className="testimonials-three__shape2 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape2.png" alt=""/>
             </div>
             <div className="testimonials-three__shape3 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape3.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape3.png" alt=""/>
             </div>
             <div className="container">
                 <div className="row">
@@ -105,7 +105,7 @@ export default function Testimonial() {
                         <div className="testimonials-three__content">
                             <div className="sec-title-four sec-title-animation animation-style1">
                                 <div className="sub-title">
-                                    <h4>Client Feedback</h4>
+                                    <h3>Client Feedback</h3>
                                 </div>
                                 <h2>
                                     What Our Clients Say About Orgits

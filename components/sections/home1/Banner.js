@@ -2,6 +2,7 @@
 'use client'
 import Link from "next/link"
 import { useState } from 'react'
+import Image from 'next/image'
 import ModalVideo from 'react-modal-video'
 
 export default function Banner() {
@@ -11,22 +12,22 @@ export default function Banner() {
         {/*Start Banner Two*/}
         <section className="banner-three">
             <div className="banner-three__shape1 float-bob-x">
-                <img src="assets/img/shape/banner-three__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape1.png" alt="" width="48" height="43"/>
             </div>
             <div className="banner-three__shape2">
-                <img src="assets/img/shape/banner-three__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape2.png" alt="" width="411" height="804"/>
             </div>
             <div className="banner-three__shape3">
-                <img src="assets/img/shape/banner-three__shape3.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape3.png" alt="" width="804" height="397"/>
             </div>
             <div className="banner-three__shape4 float-bob-y">
-                <img src="assets/img/shape/banner-three__shape4.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape4.png" alt="" width="87" height="104"/>
             </div>
             <div className="banner-three__shape5">
-                <img src="assets/img/shape/banner-three__shape5.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape5.png" alt="" width="484" height="503"/>
             </div>
             <div className="banner-three__shape6 float-bob-y">
-                <img src="assets/img/shape/banner-three__shape6.png" alt="shapes"/>
+                <img src="assets/img/shape/banner-three__shape6.png" alt="" width="128" height="92"/>
             </div>
             <div className="container">
                 <div className="banner-three__content">
@@ -34,7 +35,7 @@ export default function Banner() {
                     <div className="banner-three__content-inner">
                         <div className="sec-title-four sec-title-animation animation-style1">
                             <div className="sub-title">
-                                <h4>Technology, AI & Digital Transformation</h4>
+                                <h3>Technology, AI & Digital Transformation</h3>
                             </div>
                             <h2 style={{fontSize: '4.5rem'}}>
                                 Building Growth<br/>For Business
@@ -54,10 +55,10 @@ export default function Banner() {
                             </Link>
                             <div className="video-gallery">
                                 <div className="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                                    <a className="video-popup" title="Video Gallery"
+                                    <button className="video-popup" type="button" title="Video Gallery" aria-label="Play company introduction video"
                                         onClick={() => setOpen(true)}>
                                         <span className="icon-play"></span>
-                                    </a>
+                                    </button>
                                 </div>
                                 <div className="text2">
                                     <p>Explore Our</p>
@@ -72,14 +73,21 @@ export default function Banner() {
                             <li>
                                 <div className="banner-three__img-single">
                                     <div className="inner">
-                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image"/>
+                                        <Image
+                                            src="/assets/img/slider/banner-three__img1.jpg"
+                                            alt=""
+                                            width={360}
+                                            height={600}
+                                            priority
+                                            fetchPriority="high"
+                                        />
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div className="banner-three__img-single instyle--2">
                                     <div className="inner">
-                                        <img src="assets/img/slider/banner-three__img2.jpg" alt="image"/>
+                                        <img src="assets/img/slider/banner-three__img2.jpg" alt="" width="260" height="400"/>
                                     </div>
                                 </div>
                             </li>

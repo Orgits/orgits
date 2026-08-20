@@ -91,7 +91,7 @@ export default function AboutContent() {
                                     <h3>Technology, Marketing & Compliance<br/>Under One Roof</h3>
                                     <div className="btn-box">
                                         <Link className="thm-btn" href="/about">
-                                            <span className="txt">Learn More</span>
+                                            <span className="txt">Learn More About Orgits</span>
                                             <i className="icon-next"></i>
                                         </Link>
                                     </div>

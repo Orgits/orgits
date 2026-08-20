@@ -99,10 +99,10 @@ export default function Project() {
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
                                             <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="Cloud Server Deployment"/>
+                                                <img src="assets/img/project/project-two__img1.jpg" alt="Digital Marketing Growth campaign dashboard" width="460" height="600"/>
                                                 <div className="overlay-title">
-                                                    <h4>Cloud & Infrastructure</h4>
-                                                    <h3><Link href="#">Cloud Server Deployment</Link></h3>
+                                                    <h4>Marketing</h4>
+                                                    <h3><Link href="#">Digital Marketing Growth</Link></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -131,7 +131,7 @@ export default function Project() {
                                     <div className="swiper-slide">
                                         <div className="project-two__single">
                                             <div className="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="E-commerce Platforms"/>
+                                                <img src="assets/img/project/project-two__img4.jpg" alt="E-commerce platform interface design" width="460" height="600"/>
                                                 <div className="overlay-title">
                                                     <h4>Digital Commerce</h4>
                                                     <h3><Link href="#">E-commerce Platforms</Link></h3>

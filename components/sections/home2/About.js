@@ -64,7 +64,7 @@ export default function About() {
                             </div>
                             <div className="about-two__btn-box">
                                 <Link className="thm-btn" href="/about">
-                                    <span className="txt">Learn More</span>
+                                    <span className="txt">Learn More About Orgits</span>
                                     <i className="icon-next"></i>
                                 </Link>
                             </div>

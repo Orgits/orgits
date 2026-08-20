@@ -5,10 +5,10 @@ export default function Blog() {
         {/*Start Blog Three*/}
         <section className="blog-three">
             <div className="blog-three__shape1 float-bob-y">
-                <img src="assets/img/shape/blog-three__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/blog-three__shape1.png" alt=""/>
             </div>
             <div className="blog-three__shape2">
-                <img src="assets/img/shape/blog-three__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/blog-three__shape2.png" alt=""/>
             </div>
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
@@ -25,7 +25,7 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img1.jpg" alt="CRM Automation"/>
+                                <img src="assets/img/blog/blog-three__img1.jpg" alt="" width="410" height="350"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
@@ -56,7 +56,7 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img2.jpg" alt="Cloud Infrastructure"/>
+                                <img src="assets/img/blog/blog-three__img2.jpg" alt="" width="410" height="350"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">
@@ -88,7 +88,7 @@ export default function Blog() {
                     <div className="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div className="blog-three__single">
                             <div className="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img3.jpg" alt="IT Compliance"/>
+                                <img src="assets/img/blog/blog-three__img3.jpg" alt="" width="410" height="350"/>
                             </div>
                             <div className="blog-three__single-content">
                                 <div className="meta-box">

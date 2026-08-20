@@ -35,18 +35,18 @@ export default function Service() {
         {/*Start Service Three*/}
         <section className="service-three">
             <div className="service-three__shape1 float-bob-x">
-                <img src="assets/img/shape/service-three__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/service-three__shape1.png" alt="" width="212" height="214"/>
             </div>
             <div className="service-three__shape2">
-                <img src="assets/img/shape/service-three__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/service-three__shape2.png" alt="" width="85" height="52"/>
             </div>
             <div className="service-three__shape3 float-bob-y">
-                <img src="assets/img/shape/service-three__shape3.png" alt="shapes"/>
+                <img src="assets/img/shape/service-three__shape3.png" alt="" width="78" height="84"/>
             </div>
             <div className="container">
                 <div className="sec-title-three text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>What We Do</h4>
+                        <h3>What We Do</h3>
                     </div>
                     <h2>
                         Technology, Marketing & Compliance Solutions

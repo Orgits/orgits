@@ -482,7 +482,7 @@ export default function Menu() {
                 heading: "Get to Know Orgits",
                 text: "Explore our expertise, approach and client success.",
                 href: "/about",
-                label: "Learn More"
+                label: "Learn More About Orgits"
             }
         }
     }

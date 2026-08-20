@@ -5,18 +5,18 @@ export default function Work() {
         {/*Start Working Process One*/}
         <section className="working-process-one">
             <div className="working-process-one__shape1 float-bob-x">
-                <img src="assets/img/shape/working-process__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/working-process__shape1.png" alt=""/>
             </div>
             <div className="working-process-one__shape2">
-                <img src="assets/img/shape/working-process__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/working-process__shape2.png" alt=""/>
             </div>
             <div className="working-process-one__shape5 float-bob-y">
-                <img src="assets/img/shape/working-process__shape5.png" alt="shapes"/>
+                <img src="assets/img/shape/working-process__shape5.png" alt=""/>
             </div>
             <div className="container">
                 <div className="sec-title-four text-center sec-title-animation animation-style1">
                     <div className="sub-title">
-                        <h4>Our Working Process</h4>
+                        <h3>Our Working Process</h3>
                     </div>
                     <h2>How We Work</h2>
                 </div>
@@ -33,7 +33,7 @@ export default function Work() {
                             </div>
                             <div className="content-box">
                                 <div className="title-box">
-                                    <h5>First Step</h5>
+                                    <h4>First Step</h4>
                                     <h3><Link href="#">Understand Requirements</Link></h3>
                                 </div>
                                 <div className="text-box">
@@ -48,7 +48,7 @@ export default function Work() {
                     <div className="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div className="working-process-one__single text-center">
                             <div className="working-process-one__shape3">
-                                <img src="assets/img/shape/working-process__shape3.png" alt="shapes"/>
+                                <img src="assets/img/shape/working-process__shape3.png" alt=""/>
                             </div>
                             <div className="icon-box">
                                 <i className="icon-find-solutions"></i>
@@ -58,7 +58,7 @@ export default function Work() {
                             </div>
                             <div className="content-box">
                                 <div className="title-box">
-                                    <h5>Second Step</h5>
+                                    <h4>Second Step</h4>
                                     <h3><Link href="#">Plan & Design</Link></h3>
                                 </div>
                                 <div className="text-box">
@@ -73,7 +73,7 @@ export default function Work() {
                     <div className="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div className="working-process-one__single text-center">
                             <div className="working-process-one__shape4">
-                                <img src="assets/img/shape/working-process__shape4.png" alt="shapes"/>
+                                <img src="assets/img/shape/working-process__shape4.png" alt=""/>
                             </div>
                             <div className="icon-box">
                                 <i className="icon-build-develop"></i>
@@ -83,7 +83,7 @@ export default function Work() {
                             </div>
                             <div className="content-box">
                                 <div className="title-box">
-                                    <h5>Third Step</h5>
+                                    <h4>Third Step</h4>
                                     <h3><Link href="#">Build, Test & Deploy</Link></h3>
                                 </div>
                                 <div className="text-box">

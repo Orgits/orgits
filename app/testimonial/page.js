@@ -64,13 +64,13 @@ export default function Home() {
         {/*Start Testmonials Three*/}
         <section className="testimonials-three testimonials">
             <div className="testimonials-three__shape1 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape1.png" alt=""/>
             </div>
             <div className="testimonials-three__shape2 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape2.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape2.png" alt=""/>
             </div>
             <div className="testimonials-three__shape3 rotate-me">
-                <img src="assets/img/shape/testimonials-three__shape3.png" alt="shapes"/>
+                <img src="assets/img/shape/testimonials-three__shape3.png" alt=""/>
             </div>
             <div className="container">
                 <div className="row">
@@ -81,14 +81,14 @@ export default function Home() {
                                     {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
-                                            <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image"/>
+                                            <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="Mr. Atchuta Rao, Director & Founder, Estah Society"/>
                                         </div>
                                     </div>
                                     {/*End About Two Img*/}
                                     {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
                                         <div className="inner">
-                                            <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image"/>
+                                            <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="Dr. Anwar Hussain, MD Physician & Member of IMA, Health Tips By Dr. Anwar"/>
                                         </div>
                                     </div>
                                     {/*End About Two Img*/}
@@ -96,7 +96,7 @@ export default function Home() {
                                 <li className="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                                     {/*Single About Two Img*/}
                                     <div className="single-testimonials-three__img-box">
-                                        <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image"/>
+                                        <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="Mr. Michael Wong, Executive Director - PPAHS, Former Director Public Affairs - Abbott Laboratories"/>
                                     </div>
                                     {/*End About Two Img*/}
                                 </li>
