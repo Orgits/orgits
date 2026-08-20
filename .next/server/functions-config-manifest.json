@@ -1,4 +1,30 @@
 {
   "version": 1,
-  "functions": {}
+  "functions": {
+    "/about": {},
+    "/digital-marketing": {},
+    "/services/ai-solutions": {},
+    "/services/brand-design": {},
+    "/services/cloud-services": {},
+    "/services/creative-design": {},
+    "/services/content-marketing": {},
+    "/services/hubspot-automation": {},
+    "/services/hubspot-crm": {},
+    "/services/hubspot-implementation": {},
+    "/services/hubspot-integration": {},
+    "/services/hubspot-marketing-hub": {},
+    "/services/hubspot-sales-hub": {},
+    "/services/it-infrastructure": {},
+    "/services/marketing-creatives": {},
+    "/services/marketing-strategy": {},
+    "/services": {},
+    "/services/performance-marketing": {},
+    "/services/seo": {},
+    "/services/website-design": {},
+    "/services/zoho-automation": {},
+    "/services/zoho-consulting": {},
+    "/services/zoho-crm-customization": {},
+    "/services/zoho-integration": {},
+    "/services/zoho-crm-implementation": {}
+  }
 }
